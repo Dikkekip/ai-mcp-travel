@@ -23,6 +23,96 @@ TRAVEL_CLASS_OPTIONS = {
     4: {"param": "4", "label": "First"}
 }
 
+# Helper utilities ---------------------------------------------------------
+
+def summarize_flight_segments(option: Dict[str, Any]) -> List[Dict[str, Any]]:
+    """Build a compact view of each segment in a SerpAPI flight option."""
+    segments_summary: List[Dict[str, Any]] = []
+    for segment in option.get("flights", []):
+        departure = segment.get("departure_airport", {}) or {}
+        arrival = segment.get("arrival_airport", {}) or {}
+        segments_summary.append({
+            "airline": segment.get("airline"),
+            "airline_logo": segment.get("airline_logo"),
+            "flight_number": segment.get("flight_number"),
+            "aircraft": segment.get("airplane"),
+            "travel_class": segment.get("travel_class"),
+            "duration_minutes": segment.get("duration"),
+            "departure": {
+                "airport_id": departure.get("id"),
+                "airport_name": departure.get("name"),
+                "time": departure.get("time")
+            },
+            "arrival": {
+                "airport_id": arrival.get("id"),
+                "airport_name": arrival.get("name"),
+                "time": arrival.get("time")
+            },
+            "legroom": segment.get("legroom"),
+            "extensions": segment.get("extensions", []),
+            "operated_by": segment.get("plane_and_crew_by")
+        })
+    return segments_summary
+
+def summarize_flight_option(option: Dict[str, Any], currency: str) -> Dict[str, Any]:
+    """Return key booking details from a single flight option."""
+    token_value = None
+    token_type = None
+    for key in ("booking_token", "departure_token", "arrival_token", "token"):
+        if option.get(key):
+            token_value = option[key]
+            token_type = key
+            break
+    
+    option_summary: Dict[str, Any] = {
+        "price": option.get("price"),
+        "currency": currency,
+        "type": option.get("type"),
+        "total_duration_minutes": option.get("total_duration"),
+        "airline_logo": option.get("airline_logo"),
+        "carbon_emissions": option.get("carbon_emissions"),
+        "layovers": option.get("layovers"),
+        "segments": summarize_flight_segments(option)
+    }
+    
+    if token_value:
+        option_summary["token"] = {
+            "type": token_type,
+            "value": token_value
+        }
+    
+    if option.get("warning"):
+        option_summary["warning"] = option["warning"]
+    
+    if option.get("baggage_options"):
+        option_summary["baggage_options"] = option["baggage_options"]
+    
+    return option_summary
+
+def extract_airports_overview(airports_data: Optional[List[Dict[str, Any]]]) -> List[Dict[str, Any]]:
+    """Flatten airport metadata into a simple list."""
+    if not airports_data:
+        return []
+    
+    overview: Dict[str, Dict[str, Any]] = {}
+    for entry in airports_data:
+        for direction in ("departure", "arrival"):
+            for airport_info in entry.get(direction, []) or []:
+                airport = airport_info.get("airport", {}) or {}
+                code = airport.get("id")
+                if not code or code in overview:
+                    continue
+                overview[code] = {
+                    "code": code,
+                    "name": airport.get("name"),
+                    "city": airport_info.get("city"),
+                    "country": airport_info.get("country"),
+                    "country_code": airport_info.get("country_code"),
+                    "image": airport_info.get("image"),
+                    "thumbnail": airport_info.get("thumbnail")
+                }
+    return list(overview.values())
+
 # Initialize FastMCP server
 mcp = FastMCP("flight-assistant")
 
@@ -178,6 +268,8 @@ def search_flights(
         print(f"Flight search results saved to: {file_path}")
         
         # Return summary for the user
+        airports_overview = extract_airports_overview(processed_results.get("airports"))
+        price_insights = processed_results.get("price_insights") or None
         summary = {
             "search_id": search_id,
             "total_best_flights": len(processed_results["best_flights"]),
@@ -186,7 +278,17 @@ def search_flights(
                 "lowest_price": processed_results["price_insights"].get("lowest_price"),
                 "currency": currency
             },
-            "search_parameters": processed_results["search_metadata"]
+            "price_insights": price_insights,
+            "search_parameters": processed_results["search_metadata"],
+            "top_best_flights": [
+                summarize_flight_option(option, currency)
+                for option in processed_results["best_flights"][:3]
+            ],
+            "top_other_flights": [
+                summarize_flight_option(option, currency)
+                for option in processed_results["other_flights"][:3]
+            ],
+            "airports": airports_overview
         }
         
         return summary

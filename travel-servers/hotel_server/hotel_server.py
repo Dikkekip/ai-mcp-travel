@@ -11,6 +11,66 @@ HOTELS_DIR = "hotels"
 # Initialize FastMCP server
 mcp = FastMCP("hotel-assistant")
 
+# Helper utilities ---------------------------------------------------------
+
+def summarize_images(images: Optional[List[Dict[str, Any]]], limit: int = 4) -> List[Dict[str, Optional[str]]]:
+    """Return a limited list of hotel images with thumbnail/original links."""
+    image_list: List[Dict[str, Optional[str]]] = []
+    for image in (images or [])[:limit]:
+        image_list.append({
+            "thumbnail": image.get("thumbnail"),
+            "original": image.get("original_image")
+        })
+    return image_list
+
+def summarize_price_block(price_block: Optional[Dict[str, Any]], currency: str) -> Optional[Dict[str, Any]]:
+    """Normalize pricing details to a consistent structure."""
+    if not price_block:
+        return None
+    
+    return {
+        "display": price_block.get("lowest") or price_block.get("display"),
+        "value": price_block.get("extracted_lowest"),
+        "before_taxes_display": price_block.get("before_taxes_fees"),
+        "before_taxes_value": price_block.get("extracted_before_taxes_fees"),
+        "currency": currency
+    }
+
+def summarize_property(property_data: Dict[str, Any], currency: str) -> Dict[str, Any]:
+    """Build a concise, booking-friendly summary of a hotel property."""
+    summary: Dict[str, Any] = {
+        "name": property_data.get("name"),
+        "description": property_data.get("description"),
+        "type": property_data.get("type"),
+        "link": property_data.get("link"),
+        "property_token": property_data.get("property_token"),
+        "serpapi_property_details_link": property_data.get("serpapi_property_details_link"),
+        "coordinates": property_data.get("gps_coordinates"),
+        "check_in_time": property_data.get("check_in_time"),
+        "check_out_time": property_data.get("check_out_time"),
+        "rating": {
+            "overall": property_data.get("overall_rating"),
+            "reviews_total": property_data.get("reviews"),
+            "ratings_breakdown": (property_data.get("ratings") or [])[:5],
+            "location_rating": property_data.get("location_rating"),
+            "reviews_breakdown": (property_data.get("reviews_breakdown") or [])[:5]
+        },
+        "price_per_night": summarize_price_block(property_data.get("rate_per_night"), currency),
+        "total_price": summarize_price_block(property_data.get("total_rate"), currency),
+        "amenities": (property_data.get("amenities") or [])[:10],
+        "nearby_places": (property_data.get("nearby_places") or [])[:3],
+        "images": summarize_images(property_data.get("images")),
+        "eco_certified": property_data.get("eco_certified")
+    }
+    
+    if property_data.get("deals"):
+        summary["deals"] = property_data["deals"]
+    
+    if property_data.get("policies"):
+        summary["policies"] = property_data["policies"]
+    
+    return summary
+
 def get_serpapi_key() -> str:
     """Get SerpAPI key from environment variable."""
     api_key = os.getenv("SERPAPI_KEY")
@@ -185,6 +245,15 @@ def search_hotels(
                     "currency": currency
                 }
         
+        top_properties = [
+            summarize_property(prop, currency)
+            for prop in processed_results["properties"][:5]
+        ]
+        
+        search_info = processed_results.get("search_information") or {}
+        pagination = processed_results.get("serpapi_pagination") or {}
+        brands = (processed_results.get("brands") or [])[:5]
+        
         # Return summary for the user
         summary = {
             "search_id": search_id,
@@ -192,8 +261,20 @@ def search_hotels(
             "location": location,
             "dates": f"{check_in_date} to {check_out_date}",
             "guests": f"{adults} adults" + (f", {children} children" if children > 0 else ""),
+            "guest_details": {
+                "adults": adults,
+                "children": children,
+                "children_ages": children_ages
+            },
             "price_range": price_range,
             "search_type": "vacation_rentals" if vacation_rentals else "hotels",
+            "search_information": search_info,
+            "top_properties": top_properties,
+            "brands": brands,
+            "pagination": {
+                "next_page_token": pagination.get("next_page_token"),
+                "next_page_url": pagination.get("next")
+            },
             "search_parameters": processed_results["search_metadata"]
         }
         

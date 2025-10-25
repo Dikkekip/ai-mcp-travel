@@ -1,0 +1,3633 @@
+{
+  "search_metadata": {
+    "search_id": "Paris_8th_arrondissement_2025-11-11_2025-11-13_20251026_001342",
+    "location": "Paris 8th arrondissement",
+    "check_in_date": "2025-11-11",
+    "check_out_date": "2025-11-13",
+    "guests": {
+      "adults": 2,
+      "children": 0,
+      "children_ages": null
+    },
+    "search_type": "hotels",
+    "currency": "EUR",
+    "filters": {
+      "sort_by": 8,
+      "hotel_class": [
+        5
+      ],
+      "amenities": null,
+      "property_types": null,
+      "brands": null,
+      "free_cancellation": false,
+      "special_offers": false,
+      "bedrooms": null
+    },
+    "search_timestamp": "2025-10-26T00:13:42.923653"
+  },
+  "search_information": {
+    "total_results": 45
+  },
+  "properties": [
+    {
+      "type": "hotel",
+      "name": "Four Seasons Hotel George V, Paris",
+      "description": "Ornate, high-end hotel offering elegant rooms & suites, plus renown dining, a chic bar & luxe spa.",
+      "link": "https://www.fourseasons.com/paris/?utm_source=google&utm_medium=organicsearch&utm_campaign=tor-par-hre-mid-seo-na&utm_content=na-na&utm_term=na",
+      "property_token": "ChYI7In9ibK8xtPHARoJL20vMGM3Z2hyEAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2025-11-11&check_out_date=2025-11-13&children=0&currency=EUR&engine=google_hotels&gl=us&hl=en&hotel_class=5&property_token=ChYI7In9ibK8xtPHARoJL20vMGM3Z2hyEAE&q=Paris+8th+arrondissement&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 48.8687444,
+        "longitude": 2.3008389
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "12:00\u202fPM",
+      "rate_per_night": {
+        "lowest": "\u20ac1,924",
+        "extracted_lowest": 1924
+      },
+      "total_rate": {
+        "lowest": "\u20ac3,847",
+        "extracted_lowest": 3847
+      },
+      "nearby_places": [
+        {
+          "name": "Arc de Triomphe",
+          "transportations": [
+            {
+              "type": "Public transport",
+              "duration": "7 min"
+            }
+          ]
+        },
+        {
+          "name": "George V",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "6 min"
+            }
+          ]
+        },
+        {
+          "name": "Paris Charles de Gaulle Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "44 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "55 min"
+            }
+          ]
+        },
+        {
+          "name": "Relais de l\u2019Entrec\u00f4te",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star tourist hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPG_1SRwGBKTVnK0gs_mWNb0uqwJ2q55R-60W1h=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPG_1SRwGBKTVnK0gs_mWNb0uqwJ2q55R-60W1h=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPFj4P6sYLP9hIUeOy96Iq8CifF_zR4gwjMiLkq=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPFj4P6sYLP9hIUeOy96Iq8CifF_zR4gwjMiLkq=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSza35iaGtGG_rlzan5SrCl4v0Fs59JNJ-2sChKE1e7O9JSUk_eKf8dqsGEaFO6SaGis7pJlolpKUPjnXwFLyasu1b5sU31D6Yp649oLjXZHV4vc5EEP53nCH0qnDFxdsTOIDPxZ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICE-KbBRA=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxnUgMtMAKCzoJxNGhzB_gNWLiBLUCLRH04uSqzp-i2tpJ88JzE4Dtqk7p_yC21vRq1mDK6UXpD_PCCOaf6okH2uaZBwCdgOctFfMqw21SOeuZEm66bI_7SGxji2OlrnDqLnupfPlYTmh-O=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIABIhBXp6pd_K6BXiqnY5mV-rzA=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/3MLbfGa1NdZbJDo3P3J4l21v18oXOxJsRN0Al2puobR_4mAIT6CRnNNaHHsFY9iRyT-lLwYHX3mZVM77OuqCecsN6CfhkVGDPbA1uoNF9jjCyvVvIDGhElhlDJbd8X4DvaCq-Rg6Ua6s3tg4uRWf4Qv5UlL-FAo=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/00/006117/006117a_hb_r_003.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/fdb8zIjQMHtPm5SvQDl7rTlYGm3paejMaMGsdIpS51iuyHEZbdDJIx7HEjD9Y6pmuiST_g5qY9SYUZNF4mf-R0Q5QeNmZq0cl2QHOH-dsZ89ANFqGAVDxy3UsIeph8cpsX1WvrHvqd5e_QiMfqSFggVFzqBGjos=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/1000000/10000/6700/6642/41afad0a_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/P3dhAvfMqeYdDLyB0YtkrX4vfCDLebGdtpob5doZB2TMylK7__czOdLSPruSET-9lVlH-RdyJnqWnxGMgFKuVMYmft98r-Mw51q2tSR6eU8pew3xByNvZi2SOkMsXeq31Czl09K9lSniRB4AVNHUGirbumd8Ng=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/4/0/64/612/987/FPO_PAR_351_O.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP46wKG5ygSxxV79gTrjsdwXnCapWuM1_En6xZi=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP46wKG5ygSxxV79gTrjsdwXnCapWuM1_En6xZi=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/tMCZH5_LGEFKrk8t-57-wso0Sti3M6rkzWV0KCf6tzboiy_EYGbdUtap5dzy6KfNPLVLJ6T34Pe1X6pw-uh_7HmJ0sRo2Hl7jugZcpKLLh8q0i4UtKlNBR6kQpvIjp52Xx1kmmnUtanMIVMMrSiNpF0jXrcWpQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/7/0/161/495/391/Eiffel-Tower-Suite-_Peter_Vitale_(6)_O.jpg"
+        }
+      ],
+      "overall_rating": 4.8,
+      "reviews": 7324,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 6471
+        },
+        {
+          "stars": 4,
+          "count": 543
+        },
+        {
+          "stars": 3,
+          "count": 108
+        },
+        {
+          "stars": 2,
+          "count": 43
+        },
+        {
+          "stars": 1,
+          "count": 159
+        }
+      ],
+      "location_rating": 4.9,
+      "reviews_breakdown": [
+        {
+          "name": "Wellness",
+          "description": "Wellness",
+          "total_mentioned": 62,
+          "positive": 56,
+          "negative": 4,
+          "neutral": 2
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 280,
+          "positive": 241,
+          "negative": 23,
+          "neutral": 16
+        },
+        {
+          "name": "Spa",
+          "description": "Spa",
+          "total_mentioned": 53,
+          "positive": 48,
+          "negative": 2,
+          "neutral": 3
+        },
+        {
+          "name": "Bar",
+          "description": "Bar or lounge",
+          "total_mentioned": 178,
+          "positive": 145,
+          "negative": 16,
+          "neutral": 17
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 676,
+          "positive": 620,
+          "negative": 42,
+          "neutral": 14
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 675,
+          "positive": 632,
+          "negative": 21,
+          "neutral": 22
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Free parking",
+        "Indoor pool",
+        "Hot tub",
+        "Air conditioning",
+        "Pet-friendly",
+        "Fitness center",
+        "Spa",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "San R\u00e9gis",
+      "description": "Opulent rooms with art & antiques, plus a fine-dining restaurant, a lounge & a bar.",
+      "link": "http://www.hotel-sanregis.fr/",
+      "property_token": "ChgIuaWex56R0Z0WGgwvZy8xaGMzMmIydnkQAQ",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2025-11-11&check_out_date=2025-11-13&children=0&currency=EUR&engine=google_hotels&gl=us&hl=en&hotel_class=5&property_token=ChgIuaWex56R0Z0WGgwvZy8xaGMzMmIydnkQAQ&q=Paris+8th+arrondissement&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 48.8664796,
+        "longitude": 2.3084964
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "12:00\u202fPM",
+      "rate_per_night": {
+        "lowest": "\u20ac708",
+        "extracted_lowest": 708
+      },
+      "total_rate": {
+        "lowest": "\u20ac1,415",
+        "extracted_lowest": 1415
+      },
+      "nearby_places": [
+        {
+          "name": "Pont Alexandre III",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "8 min"
+            }
+          ]
+        },
+        {
+          "name": "Champs-\u00c9lys\u00e9es\u2013Clemenceau",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "8 min"
+            }
+          ]
+        },
+        {
+          "name": "Paris Charles de Gaulle Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "44 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "54 min"
+            }
+          ]
+        },
+        {
+          "name": "Le Carr\u00e9 \u00c9lys\u00e9e",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "8 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star tourist hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNpzXvqnrO-repLDKtHwungTxUIiGE9I8VjqfPi=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNpzXvqnrO-repLDKtHwungTxUIiGE9I8VjqfPi=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOZGs1DAujyU8NNJGy4NGvgOu2q9w-6Lvr-0hMX=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOZGs1DAujyU8NNJGy4NGvgOu2q9w-6Lvr-0hMX=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPh55s2aIst_39YRSacpNLVkvwT6NV7zHPQWYZG=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPh55s2aIst_39YRSacpNLVkvwT6NV7zHPQWYZG=s10000"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/n5W4HfxjnU9SBmY8PG5UjmVFEflhxesbWSJj2DIhVHlbhyYbWZRbAOHcPoK4JuYAnAtxa1SQzvGlKLQILevqvU1wSUPCXLjqaGr-8pktbWQpLN5C7-z_A5V6GtM36gg8tUtX6ZDhPGElqp7mpUzwSKGXjZb6QtE=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/24/60/24603a8f003af41149bff64d96106cd9ad5bf370.jpeg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/JiZ3urU80iX5Dkmmx_JB3XU5jzP6ZXezjB-G320vZ2_pHRms7CGxY-GTFnUOJPlZXH3y3j23Xr4kSlb_y8RsKnw2R1HaLN35ku1Yuhx3op6EuR_gLMW2TNdyXVZb4pJX_nboIQk5k1U8FT4x7r9lpx4B7HKqXg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/00/009056/009056a_hb_r_005.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPbqYATcljz70bOhTp7CX7uW5YYHTx04TVCPrb7=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPbqYATcljz70bOhTp7CX7uW5YYHTx04TVCPrb7=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP9l2HqP5-xmb_KWP-lP569LXpmfg-jAPIsEJAP=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP9l2HqP5-xmb_KWP-lP569LXpmfg-jAPIsEJAP=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipON36AASR111O5-Vw1Q-wfLFFcwIYwwQtqPJtnh=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipON36AASR111O5-Vw1Q-wfLFFcwIYwwQtqPJtnh=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNUZ8pVYmGuG7pmopDPCcnGGdPSd2KclXj4-Dn1=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNUZ8pVYmGuG7pmopDPCcnGGdPSd2KclXj4-Dn1=s10000"
+        }
+      ],
+      "overall_rating": 4.8,
+      "reviews": 1237,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 1112
+        },
+        {
+          "stars": 4,
+          "count": 65
+        },
+        {
+          "stars": 3,
+          "count": 16
+        },
+        {
+          "stars": 2,
+          "count": 7
+        },
+        {
+          "stars": 1,
+          "count": 37
+        }
+      ],
+      "location_rating": 4.6,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 230,
+          "positive": 219,
+          "negative": 8,
+          "neutral": 3
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 221,
+          "positive": 202,
+          "negative": 12,
+          "neutral": 7
+        },
+        {
+          "name": "Couples",
+          "description": "Couple friendly",
+          "total_mentioned": 12,
+          "positive": 10,
+          "negative": 1,
+          "neutral": 1
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 118,
+          "positive": 113,
+          "negative": 0,
+          "neutral": 5
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 37,
+          "positive": 31,
+          "negative": 4,
+          "neutral": 2
+        },
+        {
+          "name": "Atmosphere",
+          "description": "Atmosphere",
+          "total_mentioned": 88,
+          "positive": 85,
+          "negative": 3,
+          "neutral": 0
+        }
+      ],
+      "amenities": [
+        "Breakfast",
+        "Free Wi-Fi",
+        "Parking",
+        "Air conditioning",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Full-service laundry",
+        "Kid-friendly",
+        "Smoke-free property"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "La R\u00e9serve",
+      "description": "Refined quarters with personal butlers in a plush hotel featuring a spa & 2 refined restaurants.",
+      "link": "http://www.lareserve-paris.com/en/?utm_source=google&utm_medium=local&utm_campaign=la-reserve-paris",
+      "property_token": "ChkIsY6F9NLKi_BwGg0vZy8xMWI2aG02aGoyEAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2025-11-11&check_out_date=2025-11-13&children=0&currency=EUR&engine=google_hotels&gl=us&hl=en&hotel_class=5&property_token=ChkIsY6F9NLKi_BwGg0vZy8xMWI2aG02aGoyEAE&q=Paris+8th+arrondissement&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 48.8697628,
+        "longitude": 2.3132848
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "12:00\u202fPM",
+      "rate_per_night": {
+        "lowest": "\u20ac1,972",
+        "extracted_lowest": 1972
+      },
+      "total_rate": {
+        "lowest": "\u20ac3,945",
+        "extracted_lowest": 3945
+      },
+      "nearby_places": [
+        {
+          "name": "Arc de Triomphe",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "8 min"
+            }
+          ]
+        },
+        {
+          "name": "Paris Charles de Gaulle Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "41 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "52 min"
+            }
+          ]
+        },
+        {
+          "name": "L'Italien",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "7 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star tourist hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOGh0ZAE742a-y6EVLhYB32FJAxq-vL6PSYaecW=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOGh0ZAE742a-y6EVLhYB32FJAxq-vL6PSYaecW=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN24021Lah9BX7uIzszEkaY3uueZCuy3RWxayGJ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipN24021Lah9BX7uIzszEkaY3uueZCuy3RWxayGJ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM054U8OBW9idx7iHA7lXoXdY96FKx5rdI8jU9Q=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipM054U8OBW9idx7iHA7lXoXdY96FKx5rdI8jU9Q=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyryKnMC3fgR9Umkw8gaUu6hEIuLoGOWD7RVI5xXR6_D2GbzF1sp0JGgpPVBANAuBMItNlL2qeeRW72Ix2Ill4tT7ztRdFXIybKWUVEr5J-gfsxxK0dHNn6V2iWb15jbFPMIejssg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICy4svWlAE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxsOMBTMuWG6ligluHNC_g1_TqxqBJa6vSYUAdbd212F1KLX8iebvAj9mEpjJSyPHWkalat9tV0VhfFbYaeawYxIfZGbQOY2I9Wg51Hzh4SziB6QdcQgiiMIeAHgY4srtC8iVI0Sw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDS_Z3ViAE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNw0df370yvTUKpC00K3L4oZ4puFXmJdCwyv3fU=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNw0df370yvTUKpC00K3L4oZ4puFXmJdCwyv3fU=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMjNprH2yceRgMYYqBENFJbto4oIHsxvDmxBMdh=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMjNprH2yceRgMYYqBENFJbto4oIHsxvDmxBMdh=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMX5zU2KWlqoNpriGIv0YOzvY04_84cBS4uOhFk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMX5zU2KWlqoNpriGIv0YOzvY04_84cBS4uOhFk=s10000"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/-SFFQNFrcWPyk-glBIAtNYQiU8gvOZ3-B8L5-dxkSExWEo_5wI4BPz52JmuUTokqSa0aa77MyGOEAyoRO5pxQxf0G-wD3i49hqD1WNTAkOBDmnB4vjjHCys-PBmYwlhPQqJkQcD_eMl9EpAF83b1uQLCPmDq4w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/78/784190/784190a_hb_ro_008_20250702_131622.jpg"
+        }
+      ],
+      "overall_rating": 4.8,
+      "reviews": 1209,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 1065
+        },
+        {
+          "stars": 4,
+          "count": 82
+        },
+        {
+          "stars": 3,
+          "count": 24
+        },
+        {
+          "stars": 2,
+          "count": 11
+        },
+        {
+          "stars": 1,
+          "count": 27
+        }
+      ],
+      "location_rating": 4.7,
+      "reviews_breakdown": [
+        {
+          "name": "Wellness",
+          "description": "Wellness",
+          "total_mentioned": 17,
+          "positive": 13,
+          "negative": 3,
+          "neutral": 1
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 47,
+          "positive": 41,
+          "negative": 3,
+          "neutral": 3
+        },
+        {
+          "name": "Spa",
+          "description": "Spa",
+          "total_mentioned": 12,
+          "positive": 11,
+          "negative": 0,
+          "neutral": 1
+        },
+        {
+          "name": "Couples",
+          "description": "Couple friendly",
+          "total_mentioned": 11,
+          "positive": 11,
+          "negative": 0,
+          "neutral": 0
+        },
+        {
+          "name": "Bar",
+          "description": "Bar or lounge",
+          "total_mentioned": 33,
+          "positive": 30,
+          "negative": 2,
+          "neutral": 1
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 117,
+          "positive": 105,
+          "negative": 7,
+          "neutral": 5
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Parking ($)",
+        "Indoor pool",
+        "Air conditioning",
+        "Pet-friendly",
+        "Fitness center",
+        "Spa",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Full-service laundry",
+        "Accessible",
+        "Kid-friendly"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "H\u00f4tel Grand Powers",
+      "description": "Stylish quarters in a polished hotel dating from 1920 offering an airy restaurant & a chic spa.",
+      "link": "https://www.hotelgrandpowersparis.com/fr/",
+      "property_token": "ChcIxqjMko2uyvMsGgsvZy8xdGYycmp0dBAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2025-11-11&check_out_date=2025-11-13&children=0&currency=EUR&engine=google_hotels&gl=us&hl=en&hotel_class=5&property_token=ChcIxqjMko2uyvMsGgsvZy8xdGYycmp0dBAB&q=Paris+8th+arrondissement&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 48.869166799999995,
+        "longitude": 2.3031577999999997
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "12:00\u202fPM",
+      "rate_per_night": {
+        "lowest": "\u20ac630",
+        "extracted_lowest": 630
+      },
+      "total_rate": {
+        "lowest": "\u20ac1,260",
+        "extracted_lowest": 1260
+      },
+      "nearby_places": [
+        {
+          "name": "Eiffel Tower",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "8 min"
+            }
+          ]
+        },
+        {
+          "name": "Franklin D. Roosevelt",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "8 min"
+            }
+          ]
+        },
+        {
+          "name": "Paris Charles de Gaulle Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "43 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "54 min"
+            }
+          ]
+        },
+        {
+          "name": "Relais de l\u2019Entrec\u00f4te",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star tourist hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNfnNLE6r2qWGZFt8SQW4nhpLuJ84UEyjLmw7VG=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNfnNLE6r2qWGZFt8SQW4nhpLuJ84UEyjLmw7VG=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSySiA6cq-_T0HXzOTIGLv2uIMty7_yINnVFV3y_rvnx1o7iWmwFwW77MowpJem4Xg4-lDy_pVVHmTMoHELvsG1vFQTVL9z0PyaRRV5oymLmlD2GM8VTxh44DVgKVV-9KLTc9WB3=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICM-J-WLg=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOgrhw8sZTpcUgIPthrAaDojQ9qNX5GU6mmX9kt=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOgrhw8sZTpcUgIPthrAaDojQ9qNX5GU6mmX9kt=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM2OI7PuvRik_MdFjLQ-DQy77bSEM1c90gGOxn6=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipM2OI7PuvRik_MdFjLQ-DQy77bSEM1c90gGOxn6=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOsPpfeXcvcqOzHZJErl73rwxChoMNQH_GxpvsV=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOsPpfeXcvcqOzHZJErl73rwxChoMNQH_GxpvsV=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipO8z3XFV9WbusanXSMwrzVMv5pgJpTJuX-ndWOk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipO8z3XFV9WbusanXSMwrzVMv5pgJpTJuX-ndWOk=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNUh_DUgmhIqNRnp-0HDa-RgktMpOZm8_tLQyJF=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNUh_DUgmhIqNRnp-0HDa-RgktMpOZm8_tLQyJF=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNGsMNWnkhkSpEbR5nXrt1RDeQUamIiyV2-3Lhl=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNGsMNWnkhkSpEbR5nXrt1RDeQUamIiyV2-3Lhl=s10000"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/wpqplSbVntvZi0tXtGiFfx8IbVCmoE0Abpq_KMt9m7tBaxkFkKdAEhbNoiSpDALZ0SXMsIg-T_tKeWLXHSLPmOF__1OwwXHXph-jA_ML-T3McqXyPSlR6yk8zfplc4tZ_bhdehrPHxKqoSnpfKsUKYRe4sIVWw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/7/0/142/806/837/Decoration_O.jpg"
+        }
+      ],
+      "overall_rating": 4.8,
+      "reviews": 720,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 648
+        },
+        {
+          "stars": 4,
+          "count": 52
+        },
+        {
+          "stars": 3,
+          "count": 9
+        },
+        {
+          "stars": 2,
+          "count": 5
+        },
+        {
+          "stars": 1,
+          "count": 6
+        }
+      ],
+      "location_rating": 4.9,
+      "reviews_breakdown": [
+        {
+          "name": "Wellness",
+          "description": "Wellness",
+          "total_mentioned": 25,
+          "positive": 22,
+          "negative": 2,
+          "neutral": 1
+        },
+        {
+          "name": "Spa",
+          "description": "Spa",
+          "total_mentioned": 22,
+          "positive": 20,
+          "negative": 2,
+          "neutral": 0
+        },
+        {
+          "name": "Couples",
+          "description": "Couple friendly",
+          "total_mentioned": 14,
+          "positive": 14,
+          "negative": 0,
+          "neutral": 0
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 141,
+          "positive": 135,
+          "negative": 4,
+          "neutral": 2
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 143,
+          "positive": 138,
+          "negative": 3,
+          "neutral": 2
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 80,
+          "positive": 77,
+          "negative": 1,
+          "neutral": 2
+        }
+      ],
+      "amenities": [
+        "Breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Hot tub",
+        "Air conditioning",
+        "Pet-friendly",
+        "Fitness center",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly"
+      ],
+      "eco_certified": true
+    },
+    {
+      "type": "hotel",
+      "name": "H\u00f4tel de Crillon, A Rosewood Hotel",
+      "description": "Elegant lodging featuring 3 restaurants & an opulent bar, plus an indoor pool & a spa.",
+      "link": "https://www.rosewoodhotels.com/en/hotel-de-crillon",
+      "property_token": "ChUIqu2Y_-fW2st7GgkvbS8wNGZjeGwQAQ",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2025-11-11&check_out_date=2025-11-13&children=0&currency=EUR&engine=google_hotels&gl=us&hl=en&hotel_class=5&property_token=ChUIqu2Y_-fW2st7GgkvbS8wNGZjeGwQAQ&q=Paris+8th+arrondissement&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 48.8672703,
+        "longitude": 2.3210916
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "12:00\u202fPM",
+      "rate_per_night": {
+        "lowest": "\u20ac1,738",
+        "extracted_lowest": 1738
+      },
+      "total_rate": {
+        "lowest": "\u20ac3,477",
+        "extracted_lowest": 3477
+      },
+      "nearby_places": [
+        {
+          "name": "Place de la Concorde",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        },
+        {
+          "name": "Madeleine",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Paris Charles de Gaulle Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "37 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "47 min"
+            }
+          ]
+        },
+        {
+          "name": "Nonos & comestibles",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star tourist hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/K_J8q3ma-1F4a96b5tVPgaBEX37j5ItrTqHmtUzFj0OiaWwUp4kXtUc_sd1T4M_dTS6ttrHUK2bDu22to6DRnSVc3vX93t1chfUQCvU_REui07gc6AwLvSR5KyNwstUkXfR3u0Kah-myXwqWH3MBagOjNiaq0Xk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/00/006062/006062a_hb_r_002.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM-JUDS0i1CJf16sdygGkM1-451AvYg55QMNm3L=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipM-JUDS0i1CJf16sdygGkM1-451AvYg55QMNm3L=s10000"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/PfI7EDdZA0UifKSzwm-O8LXudexYj6gZu4xLeLHMWki5hikW8e_viL0mmEDF5k_yt5kCeLRXffqbjugj1KvXicYwL-xU0Q7rh10IqLy7Efcqnl-WnMWv2MGG9_95c2V5LE4lZUSF5VaGf0KuH-bAz1y7GjZEQbw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/00/006062/006062a_hb_ro_069_20250401_233839.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyoimWSDQsnElKcO52aBkXdZCMpWyCNVDQaTuuxBVRpw8GbRMZXJHyBGaxtDpVRUco9b4mEg6ZkKNzbtFyL3zgDwbmDlD-Den4tb1laeIepMHLjKLBf1m-ff4supM7yUtHRM87F=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICx8_HXew=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzxuVGgkxi64YqOK1vy6E5_jNUATTXZSjTwpxxy_asgV7FlWXt7e--FuMQOlqKVs8Xfh7oMRYK3P_28fwX-oq9zlSFSZLEhXdARm0BkFFByT0PO38SAeL3xelBDcOYJR27LKEGkWQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDh1eeGtQE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxtpf1h1rZ-E7J2tyINZjc4oy8_BWX_rAndkTLQW5AlfBGfQEfz1DilnjZiKHm6aQXTAS2t87WHK5tTmY4cXsrevc_uvBsLJ86AZzVfqmUdzdVS2I6kj1pf2arWEuAAdtr4X_jp=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDNn9LDuQE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzmKtxrBYUKspr-BDmI-PV748C7BaqR05a99fML39PXOu8YX2hwFttzDIzAuZaueBea_8lcipYsAnJ6ALlCy5gFx3_kxp593SVS2-7bwdX-jPpdaJDAzmVWhvJvZKAi0VjuXM22iA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDRwce8xgE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwyqsuIlhhrS0CjsAS0Os8nGw0LrwpB1fbDHQjJzFuTzlEKyrwcMayvyWctbdmQ69uVXZkr5NTq_FmlN2qfJqIbZ1LKbl1tH_h53zzyWVqrXIekyzK1K_SsbJfgHqQ0Wbl6BDLVeA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICJ2ofPxAE=s10000"
+        }
+      ],
+      "overall_rating": 4.7,
+      "reviews": 3366,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 2859
+        },
+        {
+          "stars": 4,
+          "count": 284
+        },
+        {
+          "stars": 3,
+          "count": 91
+        },
+        {
+          "stars": 2,
+          "count": 46
+        },
+        {
+          "stars": 1,
+          "count": 86
+        }
+      ],
+      "location_rating": 4.2,
+      "reviews_breakdown": [
+        {
+          "name": "Wellness",
+          "description": "Wellness",
+          "total_mentioned": 58,
+          "positive": 48,
+          "negative": 5,
+          "neutral": 5
+        },
+        {
+          "name": "Spa",
+          "description": "Spa",
+          "total_mentioned": 48,
+          "positive": 40,
+          "negative": 4,
+          "neutral": 4
+        },
+        {
+          "name": "Bar",
+          "description": "Bar or lounge",
+          "total_mentioned": 170,
+          "positive": 140,
+          "negative": 11,
+          "neutral": 19
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 151,
+          "positive": 135,
+          "negative": 10,
+          "neutral": 6
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 396,
+          "positive": 357,
+          "negative": 29,
+          "neutral": 10
+        },
+        {
+          "name": "Nightlife",
+          "description": "Nightlife",
+          "total_mentioned": 26,
+          "positive": 23,
+          "negative": 2,
+          "neutral": 1
+        }
+      ],
+      "amenities": [
+        "Breakfast",
+        "Free Wi-Fi",
+        "Parking",
+        "Indoor pool",
+        "Air conditioning",
+        "Pet-friendly",
+        "Fitness center",
+        "Spa",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly"
+      ],
+      "eco_certified": true
+    },
+    {
+      "type": "hotel",
+      "name": "Le Bristol Paris",
+      "description": "Regal 1925 hotel offering plush rooms & suites, plus acclaimed restaurants, a spa & an indoor pool.",
+      "link": "https://www.oetkerhotels.com/fr/hotels/le-bristol-paris/?utm_source=google&utm_medium=organic&utm_campaign=google_local_le_bristol_paris",
+      "property_token": "ChYI4q2TzLj58fcMGgovbS8wNGYyazdtEAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2025-11-11&check_out_date=2025-11-13&children=0&currency=EUR&engine=google_hotels&gl=us&hl=en&hotel_class=5&property_token=ChYI4q2TzLj58fcMGgovbS8wNGYyazdtEAE&q=Paris+8th+arrondissement&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 48.871686399999994,
+        "longitude": 2.3147995999999997
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "12:00\u202fPM",
+      "rate_per_night": {
+        "lowest": "\u20ac2,125",
+        "extracted_lowest": 2125
+      },
+      "total_rate": {
+        "lowest": "\u20ac4,251",
+        "extracted_lowest": 4251
+      },
+      "nearby_places": [
+        {
+          "name": "Arc de Triomphe",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Paris Charles de Gaulle Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "41 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "55 min"
+            }
+          ]
+        },
+        {
+          "name": "Sph\u00e8re",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "6 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star tourist hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM6MbMEZcGv7zJFuK3BeEz_cOYoAQoTuht4XS0_=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipM6MbMEZcGv7zJFuK3BeEz_cOYoAQoTuht4XS0_=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMz9vl2B3b38TnqUIcUkwXYDmA4XnBA9bF56rXz=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMz9vl2B3b38TnqUIcUkwXYDmA4XnBA9bF56rXz=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxD_mNMq6kLybut3GNKHgm6QUBiI38CQyVfvJywXtSa0sNX5dD2_3mtgE6gk0AeLCnnGi-rv33QiCbC9xVrhwjKd-Obk2ZcwWteAtKbJh3BO-6T48NWQC2AxU7WPawnKgAQYbw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDanpOIZA=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNdxNbJLL6Kl37MGORm9LBY-tMmv6Mke0qU1TKm=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNdxNbJLL6Kl37MGORm9LBY-tMmv6Mke0qU1TKm=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxSWlLwtb7G-f5ipQ6D3I4Z1__HH7HZXIdpk56sq8pv2pkgD3iLCPyWqu_1YkACft824UDbxyIZR-5c_f_I0GE5BqxNQNOwoLi_nt7C4Ya5JP_nzig2_db0esG4Q1Yk3q6MkBekUw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICX6Ij2qgE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipME_7CaLRLTjOR1rQHKu8S5BAqljhfOVJvPbB-b=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipME_7CaLRLTjOR1rQHKu8S5BAqljhfOVJvPbB-b=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/4IdvoZMMHwOZafR9w-ZyB_kO9DSuaeEXUzb8cDkcScEjc-VZuaIphWDrIfQKSgmjO_gCRBdQ3rruxA7vTOrmDhdY84Ku11vRunT1H7gMNrI429rO0jc8MRcHfSPdiyAxZ9ARgd14rrF7Zya85djV13gm6RkZi0k=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/0/0/200/12/495/Design_sans_titre_(6)_O.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/RvmKBHfcHuudewwEs4odccpNpkiIBtjlzwHrGLAQATPabptTeE_9a0ShwNWNj2Eqz8nFHw9LBNV9hzNTUrtZmLismcvK3G1Hmf49gnn4B3xCNMJY3-j1-uFEjpD4ixo8vYvWzlqzWAfB4vr3ISMKdypPoPYnJQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/0/0/200/9/876/Suite_Eden_terrasse_O.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPy18CrsF3_fgqYPSuONCH2lZ3CVbQKt5RYuIGK=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPy18CrsF3_fgqYPSuONCH2lZ3CVbQKt5RYuIGK=s10000"
+        }
+      ],
+      "overall_rating": 4.7,
+      "reviews": 3113,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 2637
+        },
+        {
+          "stars": 4,
+          "count": 296
+        },
+        {
+          "stars": 3,
+          "count": 82
+        },
+        {
+          "stars": 2,
+          "count": 35
+        },
+        {
+          "stars": 1,
+          "count": 63
+        }
+      ],
+      "location_rating": 4.5,
+      "reviews_breakdown": [
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 133,
+          "positive": 121,
+          "negative": 7,
+          "neutral": 5
+        },
+        {
+          "name": "Bar",
+          "description": "Bar or lounge",
+          "total_mentioned": 101,
+          "positive": 85,
+          "negative": 8,
+          "neutral": 8
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 319,
+          "positive": 291,
+          "negative": 18,
+          "neutral": 10
+        },
+        {
+          "name": "Wellness",
+          "description": "Wellness",
+          "total_mentioned": 16,
+          "positive": 14,
+          "negative": 1,
+          "neutral": 1
+        },
+        {
+          "name": "Fitness",
+          "description": "Fitness",
+          "total_mentioned": 24,
+          "positive": 20,
+          "negative": 3,
+          "neutral": 1
+        },
+        {
+          "name": "Pool",
+          "description": "Pool",
+          "total_mentioned": 15,
+          "positive": 14,
+          "negative": 0,
+          "neutral": 1
+        }
+      ],
+      "amenities": [
+        "Breakfast",
+        "Free Wi-Fi",
+        "Parking",
+        "Indoor pool",
+        "Hot tub",
+        "Air conditioning",
+        "Pet-friendly",
+        "Fitness center",
+        "Spa",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly"
+      ],
+      "eco_certified": true
+    },
+    {
+      "type": "hotel",
+      "name": "Hyatt Paris Madeleine",
+      "description": "High-end property offering sophisticated rooms & suites, plus 2 elegant restaurants & a spa.",
+      "link": "https://www.hyatt.com/en-US/hotel/france/hyatt-paris-madeleine/madel?src=corp_lclb_google_seo_madel&utm_source=google&utm_medium=organic&utm_campaign=lmr",
+      "property_token": "ChgIktjZgPOZ4-h2GgwvZy8xaGMyNWhrZmMQAQ",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2025-11-11&check_out_date=2025-11-13&children=0&currency=EUR&engine=google_hotels&gl=us&hl=en&hotel_class=5&property_token=ChgIktjZgPOZ4-h2GgwvZy8xaGMyNWhrZmMQAQ&q=Paris+8th+arrondissement&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 48.8729966,
+        "longitude": 2.3218183
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "12:00\u202fPM",
+      "rate_per_night": {
+        "lowest": "\u20ac510",
+        "extracted_lowest": 510
+      },
+      "total_rate": {
+        "lowest": "\u20ac1,020",
+        "extracted_lowest": 1020
+      },
+      "nearby_places": [
+        {
+          "name": "Louvre Museum",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Saint-Augustin",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        },
+        {
+          "name": "Paris Charles de Gaulle Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "39 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "49 min"
+            }
+          ]
+        },
+        {
+          "name": "o Bistrot de Tom",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star tourist hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipORv2SoLFo8LsWkuanbPqHtsrFNqF-9jfk9syJb=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipORv2SoLFo8LsWkuanbPqHtsrFNqF-9jfk9syJb=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOBYnFJKbj1dnNR3k7BBAJy375Z84IdywQDA8_o=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOBYnFJKbj1dnNR3k7BBAJy375Z84IdywQDA8_o=s10000"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/p8kH39hu3Y-Mf48IQntfpjHQEfgO_70EVfbM0BVPTo6ozMtTZwfiy_a5SMBwop7-QWexiDhtABvTLhk1NCQ-tMbdK4ChU_NAIqDxYGLtbz0ntn4AlHiIWT_dIjXeYF1kAVP42xX2o_VSU0LITR2uEmDPQQltfg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/00/006014/006014a_hb_ro_122.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPXwidnt724mBBwPFsrtnsG4TfuTww38P19JYbc=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPXwidnt724mBBwPFsrtnsG4TfuTww38P19JYbc=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPaF2P2xiqpkjH---J8q_DYkXCx6h4sAZeaCmEm=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPaF2P2xiqpkjH---J8q_DYkXCx6h4sAZeaCmEm=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOzOlhNR1kb_lNt7i94-JK88rixoOa6iiLKPoZs=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOzOlhNR1kb_lNt7i94-JK88rixoOa6iiLKPoZs=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPpgEMKQzFebTeYYZD4c_NscD_P_ArMrGJInEId=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPpgEMKQzFebTeYYZD4c_NscD_P_ArMrGJInEId=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/FzNwu8G7rnOVaRZQO4APfdfNVH48m83D9Di_GhNkKf4vGAEpbzLQ-Z7F9n9VvSt6dFlNSGrV2MQeB5QTn9cyuGbg9j3rNFPiNLX1sbYfIprnScvGJImrHAfWWlVkMCVsyVpeGgp0rBogK8lpQ_lveXCw3Y2vLQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://i.giatamedia.com/m.php?m=AQABAAAAla4KAKtjUQQFACGIH2CjPPGcKTjklx4jRp8"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOh0DruEwTzAsKUhYzKFcM-rO1YrFeRPIqoHVTA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOh0DruEwTzAsKUhYzKFcM-rO1YrFeRPIqoHVTA=s10000"
+        }
+      ],
+      "overall_rating": 4.7,
+      "reviews": 1282,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 1012
+        },
+        {
+          "stars": 4,
+          "count": 183
+        },
+        {
+          "stars": 3,
+          "count": 41
+        },
+        {
+          "stars": 2,
+          "count": 14
+        },
+        {
+          "stars": 1,
+          "count": 32
+        }
+      ],
+      "location_rating": 4.6,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 407,
+          "positive": 380,
+          "negative": 17,
+          "neutral": 10
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 390,
+          "positive": 352,
+          "negative": 33,
+          "neutral": 5
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 76,
+          "positive": 73,
+          "negative": 2,
+          "neutral": 1
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 184,
+          "positive": 172,
+          "negative": 3,
+          "neutral": 9
+        },
+        {
+          "name": "Bar",
+          "description": "Bar or lounge",
+          "total_mentioned": 49,
+          "positive": 46,
+          "negative": 2,
+          "neutral": 1
+        },
+        {
+          "name": "Couples",
+          "description": "Couple friendly",
+          "total_mentioned": 12,
+          "positive": 9,
+          "negative": 0,
+          "neutral": 3
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Parking ($)",
+        "Air conditioning",
+        "Pet-friendly",
+        "Fitness center",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Accessible",
+        "Business center",
+        "Kid-friendly",
+        "Smoke-free property"
+      ],
+      "eco_certified": true
+    },
+    {
+      "type": "hotel",
+      "name": "H\u00f4tel Marignan Champs-\u00c9lys\u00e9es",
+      "description": "Luxe rooms & suites in a stately property with a swanky bar, a screening room & a chic restaurant.",
+      "link": "https://www.hotelmarignanelyseesparis.com/",
+      "property_token": "ChgIprmIn565paCJARoLL2cvMXZ5eGhxdDAQAQ",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2025-11-11&check_out_date=2025-11-13&children=0&currency=EUR&engine=google_hotels&gl=us&hl=en&hotel_class=5&property_token=ChgIprmIn565paCJARoLL2cvMXZ5eGhxdDAQAQ&q=Paris+8th+arrondissement&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 48.868531999999995,
+        "longitude": 2.3065477
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "12:00\u202fPM",
+      "rate_per_night": {
+        "lowest": "\u20ac443",
+        "extracted_lowest": 443
+      },
+      "total_rate": {
+        "lowest": "\u20ac885",
+        "extracted_lowest": 885
+      },
+      "nearby_places": [
+        {
+          "name": "Arc de Triomphe",
+          "transportations": [
+            {
+              "type": "Public transport",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Franklin D. Roosevelt",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "6 min"
+            }
+          ]
+        },
+        {
+          "name": "Paris Charles de Gaulle Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "46 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "51 min"
+            }
+          ]
+        },
+        {
+          "name": "L\u2019Alsace",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star tourist hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN8XiAmVmUmVgxlWAhWTSPoCdtG563m1iIngNdP=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipN8XiAmVmUmVgxlWAhWTSPoCdtG563m1iIngNdP=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMeu7ZJiVb0aW3xrkSIUL7AZGCZ6E69buLoHnzZ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMeu7ZJiVb0aW3xrkSIUL7AZGCZ6E69buLoHnzZ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMSBfCoPSXJI528yjpcjCUZkIYlTOiT4L7i_RiN=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMSBfCoPSXJI528yjpcjCUZkIYlTOiT4L7i_RiN=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP8PvCSVENQcjA6qydc1Tm4H8c6RVafVh2mS2hR=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP8PvCSVENQcjA6qydc1Tm4H8c6RVafVh2mS2hR=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSys2DNc3-L4rNYPj_YQ69skrHrkOsFSreORmTNOzOQvPv2U2m8fiBPrdevr5FCehnz6JkQsvqSphw4PMXEBF6h6teglv_PX5hUUUV4dQYV-s8YCVcCt5GkNm8lyzuii22EaOiyi=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDDpvLoYA=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNe85StR2DaIY0T8g5aUjNj0_1WJHBKRdgxekFu=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNe85StR2DaIY0T8g5aUjNj0_1WJHBKRdgxekFu=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPOjrwBfRHTi6_-pUXdLxrCyG26UhGkWHWWCreX=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPOjrwBfRHTi6_-pUXdLxrCyG26UhGkWHWWCreX=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOfstjsiqo8kYax6cssWCuvpIDUj8agkVFj6jaD=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOfstjsiqo8kYax6cssWCuvpIDUj8agkVFj6jaD=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMS_WOIMExIHAwrLs74Vfx3RHv3sTtLCES04Nqy=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMS_WOIMExIHAwrLs74Vfx3RHv3sTtLCES04Nqy=s10000"
+        }
+      ],
+      "overall_rating": 4.7,
+      "reviews": 1028,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 855
+        },
+        {
+          "stars": 4,
+          "count": 111
+        },
+        {
+          "stars": 3,
+          "count": 27
+        },
+        {
+          "stars": 2,
+          "count": 6
+        },
+        {
+          "stars": 1,
+          "count": 29
+        }
+      ],
+      "location_rating": 4.9,
+      "reviews_breakdown": [
+        {
+          "name": "Couples",
+          "description": "Couple friendly",
+          "total_mentioned": 18,
+          "positive": 15,
+          "negative": 1,
+          "neutral": 2
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 197,
+          "positive": 184,
+          "negative": 10,
+          "neutral": 3
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 187,
+          "positive": 169,
+          "negative": 15,
+          "neutral": 3
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 126,
+          "positive": 120,
+          "negative": 3,
+          "neutral": 3
+        },
+        {
+          "name": "Nature",
+          "description": "Nature and outdoor activities",
+          "total_mentioned": 6,
+          "positive": 6,
+          "negative": 0,
+          "neutral": 0
+        },
+        {
+          "name": "Bar",
+          "description": "Bar or lounge",
+          "total_mentioned": 25,
+          "positive": 22,
+          "negative": 3,
+          "neutral": 0
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Free parking",
+        "Air conditioning",
+        "Pet-friendly",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Kid-friendly",
+        "Smoke-free property"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Fauchon L'H\u00f4tel Paris",
+      "description": "Swanky rooms, some with Eiffel Tower views, in a ritzy hotel offering a posh cafe, a gym & a spa.",
+      "link": "https://www.hotel-fauchon-paris.fr/",
+      "property_token": "ChkIzOHCuuD9uO49Gg0vZy8xMWhkNnpkNzE2EAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2025-11-11&check_out_date=2025-11-13&children=0&currency=EUR&engine=google_hotels&gl=us&hl=en&hotel_class=5&property_token=ChkIzOHCuuD9uO49Gg0vZy8xMWhkNnpkNzE2EAE&q=Paris+8th+arrondissement&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 48.8705595,
+        "longitude": 2.3233745
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "12:00\u202fPM",
+      "rate_per_night": {
+        "lowest": "\u20ac614",
+        "extracted_lowest": 614
+      },
+      "total_rate": {
+        "lowest": "\u20ac1,228",
+        "extracted_lowest": 1228
+      },
+      "nearby_places": [
+        {
+          "name": "Louvre Museum",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Madeleine",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        },
+        {
+          "name": "Paris Charles de Gaulle Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "40 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "46 min"
+            }
+          ]
+        },
+        {
+          "name": "Fratelli",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star tourist hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNu29cVquI5ylZOxGiEqFBhmY3kEcK5imvuczz0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNu29cVquI5ylZOxGiEqFBhmY3kEcK5imvuczz0=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMUuAkz1_w4Xusv8YAkfuUDich6QhlCqZ7djdHP=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMUuAkz1_w4Xusv8YAkfuUDich6QhlCqZ7djdHP=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPqpIVDnG7cYlg-O-rygVQRPB79dgLHLQcbBQIA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPqpIVDnG7cYlg-O-rygVQRPB79dgLHLQcbBQIA=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/G4gblkGzmiPy47D1Hm8tu1aOMDHB4HiMUSF0eJOAVsoy9q0kKP50mxMBQWP84xbgLzhqlelELgbfTVeztkwskQ35kiQjl0dA5ktDenupGTraYggWq7ID8rqmt64mlXEz8gHTdbfoy4-npg2dYuycxJ3SMmu0HCU=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/7/0/145/207/407/Deluxe_suite_305_salon__bureau_(2)_S.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPSYbVDko-beuvp3Q0pV12SJ-IvCtW52hY3jXoW=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPSYbVDko-beuvp3Q0pV12SJ-IvCtW52hY3jXoW=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM64HtOwSN3i00PBjSzqkB30JFz42kkZ9o3XHSs=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipM64HtOwSN3i00PBjSzqkB30JFz42kkZ9o3XHSs=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMH1TWGxKEMryQ149x40uFlHQGd_uZ6lIqDKbVX=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMH1TWGxKEMryQ149x40uFlHQGd_uZ6lIqDKbVX=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMazsYpvBrSL7IHjw0tEkm61ExhZaid0TwbLvto=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMazsYpvBrSL7IHjw0tEkm61ExhZaid0TwbLvto=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOnEHoRBg1EjPF9gZJbnZthsaDr_SFCznNWL9F8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOnEHoRBg1EjPF9gZJbnZthsaDr_SFCznNWL9F8=s10000"
+        }
+      ],
+      "overall_rating": 4.7,
+      "reviews": 761,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 682
+        },
+        {
+          "stars": 4,
+          "count": 34
+        },
+        {
+          "stars": 3,
+          "count": 4
+        },
+        {
+          "stars": 2,
+          "count": 9
+        },
+        {
+          "stars": 1,
+          "count": 32
+        }
+      ],
+      "location_rating": 4.7,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 176,
+          "positive": 157,
+          "negative": 17,
+          "neutral": 2
+        },
+        {
+          "name": "Couples",
+          "description": "Couple friendly",
+          "total_mentioned": 11,
+          "positive": 9,
+          "negative": 1,
+          "neutral": 1
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 133,
+          "positive": 123,
+          "negative": 8,
+          "neutral": 2
+        },
+        {
+          "name": "Bar",
+          "description": "Bar or lounge",
+          "total_mentioned": 27,
+          "positive": 22,
+          "negative": 4,
+          "neutral": 1
+        },
+        {
+          "name": "Wellness",
+          "description": "Wellness",
+          "total_mentioned": 7,
+          "positive": 7,
+          "negative": 0,
+          "neutral": 0
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 27,
+          "positive": 22,
+          "negative": 5,
+          "neutral": 0
+        }
+      ],
+      "amenities": [
+        "Breakfast",
+        "Free Wi-Fi",
+        "Parking",
+        "Air conditioning",
+        "Pet-friendly",
+        "Fitness center",
+        "Spa",
+        "Bar",
+        "Restaurant",
+        "Airport shuttle",
+        "Accessible",
+        "Business center",
+        "Kid-friendly"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Bvlgari H\u00f4tel Paris",
+      "link": "https://www.bulgarihotels.com/en_US/paris?scid=f2ae0541-1279-4f24-b197-a979c79310b0",
+      "property_token": "ChkI1pmTxfKQxelRGg0vZy8xMWg0MXBuOHI2EAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2025-11-11&check_out_date=2025-11-13&children=0&currency=EUR&engine=google_hotels&gl=us&hl=en&hotel_class=5&property_token=ChkI1pmTxfKQxelRGg0vZy8xMWg0MXBuOHI2EAE&q=Paris+8th+arrondissement&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 48.8683674,
+        "longitude": 2.3014592
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "12:00\u202fPM",
+      "rate_per_night": {
+        "lowest": "\u20ac2,123",
+        "extracted_lowest": 2123
+      },
+      "total_rate": {
+        "lowest": "\u20ac4,246",
+        "extracted_lowest": 4246
+      },
+      "nearby_places": [
+        {
+          "name": "Arc de Triomphe",
+          "transportations": [
+            {
+              "type": "Public transport",
+              "duration": "7 min"
+            }
+          ]
+        },
+        {
+          "name": "Paris Charles de Gaulle Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "43 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "55 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star tourist hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzA_gQMFNOzwkdsQWuvFyaVCPeGPBWU4-ky9CRLq-aobO9SvOAsRk4WJeXctMm66NT_VB3ZUlaGu4WfAQdGcnwCvxji6DG-b1XsEBoZs1YfecV01sAkqnnjWVQfxzFl09bp_yj8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDGhY6HgQE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMsocipi36rNRfWbPrfllWeulI6Ha7uWdOPUNi7=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMsocipi36rNRfWbPrfllWeulI6Ha7uWdOPUNi7=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPxHLzf-yHUWg4vgSgPgZRGV0unXx0TejNhq8dV=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPxHLzf-yHUWg4vgSgPgZRGV0unXx0TejNhq8dV=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP6g3Qs5bBtGbW3KX_JS0IZqeBBmz3piRa_4PVX=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP6g3Qs5bBtGbW3KX_JS0IZqeBBmz3piRa_4PVX=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwFoDNPrGVnufbUEjbs0XZfVyizLyoSzSa_VwSrw3mpxxu9ojb54SdUTqIufxECxvC4y2vYUVyS-A9smruAPhWcjHNNLNcGEU1DqvGVDXgqqGSAKcb91MOp0aqV2thKYorAzcoX=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDJyt_vFQ=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/inYOd-__E1-7tgKYtDJ_GIWhOm8exotVzYWbrWfd19dD-f_ZQ2RnGNwcLzmtF5gUiHDuhlbotOOFtDvkFBYinH3B3CA6mint8si_JM4IHqNeEUrpaEqG27IkDcuCHE6CVPiwgPglhmyNxUWUgCI8d5m_Zu3Odg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/73000000/72630000/72626700/72626662/1908df87_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/G88AQ3jnFiQflmAsGSGjJaG6Udz2SPcm3xTEG70FL5Xq4I8lWfkYwnfGfHmzXsY6WsL-pilMt90WdFmv-G_z052SPsZVqnQcIzehzqZbzEmWf86ccUtKnMHx0eekUMqaDs1XlUnaAppwfhERUHvV5N-ptk6WMg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/73000000/72630000/72626700/72626662/570ccb6e_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/AUXu7Lk62RV-_fQd5olxmjhk29xZNGaZTNqH9ZfaHR2-rYHK0s6qiVfObJDPFzxNoZY4tRplPfjSoFwD1P7LJv12wqs4wx_zFSRocGqpyxgpuKgFtVuKN0huKJs4kasNYkw9cp2H_vvz9JW3SZoCdJ50LrNQlA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/7/0/152/881/339/bg-parbg-executive-room-31906_Classic-Hor_O.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/3sC7EC4lJghJMIBmLUvsHAqDlV1YsBz3kcgULvTtt2zpFRe92us7O1UwP18cSDriD4puuPbqzGcsZjjl3y5nXkmu_D9664STv-I2wlAtayLQZ1MkqJ2AGDI4I0N6pMaHyYzurtdtelJCXscfocCUrofEz4Liwuc=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/7/0/152/881/348/parbg-deluxe-suite-9342-hor-clsc_O.jpg"
+        }
+      ],
+      "overall_rating": 4.7,
+      "reviews": 508,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 437
+        },
+        {
+          "stars": 4,
+          "count": 34
+        },
+        {
+          "stars": 3,
+          "count": 10
+        },
+        {
+          "stars": 2,
+          "count": 7
+        },
+        {
+          "stars": 1,
+          "count": 20
+        }
+      ],
+      "location_rating": 4.8,
+      "reviews_breakdown": [
+        {
+          "name": "Wellness",
+          "description": "Wellness",
+          "total_mentioned": 22,
+          "positive": 19,
+          "negative": 1,
+          "neutral": 2
+        },
+        {
+          "name": "Spa",
+          "description": "Spa",
+          "total_mentioned": 18,
+          "positive": 16,
+          "negative": 1,
+          "neutral": 1
+        },
+        {
+          "name": "Fitness",
+          "description": "Fitness",
+          "total_mentioned": 15,
+          "positive": 12,
+          "negative": 3,
+          "neutral": 0
+        },
+        {
+          "name": "Bar",
+          "description": "Bar or lounge",
+          "total_mentioned": 29,
+          "positive": 23,
+          "negative": 3,
+          "neutral": 3
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 37,
+          "positive": 28,
+          "negative": 8,
+          "neutral": 1
+        },
+        {
+          "name": "Gym",
+          "description": "Gym",
+          "total_mentioned": 8,
+          "positive": 7,
+          "negative": 1,
+          "neutral": 0
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Parking ($)",
+        "Indoor pool",
+        "Air conditioning",
+        "Pet-friendly",
+        "Fitness center",
+        "Spa",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Full-service laundry",
+        "Accessible",
+        "Smoke-free property"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "H\u00f4tel Plaza Ath\u00e9n\u00e9e",
+      "description": "Stately hotel featuring 5 restaurants & a bar, plus a spa, a gym & views of the Eiffel Tower.",
+      "link": "https://www.dorchestercollection.com/paris/hotel-plaza-athenee",
+      "property_token": "ChcI-6i_l_nu1O-mARoKL20vMDI3Z3B2dBAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2025-11-11&check_out_date=2025-11-13&children=0&currency=EUR&engine=google_hotels&gl=us&hl=en&hotel_class=5&property_token=ChcI-6i_l_nu1O-mARoKL20vMDI3Z3B2dBAB&q=Paris+8th+arrondissement&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 48.8662354,
+        "longitude": 2.3043736999999997
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "12:00\u202fPM",
+      "rate_per_night": {
+        "lowest": "\u20ac1,842",
+        "extracted_lowest": 1842
+      },
+      "total_rate": {
+        "lowest": "\u20ac3,685",
+        "extracted_lowest": 3685
+      },
+      "nearby_places": [
+        {
+          "name": "Arc de Triomphe",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "7 min"
+            }
+          ]
+        },
+        {
+          "name": "Franklin D. Roosevelt",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "8 min"
+            }
+          ]
+        },
+        {
+          "name": "Paris Charles de Gaulle Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "46 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "55 min"
+            }
+          ]
+        },
+        {
+          "name": "L\u2019Alsace",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "9 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star tourist hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPE1ASyNkz7P4C51nd_z-BhrDUwkGE7RDESVAFq=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPE1ASyNkz7P4C51nd_z-BhrDUwkGE7RDESVAFq=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNL1tcMnAHuVsEHsgHSkTDaS7ye2foC-4Omm4c5=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNL1tcMnAHuVsEHsgHSkTDaS7ye2foC-4Omm4c5=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNb6vUc96oAgg_6Vz43LgYceg3s5BZWZRCgEiUk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNb6vUc96oAgg_6Vz43LgYceg3s5BZWZRCgEiUk=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN0GXF9zK9SL2_TmXUvDjiiJWOYKxzQM0Soj57t=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipN0GXF9zK9SL2_TmXUvDjiiJWOYKxzQM0Soj57t=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipORW0wUfCrcwnyEfe9R16YhbjdZtyJ8aaKjhh_1=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipORW0wUfCrcwnyEfe9R16YhbjdZtyJ8aaKjhh_1=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipO6Phu-1zLIAhNpXw68CvVdjrOLO_jC7DYjM5JL=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipO6Phu-1zLIAhNpXw68CvVdjrOLO_jC7DYjM5JL=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPblrXlEd1QX5B9gaugJWF4d6Tqtiswxog8CljN=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPblrXlEd1QX5B9gaugJWF4d6Tqtiswxog8CljN=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPRr-O9Q6AFt9uCl1eLB2-umWNVGotw1L9bwXor=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPRr-O9Q6AFt9uCl1eLB2-umWNVGotw1L9bwXor=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPV2xDZTrOOkuFn9XPRXnKpp9NDmnNuwPNmu8b0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPV2xDZTrOOkuFn9XPRXnKpp9NDmnNuwPNmu8b0=s10000"
+        }
+      ],
+      "overall_rating": 4.6,
+      "reviews": 2879,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 2341
+        },
+        {
+          "stars": 4,
+          "count": 301
+        },
+        {
+          "stars": 3,
+          "count": 72
+        },
+        {
+          "stars": 2,
+          "count": 41
+        },
+        {
+          "stars": 1,
+          "count": 124
+        }
+      ],
+      "location_rating": 4.7,
+      "reviews_breakdown": [
+        {
+          "name": "Bar",
+          "description": "Bar or lounge",
+          "total_mentioned": 98,
+          "positive": 68,
+          "negative": 16,
+          "neutral": 14
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 112,
+          "positive": 86,
+          "negative": 16,
+          "neutral": 10
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 298,
+          "positive": 235,
+          "negative": 50,
+          "neutral": 13
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 262,
+          "positive": 229,
+          "negative": 23,
+          "neutral": 10
+        },
+        {
+          "name": "Couples",
+          "description": "Couple friendly",
+          "total_mentioned": 13,
+          "positive": 12,
+          "negative": 1,
+          "neutral": 0
+        },
+        {
+          "name": "Wellness",
+          "description": "Wellness",
+          "total_mentioned": 12,
+          "positive": 12,
+          "negative": 0,
+          "neutral": 0
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Free parking",
+        "Air conditioning",
+        "Pet-friendly",
+        "Fitness center",
+        "Spa",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Monsieur George H\u00f4tel & Spa - Champs Elys\u00e9es",
+      "description": "Ultra-elegant quarters in a choice boutique hotel with Asian/French fusion fine dining & a spa.",
+      "link": "https://www.monsieurgeorge.com/",
+      "property_token": "ChkIxfLEk9TgpvZPGg0vZy8xMWZtYnprY3c2EAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2025-11-11&check_out_date=2025-11-13&children=0&currency=EUR&engine=google_hotels&gl=us&hl=en&hotel_class=5&property_token=ChkIxfLEk9TgpvZPGg0vZy8xMWZtYnprY3c2EAE&q=Paris+8th+arrondissement&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 48.8729829,
+        "longitude": 2.3025393
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "12:00\u202fPM",
+      "rate_per_night": {
+        "lowest": "\u20ac496",
+        "extracted_lowest": 496
+      },
+      "total_rate": {
+        "lowest": "\u20ac993",
+        "extracted_lowest": 993
+      },
+      "nearby_places": [
+        {
+          "name": "Arc de Triomphe",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "10 min"
+            }
+          ]
+        },
+        {
+          "name": "George V",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        },
+        {
+          "name": "Paris Charles de Gaulle Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "41 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "53 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star tourist hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPhk5ctGYzAc0DyekAKdwRlg-7TBMCW3qL3sI-i=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPhk5ctGYzAc0DyekAKdwRlg-7TBMCW3qL3sI-i=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNJM7tm2lct4AlCP9OcHE4vDwCkQ9CK4_TiAEsv=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNJM7tm2lct4AlCP9OcHE4vDwCkQ9CK4_TiAEsv=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMJ1Kw9FTJkZdtCYv9NFlx3UIlpvBY4Tf7YCj3N=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMJ1Kw9FTJkZdtCYv9NFlx3UIlpvBY4Tf7YCj3N=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNeUJnJRUfqejTyGN2NbxWs1awdOCtjXmkdtqu5=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNeUJnJRUfqejTyGN2NbxWs1awdOCtjXmkdtqu5=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxf76O1sdLmtoOKkjUFKletlrx1u6E1CL7tWVVwbk1Ic9AND6G6zixJIe5YDuDJAZ4Q5q1C-uHvVU9Gftf5wN_VxZ-DgTBdY1pSLDU0Ad6I8v_jzq25Ss1DiXd8G5kRFCfwFsuB=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgID9rtbNbQ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPieusn7wssO12gRwBsqm4q5DXbQpckrqvo2sD7=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPieusn7wssO12gRwBsqm4q5DXbQpckrqvo2sD7=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/rOdrY2mWx7eGocTVP8-AKK-Vz57flcswIysu8f2kCyKAEnRQp45OHC9q4N5JFt4Sytp7rlftNDBmXNBx1EMxw_7C5vR3ccPCjG46r7Bgcsozc8_wKAMFAW_0DrwvZleDKT4H0Fj24-OZey1VH_hPUEV6-l4aja8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/38/67/e4/venez-diner-au-restaurant.jpg?w=1900&h=1400&s=1"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/3j-HajittKnLok4O9dOYKxSO3rUxemDU30PUE0xgaGhbx0usUiYWWbD6i2qtYxLC_5sf062XlOzUoI7y4fo3htn1XgHSbZWuYkEACEWC70pGFqbIYf5f4UPWXgD2pqbAx1KMjgkj-OfivDnTKkRQeYYfpGlcbA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/7/0/148/171/798/Galanga___Julie_Limont_Carottes_maraich_res_confites_en_a_O.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPJO9TKzVSvHvL0LyAtpGnWJkNE0yd-IfwYTw_D=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPJO9TKzVSvHvL0LyAtpGnWJkNE0yd-IfwYTw_D=s10000"
+        }
+      ],
+      "overall_rating": 4.7,
+      "reviews": 327,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 270
+        },
+        {
+          "stars": 4,
+          "count": 33
+        },
+        {
+          "stars": 3,
+          "count": 8
+        },
+        {
+          "stars": 2,
+          "count": 4
+        },
+        {
+          "stars": 1,
+          "count": 12
+        }
+      ],
+      "location_rating": 4.8,
+      "reviews_breakdown": [
+        {
+          "name": "Wellness",
+          "description": "Wellness",
+          "total_mentioned": 24,
+          "positive": 20,
+          "negative": 1,
+          "neutral": 3
+        },
+        {
+          "name": "Spa",
+          "description": "Spa",
+          "total_mentioned": 19,
+          "positive": 17,
+          "negative": 2,
+          "neutral": 0
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 120,
+          "positive": 112,
+          "negative": 7,
+          "neutral": 1
+        },
+        {
+          "name": "Bar",
+          "description": "Bar or lounge",
+          "total_mentioned": 34,
+          "positive": 32,
+          "negative": 2,
+          "neutral": 0
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 116,
+          "positive": 108,
+          "negative": 6,
+          "neutral": 2
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 32,
+          "positive": 30,
+          "negative": 2,
+          "neutral": 0
+        }
+      ],
+      "amenities": [
+        "Breakfast",
+        "Free Wi-Fi",
+        "Parking",
+        "Air conditioning",
+        "Pet-friendly",
+        "Fitness center",
+        "Spa",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Kid-friendly"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Chateau des Fleurs",
+      "link": "http://www.chateaudesfleurs.paris/",
+      "property_token": "ChoInvWGzJW82buiARoNL2cvMTF0azJnejMwMxAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2025-11-11&check_out_date=2025-11-13&children=0&currency=EUR&engine=google_hotels&gl=us&hl=en&hotel_class=5&property_token=ChoInvWGzJW82buiARoNL2cvMTF0azJnejMwMxAB&q=Paris+8th+arrondissement&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 48.871826299999995,
+        "longitude": 2.2983964
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "12:00\u202fPM",
+      "rate_per_night": {
+        "lowest": "\u20ac420",
+        "extracted_lowest": 420
+      },
+      "total_rate": {
+        "lowest": "\u20ac841",
+        "extracted_lowest": 841
+      },
+      "nearby_places": [
+        {
+          "name": "Arc de Triomphe",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "7 min"
+            }
+          ]
+        },
+        {
+          "name": "George V",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        },
+        {
+          "name": "Paris Charles de Gaulle Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "41 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "50 min"
+            }
+          ]
+        },
+        {
+          "name": "Flora Danica",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star tourist hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNIILEyEKEYXHSpNoSlvWlIvcFQLoKISVswIZQa=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNIILEyEKEYXHSpNoSlvWlIvcFQLoKISVswIZQa=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyt5oNb3HI5XTbIdOcea6HVViCJGj2xba3uqFVhdyWltj26HHQFGn__ArPpEwnXq4iCLxgDoVQx4q3N9bazHAHTZWrUWkKTYVPZi3guDjI4YlzxCmbSBWxt6eX-TQUCQn_n8GqiVg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgMDAuLHZgAE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOLny6tUCKlYlZbhLmGD9ojjxeLgkfQ3w8Z7jhg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOLny6tUCKlYlZbhLmGD9ojjxeLgkfQ3w8Z7jhg=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPOSAE5l4CzUL-tspMTMKMNkDD66YyNCH_C6I8W=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPOSAE5l4CzUL-tspMTMKMNkDD66YyNCH_C6I8W=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOxCGl51QWv7Ddkfs5K4hEhY7PNT2wwK3IoTxic=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOxCGl51QWv7Ddkfs5K4hEhY7PNT2wwK3IoTxic=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN7aUDBPROJMBHsKYrMjVrXBuXpWqmOrKET8Q0V=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipN7aUDBPROJMBHsKYrMjVrXBuXpWqmOrKET8Q0V=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOz6hr6ZgAp-kLxSypalsluLbWkUO91zt4qU2pa=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOz6hr6ZgAp-kLxSypalsluLbWkUO91zt4qU2pa=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNrAyJRawRzSMuoVSo1HMUW4ZvEkLYbb9RrkkmX=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNrAyJRawRzSMuoVSo1HMUW4ZvEkLYbb9RrkkmX=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/JAwejqdY3THir8qt5jfBwqUIcFsgGKLAMr78j4mq_DmCF94D-e-J0GM7va1OZ8M0vvKR79ZBJ1ADlqQ8FU7Vk-VZS-QJ0jbj1_zjSfndYzkxjlRGQroJeGVgJ0sUol-3-vewKdG9C5Ctvcu7f19XiSRSL2DPzQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/7/0/151/595/638/Room_7_290922_O.jpg"
+        }
+      ],
+      "overall_rating": 4.7,
+      "reviews": 322,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 289
+        },
+        {
+          "stars": 4,
+          "count": 13
+        },
+        {
+          "stars": 3,
+          "count": 4
+        },
+        {
+          "stars": 2,
+          "count": 4
+        },
+        {
+          "stars": 1,
+          "count": 12
+        }
+      ],
+      "location_rating": 4.8,
+      "reviews_breakdown": [
+        {
+          "name": "Wellness",
+          "description": "Wellness",
+          "total_mentioned": 16,
+          "positive": 14,
+          "negative": 2,
+          "neutral": 0
+        },
+        {
+          "name": "Spa",
+          "description": "Spa",
+          "total_mentioned": 11,
+          "positive": 11,
+          "negative": 0,
+          "neutral": 0
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 78,
+          "positive": 70,
+          "negative": 7,
+          "neutral": 1
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 57,
+          "positive": 53,
+          "negative": 1,
+          "neutral": 3
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 12,
+          "positive": 11,
+          "negative": 0,
+          "neutral": 1
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 35,
+          "positive": 31,
+          "negative": 0,
+          "neutral": 4
+        }
+      ],
+      "amenities": [
+        "Breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Pool",
+        "Air conditioning",
+        "Pet-friendly",
+        "Fitness center",
+        "Spa",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Smoke-free property"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Sofitel Paris le Faubourg",
+      "description": "Sophisticated hotel offering plush rooms & suites with free Wi-Fi, plus 2 restaurants & a chic bar.",
+      "link": "http://sofitel.accor.com/hotels/1295?merchantid=seo-maps-FR-1295&sourceid=aw-cen&utm_source=google+Maps&utm_medium=seo+maps&utm_campaign=seo+maps&utm_term=Sofitel-Launch",
+      "property_token": "ChcIyZ6F26G4lIAMGgsvZy8xdjNkcmZuehAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2025-11-11&check_out_date=2025-11-13&children=0&currency=EUR&engine=google_hotels&gl=us&hl=en&hotel_class=5&property_token=ChcIyZ6F26G4lIAMGgsvZy8xdjNkcmZuehAB&q=Paris+8th+arrondissement&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 48.8684103,
+        "longitude": 2.3213483999999998
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "12:00\u202fPM",
+      "rate_per_night": {
+        "lowest": "\u20ac612",
+        "extracted_lowest": 612
+      },
+      "total_rate": {
+        "lowest": "\u20ac1,224",
+        "extracted_lowest": 1224
+      },
+      "nearby_places": [
+        {
+          "name": "Tuileries Garden",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "10 min"
+            }
+          ]
+        },
+        {
+          "name": "Concorde",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        },
+        {
+          "name": "Paris Charles de Gaulle Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "42 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "49 min"
+            }
+          ]
+        },
+        {
+          "name": "Le Boissy d'Anglas",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star tourist hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOc-l0EFd1vao7BmUI7hOMbznPPe7xglTzEE5M=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOc-l0EFd1vao7BmUI7hOMbznPPe7xglTzEE5M=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/Tj7uLTKcVjL9mFY4N-EIt63_LdBF_mQj8cFWwjILjxN5vM_Tzv_nh6-hWgVV3ihzlKEsiG2eiyIgIJWJ8OuzbucsKT1zEEDP7d-tP3bJ-ND1Tqg152XDbvCVMfDSMNbFLux4r4sUKSc-gfYyKuDlPpFpX481y0Y=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/7/0/165/200/11/1295_de_06_p_3000x2250_O.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOJWDXisL7-BS-snmHhYXTm8KZADqZV-bVvHk0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOJWDXisL7-BS-snmHhYXTm8KZADqZV-bVvHk0=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxnsMgyHzUZOEjHRKCEoUpDTluB5NcOVOqef35nMelrnihtMSUBwFJLY452g-L_xysLKIh9h8FJjyiuGqeT2b5cBNb9fCyYsafrjK8RzBgT2YXr39wECSCLfYBBLzJ1_lx4Ia_kV35U-0Wd=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIABIhB1jkXye3A4bT79EPpT_Ezw=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMViXqjSy7UHagKOc1ElDRzAMK14ONqPwPmbbc=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMViXqjSy7UHagKOc1ElDRzAMK14ONqPwPmbbc=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipO3sXp0lDxCEZMbEjW_TX0pJ05TTNjYDSDg9MU=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipO3sXp0lDxCEZMbEjW_TX0pJ05TTNjYDSDg9MU=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMSyZiKOcQrcDzq4EFRekKZR1VVfFqbUWygP0M=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMSyZiKOcQrcDzq4EFRekKZR1VVfFqbUWygP0M=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMwLx8FucnJNZ-33R_-_3VtI9PT4t1t7aynMHg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMwLx8FucnJNZ-33R_-_3VtI9PT4t1t7aynMHg=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOyj3goTZiHFVwSJapgVwuIMB6RYC9EILGrnU0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOyj3goTZiHFVwSJapgVwuIMB6RYC9EILGrnU0=s10000"
+        }
+      ],
+      "overall_rating": 4.6,
+      "reviews": 1557,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 1221
+        },
+        {
+          "stars": 4,
+          "count": 205
+        },
+        {
+          "stars": 3,
+          "count": 60
+        },
+        {
+          "stars": 2,
+          "count": 20
+        },
+        {
+          "stars": 1,
+          "count": 51
+        }
+      ],
+      "location_rating": 4.5,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 339,
+          "positive": 308,
+          "negative": 23,
+          "neutral": 8
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 236,
+          "positive": 221,
+          "negative": 4,
+          "neutral": 11
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 260,
+          "positive": 218,
+          "negative": 30,
+          "neutral": 12
+        },
+        {
+          "name": "Family",
+          "description": "Family friendly",
+          "total_mentioned": 27,
+          "positive": 22,
+          "negative": 4,
+          "neutral": 1
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 53,
+          "positive": 48,
+          "negative": 4,
+          "neutral": 1
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 90,
+          "positive": 72,
+          "negative": 10,
+          "neutral": 8
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Parking ($)",
+        "Hot tub",
+        "Air conditioning",
+        "Pet-friendly",
+        "Fitness center",
+        "Spa",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Accessible",
+        "Business center",
+        "Kid-friendly",
+        "Smoke-free property"
+      ],
+      "eco_certified": true
+    },
+    {
+      "type": "hotel",
+      "name": "Sofitel Paris Arc de Triomphe",
+      "description": "Posh rooms & suites in a polished property with free Wi-Fi a high-end restaurant & a modern bar.",
+      "link": "http://sofitel.accor.com/hotels/1296?merchantid=seo-maps-FR-1296&sourceid=aw-cen&utm_source=google+Maps&utm_medium=seo+maps&utm_campaign=seo+maps&utm_term=Sofitel-Launch",
+      "property_token": "ChkI_u6u5-P77JFUGg0vZy8xMWI2Z2doOWp4EAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2025-11-11&check_out_date=2025-11-13&children=0&currency=EUR&engine=google_hotels&gl=us&hl=en&hotel_class=5&property_token=ChkI_u6u5-P77JFUGg0vZy8xMWI2Z2doOWp4EAE&q=Paris+8th+arrondissement&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 48.875042099999995,
+        "longitude": 2.3012929
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "12:00\u202fPM",
+      "rate_per_night": {
+        "lowest": "\u20ac511",
+        "extracted_lowest": 511
+      },
+      "total_rate": {
+        "lowest": "\u20ac1,022",
+        "extracted_lowest": 1022
+      },
+      "nearby_places": [
+        {
+          "name": "Arc de Triomphe",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "8 min"
+            }
+          ]
+        },
+        {
+          "name": "George V",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "7 min"
+            }
+          ]
+        },
+        {
+          "name": "Paris Charles de Gaulle Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "41 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "52 min"
+            }
+          ]
+        },
+        {
+          "name": "Beaucour \u00e0 la folie",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star tourist hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP4YEwK0LbE0D_sKjXGTG5hFEXQh5u4vb7UtObn=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP4YEwK0LbE0D_sKjXGTG5hFEXQh5u4vb7UtObn=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMoJYXKdhf2cjFzUIWH479hXiQ8AJmGPaMbB8db=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMoJYXKdhf2cjFzUIWH479hXiQ8AJmGPaMbB8db=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOSh-ltCRRLxGrl1i9zPkvemFjqTbzt6u4gUeGe=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOSh-ltCRRLxGrl1i9zPkvemFjqTbzt6u4gUeGe=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOsyRBDNwEGNsFq0oqh1-I__BrxVfh-GH6VTIgq=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOsyRBDNwEGNsFq0oqh1-I__BrxVfh-GH6VTIgq=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP_g4CyNKK26QNnM5yH7uTv7s9hq7gflFiI6m_H=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP_g4CyNKK26QNnM5yH7uTv7s9hq7gflFiI6m_H=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOfcRFP5Oeln1s-b47Oxwr4FCofdrnfzeeAX6ip=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOfcRFP5Oeln1s-b47Oxwr4FCofdrnfzeeAX6ip=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMW6x1k6McV9GCjQEmiCyVM6E0CWEPvLIEYvzjL=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMW6x1k6McV9GCjQEmiCyVM6E0CWEPvLIEYvzjL=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipO2qM7pmDs2QHE5WuonlTJMA18Gtfj7mKLX22Z_=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipO2qM7pmDs2QHE5WuonlTJMA18Gtfj7mKLX22Z_=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPHf5cBYUdn02uqPDojDXnsjbMh6x62qvZzJMFe=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPHf5cBYUdn02uqPDojDXnsjbMh6x62qvZzJMFe=s10000"
+        }
+      ],
+      "overall_rating": 4.6,
+      "reviews": 1383,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 1070
+        },
+        {
+          "stars": 4,
+          "count": 205
+        },
+        {
+          "stars": 3,
+          "count": 53
+        },
+        {
+          "stars": 2,
+          "count": 26
+        },
+        {
+          "stars": 1,
+          "count": 29
+        }
+      ],
+      "location_rating": 4.7,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 316,
+          "positive": 292,
+          "negative": 18,
+          "neutral": 6
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 224,
+          "positive": 199,
+          "negative": 15,
+          "neutral": 10
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 47,
+          "positive": 41,
+          "negative": 2,
+          "neutral": 4
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 152,
+          "positive": 139,
+          "negative": 4,
+          "neutral": 9
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 70,
+          "positive": 57,
+          "negative": 12,
+          "neutral": 1
+        },
+        {
+          "name": "Bar",
+          "description": "Bar or lounge",
+          "total_mentioned": 28,
+          "positive": 25,
+          "negative": 2,
+          "neutral": 1
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Parking ($)",
+        "Air conditioning",
+        "Pet-friendly",
+        "Fitness center",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly",
+        "Smoke-free property"
+      ],
+      "eco_certified": true
+    },
+    {
+      "type": "hotel",
+      "name": "H\u00f4tel Elysia by Inwood Hotels",
+      "description": "Upscale lodging with plush rooms, plus fine dining, a sophisticated bar & a spa.",
+      "link": "http://www.hotelelysia.fr/",
+      "property_token": "ChgI99fwl_3Cr_HAARoLL2cvMXRjdGwydjAQAQ",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2025-11-11&check_out_date=2025-11-13&children=0&currency=EUR&engine=google_hotels&gl=us&hl=en&hotel_class=5&property_token=ChgI99fwl_3Cr_HAARoLL2cvMXRjdGwydjAQAQ&q=Paris+8th+arrondissement&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 48.8737241,
+        "longitude": 2.3061929
+      },
+      "check_in_time": "3:00\u202fPM",
+      "rate_per_night": {
+        "lowest": "\u20ac511",
+        "extracted_lowest": 511
+      },
+      "total_rate": {
+        "lowest": "\u20ac1,023",
+        "extracted_lowest": 1023
+      },
+      "nearby_places": [
+        {
+          "name": "Arc de Triomphe",
+          "transportations": [
+            {
+              "type": "Public transport",
+              "duration": "7 min"
+            }
+          ]
+        },
+        {
+          "name": "Paris Charles de Gaulle Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "34 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "55 min"
+            }
+          ]
+        },
+        {
+          "name": "Le Comptoir de l'Artoise",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star tourist hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPjmYdLbAFYkaRB1HCfhLZoi2fL4AMbSNQIVASH=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPjmYdLbAFYkaRB1HCfhLZoi2fL4AMbSNQIVASH=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNs3wSweXQsut59S-vFjYGPsgDnx3c2yFkWCrJH=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNs3wSweXQsut59S-vFjYGPsgDnx3c2yFkWCrJH=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOh8dqvw5G2HhnXM-LFKVAxJ9_aCl_mH4hZeewC=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOh8dqvw5G2HhnXM-LFKVAxJ9_aCl_mH4hZeewC=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPkGh1vyruNimFY4APDck5z8uJ-wQkBe9LZ6wZC=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPkGh1vyruNimFY4APDck5z8uJ-wQkBe9LZ6wZC=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPgoCkiW0G1RorVi48ztWmDUicULeiMdGcYFyQh=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPgoCkiW0G1RorVi48ztWmDUicULeiMdGcYFyQh=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPrwb_dL53A_KDxc0fYPsLIaMz-X5JsEgfdDZt3=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPrwb_dL53A_KDxc0fYPsLIaMz-X5JsEgfdDZt3=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOvohMAOKPi8_RqjtU36VC6tGrDDcKRCLutqts2=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOvohMAOKPi8_RqjtU36VC6tGrDDcKRCLutqts2=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNaYX1jMftL3bvBFetbSWkH1Mr0EvibvzBEQOE1=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNaYX1jMftL3bvBFetbSWkH1Mr0EvibvzBEQOE1=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOnWwnwxTLIKXQXqeyvjh4TJ9qTmVSoO4PE9rBJ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOnWwnwxTLIKXQXqeyvjh4TJ9qTmVSoO4PE9rBJ=s10000"
+        }
+      ],
+      "overall_rating": 4.6,
+      "reviews": 653,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 516
+        },
+        {
+          "stars": 4,
+          "count": 68
+        },
+        {
+          "stars": 3,
+          "count": 23
+        },
+        {
+          "stars": 2,
+          "count": 10
+        },
+        {
+          "stars": 1,
+          "count": 36
+        }
+      ],
+      "location_rating": 4.8,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 227,
+          "positive": 195,
+          "negative": 25,
+          "neutral": 7
+        },
+        {
+          "name": "Wellness",
+          "description": "Wellness",
+          "total_mentioned": 16,
+          "positive": 9,
+          "negative": 4,
+          "neutral": 3
+        },
+        {
+          "name": "Couples",
+          "description": "Couple friendly",
+          "total_mentioned": 14,
+          "positive": 13,
+          "negative": 1,
+          "neutral": 0
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 202,
+          "positive": 174,
+          "negative": 18,
+          "neutral": 10
+        },
+        {
+          "name": "Spa",
+          "description": "Spa",
+          "total_mentioned": 12,
+          "positive": 8,
+          "negative": 2,
+          "neutral": 2
+        },
+        {
+          "name": "Hot Tub",
+          "description": "Hot tub",
+          "total_mentioned": 5,
+          "positive": 5,
+          "negative": 0,
+          "neutral": 0
+        }
+      ],
+      "amenities": [
+        "Breakfast",
+        "Free Wi-Fi",
+        "Hot tub",
+        "Air conditioning",
+        "Pet-friendly",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Villa Marquis member of Meli\u00e1 Collection Tour Eiffel",
+      "description": "Modern rooms & suites, some with terraces, plus free Wi-Fi, an elegant bar & a business center.",
+      "link": "https://www.melia.com/en/hotels/france/paris/villa-marquis-melia-collection?utm_campaign=google&utm_content=6714&utm_medium=organic&utm_source=directories",
+      "property_token": "ChgI9_i188ve5Nw6GgwvZy8xaGM1ZHpkcjgQAQ",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2025-11-11&check_out_date=2025-11-13&children=0&currency=EUR&engine=google_hotels&gl=us&hl=en&hotel_class=5&property_token=ChgI9_i188ve5Nw6GgwvZy8xaGM1ZHpkcjgQAQ&q=Paris+8th+arrondissement&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 48.865263999999996,
+        "longitude": 2.3046089999999997
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "12:00\u202fPM",
+      "rate_per_night": {
+        "lowest": "\u20ac329",
+        "extracted_lowest": 329
+      },
+      "total_rate": {
+        "lowest": "\u20ac657",
+        "extracted_lowest": 657
+      },
+      "deal": "26% less than usual",
+      "deal_description": "Great Deal",
+      "nearby_places": [
+        {
+          "name": "Arc de Triomphe",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Alma-Marceau",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        },
+        {
+          "name": "Paris Charles de Gaulle Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "38 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "59 min"
+            }
+          ]
+        },
+        {
+          "name": "Le Bistro Marbeuf",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "9 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star tourist hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNlHskB1KOJonDZyektU7HvV8C2bEHJ64ZNZPHv=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNlHskB1KOJonDZyektU7HvV8C2bEHJ64ZNZPHv=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPXcYPdV6clOvQ_StqBxlAJhaoLECrs6iKYszHT=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPXcYPdV6clOvQ_StqBxlAJhaoLECrs6iKYszHT=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMBxojWIDCju3A12_K4r028UlOjeuT7R7P4zpn7=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMBxojWIDCju3A12_K4r028UlOjeuT7R7P4zpn7=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMh4KsP8sIQ_gfUI9_tY0bsIVwLvhszO7rYFT7X=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMh4KsP8sIQ_gfUI9_tY0bsIVwLvhszO7rYFT7X=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNRu4EZ49klvkiAHSofVPX6q3Blu1WTcKVmiA2G=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNRu4EZ49klvkiAHSofVPX6q3Blu1WTcKVmiA2G=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMpW3QhuTjLTOPJ74eS08WEfI50V9QgNdJ7_Qkk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMpW3QhuTjLTOPJ74eS08WEfI50V9QgNdJ7_Qkk=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNB9ZssJK7i1W4b6Rg5LVfOaRBaBGJxLgc8LoPt=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNB9ZssJK7i1W4b6Rg5LVfOaRBaBGJxLgc8LoPt=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPkFv_C4tEkdHNzRHUaav60rRumoA8IqG9X2pxA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPkFv_C4tEkdHNzRHUaav60rRumoA8IqG9X2pxA=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPq3XRws7C3O_Uq6vXWh6RraeHYzOkC5yhJ2q2T=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPq3XRws7C3O_Uq6vXWh6RraeHYzOkC5yhJ2q2T=s10000"
+        }
+      ],
+      "overall_rating": 4.6,
+      "reviews": 600,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 466
+        },
+        {
+          "stars": 4,
+          "count": 91
+        },
+        {
+          "stars": 3,
+          "count": 17
+        },
+        {
+          "stars": 2,
+          "count": 9
+        },
+        {
+          "stars": 1,
+          "count": 17
+        }
+      ],
+      "location_rating": 4.7,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 152,
+          "positive": 146,
+          "negative": 5,
+          "neutral": 1
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 109,
+          "positive": 101,
+          "negative": 2,
+          "neutral": 6
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 26,
+          "positive": 24,
+          "negative": 1,
+          "neutral": 1
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 116,
+          "positive": 101,
+          "negative": 10,
+          "neutral": 5
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 42,
+          "positive": 40,
+          "negative": 2,
+          "neutral": 0
+        },
+        {
+          "name": "Family",
+          "description": "Family friendly",
+          "total_mentioned": 9,
+          "positive": 7,
+          "negative": 1,
+          "neutral": 1
+        }
+      ],
+      "amenities": [
+        "Breakfast",
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Pet-friendly",
+        "Fitness center",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Kid-friendly",
+        "Smoke-free property"
+      ],
+      "eco_certified": true
+    },
+    {
+      "type": "hotel",
+      "name": "H\u00f4tel Lancaster",
+      "description": "High-end, historic lodging offering rooms & suites with period decor, plus dining & a chic bar.",
+      "link": "http://www.hotel-lancaster.com/",
+      "property_token": "ChgI2dfBg-aQjtDkARoLL2cvMTIyY25obDUQAQ",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2025-11-11&check_out_date=2025-11-13&children=0&currency=EUR&engine=google_hotels&gl=us&hl=en&hotel_class=5&property_token=ChgI2dfBg-aQjtDkARoLL2cvMTIyY25obDUQAQ&q=Paris+8th+arrondissement&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 48.872327899999995,
+        "longitude": 2.3034993999999998
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "12:00\u202fPM",
+      "rate_per_night": {
+        "lowest": "\u20ac512",
+        "extracted_lowest": 512
+      },
+      "total_rate": {
+        "lowest": "\u20ac1,025",
+        "extracted_lowest": 1025
+      },
+      "nearby_places": [
+        {
+          "name": "Arc de Triomphe",
+          "transportations": [
+            {
+              "type": "Public transport",
+              "duration": "8 min"
+            }
+          ]
+        },
+        {
+          "name": "George V",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        },
+        {
+          "name": "Paris Charles de Gaulle Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "43 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "54 min"
+            }
+          ]
+        },
+        {
+          "name": "Le Sens Unique",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star tourist hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/6SC2KpQULFEvC9rgE1zvlJYpxIDEn2YphtfMbh1TIYGscVMdwNHlorwUcbK-jCvoHXOopiSDRXBjRxwd3Gr-ZMS15gyvZ2Z9hWlySuGRgSFQHZlkqkGtzWqdKlLwJHxKAXQZFPJquYPV5Nnw7Qk2ujw8hP01Yw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/1000000/30000/23100/23034/cd37281f_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP11kBU2WblNV4pt3keKOaPCkEHlE-LDSuTHVLv=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP11kBU2WblNV4pt3keKOaPCkEHlE-LDSuTHVLv=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPZkcg8EnZThBaNCNtVdvmXlQZD_pOcaGqpvpYe=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPZkcg8EnZThBaNCNtVdvmXlQZD_pOcaGqpvpYe=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOWBs-dyFNtD391Wu8cuHZ3cIOgKdlld3Uj2-M-=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOWBs-dyFNtD391Wu8cuHZ3cIOgKdlld3Uj2-M-=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMD1MgE177st1Zjz4bdil6h8pIwqbBf_MqtYiwQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMD1MgE177st1Zjz4bdil6h8pIwqbBf_MqtYiwQ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNXai7VlkaVGAnRj8wWM2b9A5NOozpyEeLECc2P=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNXai7VlkaVGAnRj8wWM2b9A5NOozpyEeLECc2P=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOWpbvuthCCXaeiZ5CUR029NM6XXo7rdwq_d4lo=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOWpbvuthCCXaeiZ5CUR029NM6XXo7rdwq_d4lo=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN9EoxG9nEHfCMujfafGh_imiGivhofoJg_Qp8J=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipN9EoxG9nEHfCMujfafGh_imiGivhofoJg_Qp8J=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNuKcvaZQFDHtVMVeX29RMdqHHvcEhXktcbHis2=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNuKcvaZQFDHtVMVeX29RMdqHHvcEhXktcbHis2=s10000"
+        }
+      ],
+      "overall_rating": 4.6,
+      "reviews": 514,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 391
+        },
+        {
+          "stars": 4,
+          "count": 67
+        },
+        {
+          "stars": 3,
+          "count": 27
+        },
+        {
+          "stars": 2,
+          "count": 7
+        },
+        {
+          "stars": 1,
+          "count": 22
+        }
+      ],
+      "location_rating": 4.6,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 184,
+          "positive": 159,
+          "negative": 17,
+          "neutral": 8
+        },
+        {
+          "name": "Bar",
+          "description": "Bar or lounge",
+          "total_mentioned": 41,
+          "positive": 33,
+          "negative": 7,
+          "neutral": 1
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 161,
+          "positive": 132,
+          "negative": 17,
+          "neutral": 12
+        },
+        {
+          "name": "Couples",
+          "description": "Couple friendly",
+          "total_mentioned": 11,
+          "positive": 10,
+          "negative": 1,
+          "neutral": 0
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 36,
+          "positive": 31,
+          "negative": 5,
+          "neutral": 0
+        },
+        {
+          "name": "Wellness",
+          "description": "Wellness",
+          "total_mentioned": 7,
+          "positive": 5,
+          "negative": 0,
+          "neutral": 2
+        }
+      ],
+      "amenities": [
+        "Breakfast",
+        "Free Wi-Fi",
+        "Parking ($)",
+        "Hot tub",
+        "Air conditioning",
+        "Pet-friendly",
+        "Fitness center",
+        "Spa",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Full-service laundry",
+        "Accessible",
+        "Kid-friendly",
+        "Smoke-free property"
+      ]
+    }
+  ],
+  "brands": [
+    {
+      "id": 33,
+      "name": "Accor Live Limitless",
+      "children": [
+        {
+          "id": 15,
+          "name": "Adagio"
+        },
+        {
+          "id": 103,
+          "name": "Ibis Styles"
+        },
+        {
+          "id": 91,
+          "name": "Mercure"
+        },
+        {
+          "id": 69,
+          "name": "Onefinestay"
+        },
+        {
+          "id": 268,
+          "name": "Raffles"
+        },
+        {
+          "id": 84,
+          "name": "Sofitel"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Best Western International",
+      "children": [
+        {
+          "id": 104,
+          "name": "Best Western Plus"
+        },
+        {
+          "id": 105,
+          "name": "Best Western Premier"
+        }
+      ]
+    },
+    {
+      "id": 258,
+      "name": "Bvlgari"
+    },
+    {
+      "id": 289,
+      "name": "Four Seasons"
+    },
+    {
+      "id": 28,
+      "name": "Hilton Honors",
+      "children": [
+        {
+          "id": 151,
+          "name": "Curio Collection"
+        },
+        {
+          "id": 54,
+          "name": "Hilton Hotels & Resorts"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Hyatt",
+      "children": [
+        {
+          "id": 288,
+          "name": "Hyatt"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "IHG Hotels & Resorts",
+      "children": [
+        {
+          "id": 64,
+          "name": "Holiday Inn"
+        },
+        {
+          "id": 2,
+          "name": "InterContinental Hotels & Resorts"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Marriott Bonvoy",
+      "children": [
+        {
+          "id": 61,
+          "name": "Marriott Hotels & Resorts"
+        },
+        {
+          "id": 131,
+          "name": "Renaissance Hotels"
+        },
+        {
+          "id": 143,
+          "name": "The Luxury Collection"
+        }
+      ]
+    },
+    {
+      "id": 174,
+      "name": "Melia Hotels International",
+      "children": [
+        {
+          "id": 178,
+          "name": "Melia Hotels & Resorts"
+        }
+      ]
+    },
+    {
+      "id": 169,
+      "name": "NH Hotel Group",
+      "children": [
+        {
+          "id": 171,
+          "name": "NH Collection Hotels"
+        }
+      ]
+    }
+  ],
+  "serpapi_pagination": {
+    "current_from": 1,
+    "current_to": 18,
+    "next_page_token": "CBI=",
+    "next": "https://serpapi.com/search.json?adults=2&check_in_date=2025-11-11&check_out_date=2025-11-13&children=0&currency=EUR&engine=google_hotels&gl=us&hl=en&hotel_class=5&next_page_token=CBI%3D&q=Paris+8th+arrondissement&sort_by=8"
+  }
+}
