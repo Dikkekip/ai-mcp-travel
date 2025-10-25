@@ -21,6 +21,8 @@ export const travelServerConfigs: RemoteServerConfig[] = [
     toolPrefix: "flight",
     envKeys: ["SERPAPI_KEY"],
     permissions: [Permission.CALL_TOOLS],
+    resourcePermissions: [Permission.READ_RESOURCES],
+    promptPermissions: [Permission.GET_PROMPTS],
   },
   {
     id: "hotel",
@@ -31,6 +33,8 @@ export const travelServerConfigs: RemoteServerConfig[] = [
     toolPrefix: "hotel",
     envKeys: ["SERPAPI_KEY"],
     permissions: [Permission.CALL_TOOLS],
+    resourcePermissions: [Permission.READ_RESOURCES],
+    promptPermissions: [Permission.GET_PROMPTS],
   },
   {
     id: "event",
@@ -41,6 +45,8 @@ export const travelServerConfigs: RemoteServerConfig[] = [
     toolPrefix: "event",
     envKeys: ["SERPAPI_KEY"],
     permissions: [Permission.CALL_TOOLS],
+    resourcePermissions: [Permission.READ_RESOURCES],
+    promptPermissions: [Permission.GET_PROMPTS],
   },
   {
     id: "finance",
@@ -51,6 +57,8 @@ export const travelServerConfigs: RemoteServerConfig[] = [
     toolPrefix: "finance",
     envKeys: ["SERPAPI_KEY"],
     permissions: [Permission.CALL_TOOLS],
+    resourcePermissions: [Permission.READ_RESOURCES],
+    promptPermissions: [Permission.GET_PROMPTS],
   },
   {
     id: "geocoder",
@@ -60,6 +68,8 @@ export const travelServerConfigs: RemoteServerConfig[] = [
     cwd: path.join(travelRoot, "geocoder_server"),
     toolPrefix: "geo",
     permissions: [Permission.CALL_TOOLS],
+    resourcePermissions: [Permission.READ_RESOURCES],
+    promptPermissions: [Permission.GET_PROMPTS],
   },
   {
     id: "weather",
@@ -70,5 +80,7 @@ export const travelServerConfigs: RemoteServerConfig[] = [
     toolPrefix: "weather",
     envKeys: ["WEATHERSTACK_API_KEY", "SERPAPI_KEY"],
     permissions: [Permission.CALL_TOOLS],
+    resourcePermissions: [Permission.READ_RESOURCES],
+    promptPermissions: [Permission.GET_PROMPTS],
   },
 ];

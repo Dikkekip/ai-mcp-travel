@@ -8,6 +8,21 @@ from mcp.server.fastmcp import FastMCP
 # Directory to store flight search results
 FLIGHTS_DIR = "flights"
 
+# Supported mappings for trip types and cabin classes
+TRIP_TYPE_LABELS = {
+    1: "Round trip",
+    2: "One way",
+    3: "Multi-city"
+}
+TRIP_TYPE_PARAMS = {key: str(key) for key in TRIP_TYPE_LABELS.keys()}
+
+TRAVEL_CLASS_OPTIONS = {
+    1: {"param": None, "label": "Economy"},
+    2: {"param": "2", "label": "Premium economy"},
+    3: {"param": "3", "label": "Business"},
+    4: {"param": "4", "label": "First"}
+}
+
 # Initialize FastMCP server
 mcp = FastMCP("flight-assistant")
 
@@ -30,7 +45,7 @@ def search_flights(
     infants_in_seat: int = 0,
     infants_on_lap: int = 0,
     travel_class: int = 1,
-    currency: str = "USD",
+    currency: str = "NOK",
     country: str = "us",
     language: str = "en",
     max_results: int = 10
@@ -49,7 +64,7 @@ def search_flights(
         infants_in_seat: Number of infants in seat (default: 0)
         infants_on_lap: Number of infants on lap (default: 0)
         travel_class: Travel class (1=Economy, 2=Premium economy, 3=Business, 4=First)
-        currency: Currency for prices (default: 'USD')
+        currency: Currency for prices (default: 'NOK'; any non-NOK value falls back to 'EUR')
         country: Country code for search (default: 'us')
         language: Language code (default: 'en')
         max_results: Maximum number of results to store (default: 10)
@@ -60,6 +75,19 @@ def search_flights(
     
     try:
         api_key = get_serpapi_key()
+
+        if trip_type not in TRIP_TYPE_PARAMS:
+            return {"error": f"Unsupported trip type '{trip_type}'. Expected one of {sorted(TRIP_TYPE_PARAMS)}."}
+
+        travel_class_option = TRAVEL_CLASS_OPTIONS.get(travel_class)
+        if not travel_class_option:
+            return {"error": f"Unsupported travel class '{travel_class}'. Expected one of {sorted(TRAVEL_CLASS_OPTIONS)}."}
+        travel_class_param = travel_class_option["param"]
+        travel_class_label = travel_class_option["label"]
+
+        currency = (currency or "NOK").upper()
+        if currency != "NOK":
+            currency = "EUR"
         
         # Build search parameters
         params = {
@@ -68,16 +96,17 @@ def search_flights(
             "departure_id": departure_id,
             "arrival_id": arrival_id,
             "outbound_date": outbound_date,
-            "type": trip_type,
+            "type": TRIP_TYPE_PARAMS[trip_type],
             "adults": adults,
             "children": children,
             "infants_in_seat": infants_in_seat,
             "infants_on_lap": infants_on_lap,
-            "travel_class": travel_class,
             "currency": currency,
             "gl": country,
             "hl": language
         }
+        if travel_class_param is not None:
+            params["travel_class"] = travel_class_param
         
         # Add return date for round trips
         if trip_type == 1 and return_date:
@@ -90,6 +119,22 @@ def search_flights(
         response.raise_for_status()
         
         flight_data = response.json()
+
+        # Surface errors reported by SerpAPI/Google Flights
+        if flight_data.get("error"):
+            return {
+                "error": flight_data["error"],
+                "search_parameters": flight_data.get("search_parameters"),
+                "search_information": flight_data.get("search_information")
+            }
+        
+        flights_state = flight_data.get("search_information", {}).get("flights_results_state")
+        if flights_state and flights_state.lower() != "results ready" and not flight_data.get("best_flights") and not flight_data.get("other_flights"):
+            return {
+                "error": "Flight search returned no results.",
+                "details": {"flights_results_state": flights_state},
+                "search_parameters": flight_data.get("search_parameters")
+            }
         
         # Create search identifier
         search_id = f"{departure_id}_{arrival_id}_{outbound_date}"
@@ -108,22 +153,22 @@ def search_flights(
                 "arrival": arrival_id,
                 "outbound_date": outbound_date,
                 "return_date": return_date,
-                "trip_type": "Round trip" if trip_type == 1 else "One way" if trip_type == 2 else "Multi-city",
-                "passengers": {
-                    "adults": adults,
-                    "children": children,
-                    "infants_in_seat": infants_in_seat,
-                    "infants_on_lap": infants_on_lap
-                },
-                "travel_class": ["Economy", "Premium economy", "Business", "First"][travel_class - 1],
-                "currency": currency,
-                "search_timestamp": datetime.now().isoformat()
+            "trip_type": TRIP_TYPE_LABELS[trip_type],
+            "passengers": {
+                "adults": adults,
+                "children": children,
+                "infants_in_seat": infants_in_seat,
+                "infants_on_lap": infants_on_lap
             },
-            "best_flights": flight_data.get("best_flights", [])[:max_results],
-            "other_flights": flight_data.get("other_flights", [])[:max_results],
-            "price_insights": flight_data.get("price_insights", {}),
-            "airports": flight_data.get("airports", [])
-        }
+            "travel_class": travel_class_label,
+            "currency": currency,
+            "search_timestamp": datetime.now().isoformat()
+        },
+        "best_flights": (flight_data.get("best_flights") or [])[:max_results],
+        "other_flights": (flight_data.get("other_flights") or [])[:max_results],
+        "price_insights": flight_data.get("price_insights") or {},
+        "airports": flight_data.get("airports") or []
+    }
         
         # Save results to file
         file_path = os.path.join(FLIGHTS_DIR, f"{search_id}.json")

@@ -12,44 +12,55 @@ export enum UserRole {
 }
 
 export enum Permission {
-  READ_TODOS = 'read:todos',
-  CREATE_TODOS = 'create:todos',
-  UPDATE_TODOS = 'update:todos',
-  DELETE_TODOS = 'delete:todos',
+  READ_TRAVEL_DATA = 'travel:read',
+  MANAGE_TRAVEL_DATA = 'travel:manage',
   LIST_TOOLS = 'list:tools',
-  CALL_TOOLS = 'call:tools'
+  CALL_TOOLS = 'call:tools',
+  LIST_RESOURCES = 'list:resources',
+  READ_RESOURCES = 'read:resources',
+  LIST_PROMPTS = 'list:prompts',
+  GET_PROMPTS = 'get:prompts'
 }
 
 // Role-permission mapping
 const rolePermissions: Record<UserRole, Permission[]> = {
   [UserRole.ADMIN]: [
-    Permission.READ_TODOS,
-    Permission.CREATE_TODOS,
-    Permission.UPDATE_TODOS,
-    Permission.DELETE_TODOS,
+    Permission.READ_TRAVEL_DATA,
+    Permission.MANAGE_TRAVEL_DATA,
     Permission.LIST_TOOLS,
-    Permission.CALL_TOOLS
+    Permission.CALL_TOOLS,
+    Permission.LIST_RESOURCES,
+    Permission.READ_RESOURCES,
+    Permission.LIST_PROMPTS,
+    Permission.GET_PROMPTS
   ],
   [UserRole.USER]: [
-    Permission.READ_TODOS,
-    Permission.CREATE_TODOS,
-    Permission.UPDATE_TODOS,
+    Permission.READ_TRAVEL_DATA,
+    Permission.MANAGE_TRAVEL_DATA,
     Permission.LIST_TOOLS,
-    Permission.CALL_TOOLS
+    Permission.CALL_TOOLS,
+    Permission.LIST_RESOURCES,
+    Permission.READ_RESOURCES,
+    Permission.LIST_PROMPTS,
+    Permission.GET_PROMPTS
   ],
   [UserRole.READONLY]: [
-    Permission.READ_TODOS,
-    Permission.LIST_TOOLS
+    Permission.READ_TRAVEL_DATA,
+    Permission.LIST_TOOLS,
+    Permission.LIST_RESOURCES,
+    Permission.READ_RESOURCES,
+    Permission.LIST_PROMPTS,
+    Permission.GET_PROMPTS
   ]
 };
 
 // Tool-permission mapping
 const toolPermissions: Record<string, Permission[]> = {
-  'add_todo': [Permission.CREATE_TODOS],
-  'list_todos': [Permission.READ_TODOS],
-  'complete_todo': [Permission.UPDATE_TODOS],
-  'delete_todo': [Permission.DELETE_TODOS],
-  'updateTodoText': [Permission.UPDATE_TODOS]
+  'add_todo': [Permission.MANAGE_TRAVEL_DATA],
+  'list_todos': [Permission.READ_TRAVEL_DATA],
+  'complete_todo': [Permission.MANAGE_TRAVEL_DATA],
+  'delete_todo': [Permission.MANAGE_TRAVEL_DATA],
+  'updateTodoText': [Permission.MANAGE_TRAVEL_DATA]
 };
 
 export interface AuthenticatedUser {
@@ -65,6 +76,16 @@ export function getUserPermissions(role: UserRole): Permission[] {
   return rolePermissions[role] || [];
 }
 
+export function resolveUserPermissions(user: AuthenticatedUser): Permission[] {
+  const base = new Set(getUserPermissions(user.role));
+  if (user.permissions && user.permissions.length > 0) {
+    for (const permission of user.permissions) {
+      base.add(permission);
+    }
+  }
+  return Array.from(base);
+}
+
 export function hasPermission(user: AuthenticatedUser, permission: Permission): boolean {
   const tracer = trace.getTracer('authorization');
   const span = tracer.startSpan('authorization.hasPermission', {
@@ -78,7 +99,7 @@ export function hasPermission(user: AuthenticatedUser, permission: Permission): 
   });
   
   try {
-    const userPermissions = user.permissions || getUserPermissions(user.role);
+    const userPermissions = resolveUserPermissions(user);
     const result = userPermissions.includes(permission);
     
     span.setAttributes({
@@ -333,7 +354,7 @@ export function requireToolPermission(toolName: string) {
         hasPermission(user, permission)
       );
       
-      const userPermissions = user.permissions || getUserPermissions(user.role);
+      const userPermissions = resolveUserPermissions(user);
       span.setAttributes({
         'user.permissions': userPermissions.join(','),
         'auth.has_required_permission': hasRequiredPermission,

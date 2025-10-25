@@ -1,0 +1,3653 @@
+{
+  "search_metadata": {
+    "search_id": "Amsterdam_2025-10-28_2025-10-30_20251025_235119",
+    "location": "Amsterdam",
+    "check_in_date": "2025-10-28",
+    "check_out_date": "2025-10-30",
+    "guests": {
+      "adults": 1,
+      "children": 0,
+      "children_ages": null
+    },
+    "search_type": "hotels",
+    "currency": "USD",
+    "filters": {
+      "sort_by": 8,
+      "hotel_class": null,
+      "amenities": null,
+      "property_types": null,
+      "brands": null,
+      "free_cancellation": false,
+      "special_offers": false,
+      "bedrooms": null
+    },
+    "search_timestamp": "2025-10-25T23:51:19.230589"
+  },
+  "search_information": {
+    "total_results": 1119
+  },
+  "properties": [
+    {
+      "type": "hotel",
+      "name": "Waldorf Astoria Amsterdam",
+      "description": "Luxe canalside hotel with refined quarters, an upscale restaurant, a cocktail bar & a spa.",
+      "link": "https://www.hilton.com/en/hotels/amswawa-waldorf-astoria-amsterdam/?SEO_id=GMB-EMEA-WA-AMSWAWA",
+      "property_token": "ChoIsa7B67HKhOm9ARoNL2cvMTFiNW03NGJqMBAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-28&check_out_date=2025-10-30&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChoIsa7B67HKhOm9ARoNL2cvMTFiNW03NGJqMBAB&q=Amsterdam&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 52.364768,
+        "longitude": 4.896945
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "12:00\u202fPM",
+      "rate_per_night": {
+        "lowest": "$1,265",
+        "extracted_lowest": 1265,
+        "before_taxes_fees": "$1,032",
+        "extracted_before_taxes_fees": 1032
+      },
+      "total_rate": {
+        "lowest": "$2,529",
+        "extracted_lowest": 2529,
+        "before_taxes_fees": "$2,064",
+        "extracted_before_taxes_fees": 2064
+      },
+      "nearby_places": [
+        {
+          "name": "NEMO Science Museum",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "10 min"
+            }
+          ]
+        },
+        {
+          "name": "Amsterdam Airport Schiphol",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "25 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "36 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMGGwxBuejp24jweiY0lktDYvaVpOVucHitc0NW=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMGGwxBuejp24jweiY0lktDYvaVpOVucHitc0NW=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPKy3BA5DMYE-t9XxQSnlZ8BeJydNDI_efSAu3-=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPKy3BA5DMYE-t9XxQSnlZ8BeJydNDI_efSAu3-=s10000"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/4k_fg4wMyTN5gSisKgIk25iqPRIJHcGyjbmU4y4lFnsNJYtUH8qF6-mIHLTt8od0aQ1GJBVKyrxdJE6t2BhtRwSMe1DZvC5u9z6c0uyl9DnDwIYhrSD3jqcd6pIeK6PrQtgCcBlDOvMvwKZeDtgCCXqav2ijLec=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/19/197418/197418a_hb_ro_008.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipO5ieHYiriD6jDBxNC1KepQwQxIy6YwtGXoyC_e=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipO5ieHYiriD6jDBxNC1KepQwQxIy6YwtGXoyC_e=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMa-iu7cQvbteP3IeeyalemgOBTHd1zeHZGvXEK=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMa-iu7cQvbteP3IeeyalemgOBTHd1zeHZGvXEK=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipO5y0irQ4vFF_BM8Xz6xQbzGDAdeJpbNFrhCzy-=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipO5y0irQ4vFF_BM8Xz6xQbzGDAdeJpbNFrhCzy-=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMDzVxQSRnb-NjC7hqRj0cSSfDzXzle2HmnksRD=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMDzVxQSRnb-NjC7hqRj0cSSfDzXzle2HmnksRD=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNCV7gairQfTGCAS6vmt5xbly62JWVPe_ZHmZWj=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNCV7gairQfTGCAS6vmt5xbly62JWVPe_ZHmZWj=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMqFIivZrDCCWEy4fSQGGl6-RwO3N_fm06rApYX=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMqFIivZrDCCWEy4fSQGGl6-RwO3N_fm06rApYX=s10000"
+        }
+      ],
+      "overall_rating": 4.8,
+      "reviews": 1629,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 1452
+        },
+        {
+          "stars": 4,
+          "count": 109
+        },
+        {
+          "stars": 3,
+          "count": 28
+        },
+        {
+          "stars": 2,
+          "count": 9
+        },
+        {
+          "stars": 1,
+          "count": 31
+        }
+      ],
+      "location_rating": 4.8,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 375,
+          "positive": 354,
+          "negative": 18,
+          "neutral": 3
+        },
+        {
+          "name": "Wellness",
+          "description": "Wellness",
+          "total_mentioned": 43,
+          "positive": 38,
+          "negative": 2,
+          "neutral": 3
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 311,
+          "positive": 299,
+          "negative": 8,
+          "neutral": 4
+        },
+        {
+          "name": "Spa",
+          "description": "Spa",
+          "total_mentioned": 35,
+          "positive": 31,
+          "negative": 2,
+          "neutral": 2
+        },
+        {
+          "name": "Bar",
+          "description": "Bar or lounge",
+          "total_mentioned": 89,
+          "positive": 74,
+          "negative": 9,
+          "neutral": 6
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 80,
+          "positive": 69,
+          "negative": 9,
+          "neutral": 2
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Parking ($)",
+        "Indoor pool",
+        "Air conditioning",
+        "Pet-friendly",
+        "Fitness center",
+        "Spa",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Smoke-free property"
+      ],
+      "eco_certified": true
+    },
+    {
+      "type": "hotel",
+      "name": "CityHub Amsterdam",
+      "description": "Streamlined dorms in a trendy capsule hotel offering a self-service bar, a lounge & free Wi-Fi.",
+      "link": "https://cityhub.com/amsterdam/?utm_source=google_my_business_ams&utm_medium=organic",
+      "property_token": "ChkIuJKIjfb1pJVwGg0vZy8xMWJicmwzMnh3EAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-28&check_out_date=2025-10-30&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChkIuJKIjfb1pJVwGg0vZy8xMWJicmwzMnh3EAE&q=Amsterdam&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 52.3672879,
+        "longitude": 4.867098899999999
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "12:00\u202fPM",
+      "rate_per_night": {
+        "lowest": "$130",
+        "extracted_lowest": 130,
+        "before_taxes_fees": "$107",
+        "extracted_before_taxes_fees": 107
+      },
+      "total_rate": {
+        "lowest": "$260",
+        "extracted_lowest": 260,
+        "before_taxes_fees": "$214",
+        "extracted_before_taxes_fees": 214
+      },
+      "nearby_places": [
+        {
+          "name": "Rijksmuseum",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Amsterdam Airport Schiphol",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "20 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "27 min"
+            }
+          ]
+        },
+        {
+          "name": "Restaurante Dona",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNIxzxE76WNzi3CM3bQtkWSVSO_PzlS_gNXtVbK=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNIxzxE76WNzi3CM3bQtkWSVSO_PzlS_gNXtVbK=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxiTA2fYJvy6DqpZJBhUuumwWbvK1Fd3URes4k0q5_fxsmHS_MZKGrhPjiv-1n_rIhJ5cZ1RKzSBykUrZzCHzDVohcx0cwF602VzCglUw9Gt76oU-Z5H54G6m3ZbtBKMVaJ6Y4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDMjMGufg=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzrLErGSsHReCw6JL5lsurzut-BEvf79UMqiKaYD_Ga7DQwgBvWLDJUu34EjMJAkqYA6_OmLecV7ZxvR1qK1ULOSRmYy4wvdGRGVek7briTSmCS1yEGkfrvw3WDfOcSsHzBm1UJ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICc-uLRNQ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMKN157vXc_0J6lOHGsXeGb3wf613aHzQwPf7Xp=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMKN157vXc_0J6lOHGsXeGb3wf613aHzQwPf7Xp=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMoSiZsq7SSMELi-jbPSsU4UikJxSVoULsSmuGu=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMoSiZsq7SSMELi-jbPSsU4UikJxSVoULsSmuGu=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPxdk4SJXGKSXlyHroyveaSD7DU4n1vcNyVOWqG=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPxdk4SJXGKSXlyHroyveaSD7DU4n1vcNyVOWqG=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOwVmxx4wE05QVDIhy2NECMWu1zMILuJX1I2iGE=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOwVmxx4wE05QVDIhy2NECMWu1zMILuJX1I2iGE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOeDlH9pjZ1ehh4qn1bRr0GnB0IxFPKNegazkG4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOeDlH9pjZ1ehh4qn1bRr0GnB0IxFPKNegazkG4=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipO4r3abLGi7Ot0BopUPXPDNw21bko1anDj-3ljJ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipO4r3abLGi7Ot0BopUPXPDNw21bko1anDj-3ljJ=s10000"
+        }
+      ],
+      "overall_rating": 4.8,
+      "reviews": 1606,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 1326
+        },
+        {
+          "stars": 4,
+          "count": 224
+        },
+        {
+          "stars": 3,
+          "count": 36
+        },
+        {
+          "stars": 2,
+          "count": 5
+        },
+        {
+          "stars": 1,
+          "count": 15
+        }
+      ],
+      "location_rating": 3.9,
+      "reviews_breakdown": [
+        {
+          "name": "Bathroom",
+          "description": "Bathroom and toiletries",
+          "total_mentioned": 187,
+          "positive": 155,
+          "negative": 16,
+          "neutral": 16
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 382,
+          "positive": 367,
+          "negative": 9,
+          "neutral": 6
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 256,
+          "positive": 245,
+          "negative": 5,
+          "neutral": 6
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 341,
+          "positive": 306,
+          "negative": 21,
+          "neutral": 14
+        },
+        {
+          "name": "Sleep",
+          "description": "Sleep",
+          "total_mentioned": 147,
+          "positive": 108,
+          "negative": 20,
+          "neutral": 19
+        },
+        {
+          "name": "Nightlife",
+          "description": "Nightlife",
+          "total_mentioned": 43,
+          "positive": 34,
+          "negative": 6,
+          "neutral": 3
+        }
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Parking ($)",
+        "Air conditioning",
+        "Bar",
+        "Restaurant"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "The Elephant Hostel",
+      "link": "https://theelephanthostel.com/",
+      "property_token": "ChoItOeDmcjribi0ARoNL2cvMTF3M3FrdGJiYhAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-28&check_out_date=2025-10-30&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChoItOeDmcjribi0ARoNL2cvMTF3M3FrdGJiYhAB&q=Amsterdam&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 52.367121,
+        "longitude": 4.9102988
+      },
+      "check_in_time": "2:00\u202fPM",
+      "check_out_time": "12:00\u202fPM",
+      "rate_per_night": {
+        "lowest": "$41",
+        "extracted_lowest": 41,
+        "before_taxes_fees": "$36",
+        "extracted_before_taxes_fees": 36
+      },
+      "total_rate": {
+        "lowest": "$81",
+        "extracted_lowest": 81,
+        "before_taxes_fees": "$72",
+        "extracted_before_taxes_fees": 72
+      },
+      "nearby_places": [
+        {
+          "name": "ARTIS",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        },
+        {
+          "name": "Amsterdam Centraal",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "7 min"
+            }
+          ]
+        },
+        {
+          "name": "Amsterdam Airport Schiphol",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "24 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "37 min"
+            }
+          ]
+        },
+        {
+          "name": "Caf\u00e9 Koosje",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/kbmPWKd-ZQ8ShwEjuNkyfYzchS79HHN5f4OY6mz6dFPjTihH80eswaJa5_B7uNeiDUFGh48xiqNaI5-59dp9hGKp-xBqjRKENqZt_VEFslEPdLb2po6Z24ZCZPpIqVCevoXr8WHeyOksJvYkAyY9aSF9pX1l0w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/110000000/109650000/109643200/109643192/60195cfc_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOu7qGmRqHufhNlQ9pKZZRi1YTEYaX3C61cI0dM=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOu7qGmRqHufhNlQ9pKZZRi1YTEYaX3C61cI0dM=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOaB9mTYPcemSReG82dZdJaKwKzzMalRP4g-O9-=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOaB9mTYPcemSReG82dZdJaKwKzzMalRP4g-O9-=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipODkcOMcExdsV4XAE6RZwjXZjr9nckoekOdex6N=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipODkcOMcExdsV4XAE6RZwjXZjr9nckoekOdex6N=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOySQ1qICB73fKSbk2R1g0K6IALnqm733nWty91=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOySQ1qICB73fKSbk2R1g0K6IALnqm733nWty91=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN7lPBed_6gyC9_AAXBi2yVDK9eXRowHwOvQgT_=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipN7lPBed_6gyC9_AAXBi2yVDK9eXRowHwOvQgT_=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMeeYsk3LM1mDoe8v_p0sK4lAsxDx_GUd4dEhy5=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMeeYsk3LM1mDoe8v_p0sK4lAsxDx_GUd4dEhy5=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOS8_DB9tyaZeYSVhra4f801wKOa_Rvr5JvdD4H=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOS8_DB9tyaZeYSVhra4f801wKOa_Rvr5JvdD4H=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOiHVNq1pEuVhMZphg42FLFm3XT-3ZLibkIbQIa=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOiHVNq1pEuVhMZphg42FLFm3XT-3ZLibkIbQIa=s10000"
+        }
+      ],
+      "overall_rating": 4.8,
+      "reviews": 673,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 590
+        },
+        {
+          "stars": 4,
+          "count": 66
+        },
+        {
+          "stars": 3,
+          "count": 8
+        },
+        {
+          "stars": 2,
+          "count": 3
+        },
+        {
+          "stars": 1,
+          "count": 6
+        }
+      ],
+      "location_rating": 4.6,
+      "reviews_breakdown": [
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 265,
+          "positive": 257,
+          "negative": 6,
+          "neutral": 2
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 328,
+          "positive": 318,
+          "negative": 4,
+          "neutral": 6
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 314,
+          "positive": 302,
+          "negative": 6,
+          "neutral": 6
+        },
+        {
+          "name": "Sleep",
+          "description": "Sleep",
+          "total_mentioned": 131,
+          "positive": 110,
+          "negative": 9,
+          "neutral": 12
+        },
+        {
+          "name": "Bathroom",
+          "description": "Bathroom and toiletries",
+          "total_mentioned": 99,
+          "positive": 87,
+          "negative": 7,
+          "neutral": 5
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 176,
+          "positive": 164,
+          "negative": 5,
+          "neutral": 7
+        }
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Fitness center",
+        "Bar",
+        "Restaurant",
+        "Kid-friendly",
+        "Smoke-free property"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Luxury Suites Amsterdam",
+      "description": "Plush suites with kitchens in a high-end hotel offering canal views, a chic bar & a fitness center.",
+      "link": "http://www.luxurysuitesamsterdam.com/en/",
+      "property_token": "ChoIsMzE3d_Fq5bJARoNL2cvMTFiNzZkMG5nchAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-28&check_out_date=2025-10-30&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChoIsMzE3d_Fq5bJARoNL2cvMTFiNzZkMG5nchAB&q=Amsterdam&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 52.370261299999996,
+        "longitude": 4.9032488999999995
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "12:00\u202fPM",
+      "nearby_places": [
+        {
+          "name": "Rembrandt House Museum",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        },
+        {
+          "name": "Amsterdam Centraal",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "7 min"
+            }
+          ]
+        },
+        {
+          "name": "Amsterdam Airport Schiphol",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "31 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "33 min"
+            }
+          ]
+        },
+        {
+          "name": "Restaurant 21",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPahodtIBTcCSIJOsVIzqUh78-tsKu_G41MLsOY=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPahodtIBTcCSIJOsVIzqUh78-tsKu_G41MLsOY=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPhCWXn2LgQPbFdoe5pGLa6F25WRAZ09YWyLD18=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPhCWXn2LgQPbFdoe5pGLa6F25WRAZ09YWyLD18=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPb-l2eN9hx1KqJvquTs-SHPelIenOIixgSzRhp=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPb-l2eN9hx1KqJvquTs-SHPelIenOIixgSzRhp=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOwWFXgYC4XNVX76zkiiJN4uIIswBZaZLcrx-s3=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOwWFXgYC4XNVX76zkiiJN4uIIswBZaZLcrx-s3=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipO1qHL8T_uSod8JDQ-rpoILulOziAc-t5Z0YBZb=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipO1qHL8T_uSod8JDQ-rpoILulOziAc-t5Z0YBZb=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM_DK5ADpENyQtbdAuC5XM7M4QSFcqCx5DroCfQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipM_DK5ADpENyQtbdAuC5XM7M4QSFcqCx5DroCfQ=s10000"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/d06VzjQLMzOBzQ3T_mpJo7B8uSLfcP_uSFYkp7TjkeB0RFmi9ux3yJthCPRxyKa_IdsSsPELRvgS8jrmjxDg_pq3edVsCY6nXE4IRT605GAnw4igFMiRxTLkK1Z5FVkj3YiCgsrp2s95iNhwW5JjOMYRMN7JyQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/63/639841/639841a_hb_w_051.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOXKkZYFroMTw4Wf_PXKvrvY0jM3NAmvVM852xe=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOXKkZYFroMTw4Wf_PXKvrvY0jM3NAmvVM852xe=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNh9ntBmggorLuT3yLRAI_MQDrGn0RFwit2tZGt=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNh9ntBmggorLuT3yLRAI_MQDrGn0RFwit2tZGt=s10000"
+        }
+      ],
+      "overall_rating": 4.8,
+      "reviews": 654,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 593
+        },
+        {
+          "stars": 4,
+          "count": 35
+        },
+        {
+          "stars": 3,
+          "count": 9
+        },
+        {
+          "stars": 2,
+          "count": 3
+        },
+        {
+          "stars": 1,
+          "count": 14
+        }
+      ],
+      "location_rating": 4.6,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 152,
+          "positive": 147,
+          "negative": 2,
+          "neutral": 3
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 141,
+          "positive": 136,
+          "negative": 4,
+          "neutral": 1
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 82,
+          "positive": 78,
+          "negative": 1,
+          "neutral": 3
+        },
+        {
+          "name": "Atmosphere",
+          "description": "Atmosphere",
+          "total_mentioned": 41,
+          "positive": 40,
+          "negative": 0,
+          "neutral": 1
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 35,
+          "positive": 33,
+          "negative": 1,
+          "neutral": 1
+        },
+        {
+          "name": "Room",
+          "description": "Room amenities",
+          "total_mentioned": 28,
+          "positive": 23,
+          "negative": 2,
+          "neutral": 3
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Parking",
+        "Air conditioning",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Kitchen",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Kid-friendly",
+        "Smoke-free property"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Hotel TwentySeven",
+      "description": "Plush studios & suites with whirlpool tubs in an opulent hotel with an upscale restaurant & a bar.",
+      "link": "http://www.hoteltwentyseven.com/en/?utm_source=GoogleBusiness&utm_campaign=source_directsearch",
+      "property_token": "ChkIss_F0tjo7LkIGg0vZy8xMWZfM3NoZjF3EAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-28&check_out_date=2025-10-30&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChkIss_F0tjo7LkIGg0vZy8xMWZfM3NoZjF3EAE&q=Amsterdam&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 52.372428199999995,
+        "longitude": 4.8931290999999995
+      },
+      "check_in_time": "4:00\u202fPM",
+      "check_out_time": "11:00\u202fAM",
+      "rate_per_night": {
+        "lowest": "$3,450",
+        "extracted_lowest": 3450,
+        "before_taxes_fees": "$2,840",
+        "extracted_before_taxes_fees": 2840
+      },
+      "total_rate": {
+        "lowest": "$6,901",
+        "extracted_lowest": 6901,
+        "before_taxes_fees": "$5,680",
+        "extracted_before_taxes_fees": 5680
+      },
+      "nearby_places": [
+        {
+          "name": "Dam Square",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        },
+        {
+          "name": "Amsterdam Airport Schiphol",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "29 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "31 min"
+            }
+          ]
+        },
+        {
+          "name": "Caf\u00e9 restaurant van Kerkwijk",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOv8F306kiMs5HlCHCRWl0cUu1Hj1ksxxydJfkR=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOv8F306kiMs5HlCHCRWl0cUu1Hj1ksxxydJfkR=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/0GvUhRyrMmZ7j-AGeLDSj2WtVajk9X4vXNQBpclCfBgcgtiqixHnz8mIPKtbDXpr7GH9_Gz9494Z2-gZTj7pWF1y7bvMokbUvGahHBkBfSxfX955mdWRqcK65FZCsw_6e-dfu1bhmckcAsgt-by3-2qPRj1wG-U=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/75/757360/757360a_hb_ro_206_20250401_155835.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOkfUUp9b-3rS5mGooBg_c1u6OTSOc3EiZBX94g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOkfUUp9b-3rS5mGooBg_c1u6OTSOc3EiZBX94g=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/eWVAsr5FWtmcfpWOFTwjreRUOspTigEqtVCRPVjuuqMkUTPz0NDmk10kS177vPWhqQLpO_-0ZYgju31pNPT5otVCqyM-eC4NAWfPFHlujuaj6cIbqn4BNG_FnuoLK6hYbPdoiSUidOZnosmeotMwTuyKZdxBMqw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/6/0/88/926/34/Exterior_082_S.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSznt2ebK05usKIUkoVRqnohAXTGHJMNmvQQi2FvqBKChHQSkcFCfRWvYz5fKGaApTxh7tDmDrqUTk33MgHLshcgmB5UUzKfj21ZzY3BRARMPX5NwXEmB9G9kDGIhsEsrF61ZR_p=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDprrC2cA=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/orQOnrup4kDd5pEuyjIKIEP51jC56DqbLXRhg5BExJ62DYMqIVloMX9Z7BPiV4INplnwEVOwLjDbFgMyu4K6xvCVShpq7VZR3fIoMXHX582t0G4h0CJpNmc0ELBp8d56CcG4EbAGjsYWs_BHmgLlmjMKAUad-g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/6/0/88/925/788/H27-R604_5351_S.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNDrqUj6nOCdqrFojo5V59rDhuIF1yrwiLGTd3k=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNDrqUj6nOCdqrFojo5V59rDhuIF1yrwiLGTd3k=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNuwGeZKlpnPyjJQYaa4GB4O3CB3k9RqdMhZ16F=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNuwGeZKlpnPyjJQYaa4GB4O3CB3k9RqdMhZ16F=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/9T2cYD25XExl_Ltr0u3ELq3MfikADvJ33aZs2OBtM1iP7aoK_qyRpZeQ7V55I-4MeSEBqCnBKh1DCmD8EFp4enUJ-ItCGNAE7DBCW9VWHSLZJ5rMR-DWA-R0qnaSXVpgO0NqMvP9HkVTVKODzF1b6_eIVKqNg2g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/6/0/88/928/138/H27-R602_7570_S.jpg"
+        }
+      ],
+      "overall_rating": 4.8,
+      "reviews": 449,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 404
+        },
+        {
+          "stars": 4,
+          "count": 21
+        },
+        {
+          "stars": 3,
+          "count": 4
+        },
+        {
+          "stars": 2,
+          "count": 2
+        },
+        {
+          "stars": 1,
+          "count": 18
+        }
+      ],
+      "location_rating": 4.8,
+      "reviews_breakdown": [
+        {
+          "name": "Bar",
+          "description": "Bar or lounge",
+          "total_mentioned": 60,
+          "positive": 57,
+          "negative": 0,
+          "neutral": 3
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 50,
+          "positive": 49,
+          "negative": 0,
+          "neutral": 1
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 97,
+          "positive": 89,
+          "negative": 3,
+          "neutral": 5
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 93,
+          "positive": 87,
+          "negative": 2,
+          "neutral": 4
+        },
+        {
+          "name": "Wellness",
+          "description": "Wellness",
+          "total_mentioned": 11,
+          "positive": 9,
+          "negative": 1,
+          "neutral": 1
+        },
+        {
+          "name": "Hot Tub",
+          "description": "Hot tub",
+          "total_mentioned": 5,
+          "positive": 5,
+          "negative": 0,
+          "neutral": 0
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Parking ($)",
+        "Hot tub",
+        "Air conditioning",
+        "Pet-friendly",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Full-service laundry",
+        "Kid-friendly",
+        "Smoke-free property"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Pillows Grand Boutique Hotel Maurits at the Park, an SLH Hotel",
+      "description": "Sophisticated hotel offering a cafe, a restaurant & a bar, plus breakfast & park views.",
+      "link": "https://www.pillowshotels.com/amsterdam-mauritskade/?utm_source=GMB&utm_medium=organic",
+      "property_token": "ChkIhM7-q46Sp6pnGg0vZy8xMXNtcHIzM3ExEAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-28&check_out_date=2025-10-30&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChkIhM7-q46Sp6pnGg0vZy8xMXNtcHIzM3ExEAE&q=Amsterdam&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 52.3621916,
+        "longitude": 4.919683700000001
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "12:00\u202fPM",
+      "rate_per_night": {
+        "lowest": "$359",
+        "extracted_lowest": 359,
+        "before_taxes_fees": "$359",
+        "extracted_before_taxes_fees": 359
+      },
+      "total_rate": {
+        "lowest": "$718",
+        "extracted_lowest": 718,
+        "before_taxes_fees": "$718",
+        "extracted_before_taxes_fees": 718
+      },
+      "nearby_places": [
+        {
+          "name": "Heineken Experience",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "7 min"
+            }
+          ]
+        },
+        {
+          "name": "Amsterdam Amstel",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Amsterdam Airport Schiphol",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "24 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "41 min"
+            }
+          ]
+        },
+        {
+          "name": "Buurtcaf\u00e9 De Tros",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "9 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOxlmy3E_peI9qIbsX4goOo8l5dPtYX0LZhjwPM=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOxlmy3E_peI9qIbsX4goOo8l5dPtYX0LZhjwPM=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPVjuhCA8GgL_AxFhEAmuWzTn96NiUta7VJP4eK=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPVjuhCA8GgL_AxFhEAmuWzTn96NiUta7VJP4eK=s10000"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/6D987-YCdWGdR6_uCy7hzlF1rsK6ISnJBXpJ-4MgYKnakPWNn6W64JzsZHn0v0GoDtvy7PwNnkBOUfMGi_NVlfYacbT286jRqxN9lFmJhEiCnvI5xhlHPWQtVm20osam4Inf8rMBewMvLuNefmqdcul_HFGsbg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/7/0/158/41/355/Pillows_Maurits_at_the_Park_Pillows_Suite_01_O.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPP-knfdUYEkN3UV2alBam_QYQkW6cW_BzpFHrU=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPP-knfdUYEkN3UV2alBam_QYQkW6cW_BzpFHrU=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOZkRkZi4VB7BFBeubGM15ZeTuo5jWa8FY1tdTi=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOZkRkZi4VB7BFBeubGM15ZeTuo5jWa8FY1tdTi=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMPmN_L5a51lWVy9A_Z9E9IdJmQA59aMQoqTa5m=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMPmN_L5a51lWVy9A_Z9E9IdJmQA59aMQoqTa5m=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPyEU8RH5xz6Za9B_0UBuf7W7XkA48isnW5ro9x=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPyEU8RH5xz6Za9B_0UBuf7W7XkA48isnW5ro9x=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOtPaDGuDLp0walhOCHk62GSWlQo08DZXsu1kXj=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOtPaDGuDLp0walhOCHk62GSWlQo08DZXsu1kXj=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPqhDZiTrB2unap-25nR6hBeiAYfzsdK6_A4NBg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPqhDZiTrB2unap-25nR6hBeiAYfzsdK6_A4NBg=s10000"
+        }
+      ],
+      "overall_rating": 4.8,
+      "reviews": 379,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 343
+        },
+        {
+          "stars": 4,
+          "count": 23
+        },
+        {
+          "stars": 3,
+          "count": 4
+        },
+        {
+          "stars": 2,
+          "count": 1
+        },
+        {
+          "stars": 1,
+          "count": 8
+        }
+      ],
+      "location_rating": 3.7,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 137,
+          "positive": 127,
+          "negative": 3,
+          "neutral": 7
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 121,
+          "positive": 116,
+          "negative": 2,
+          "neutral": 3
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 50,
+          "positive": 41,
+          "negative": 3,
+          "neutral": 6
+        },
+        {
+          "name": "Bar",
+          "description": "Bar or lounge",
+          "total_mentioned": 35,
+          "positive": 29,
+          "negative": 3,
+          "neutral": 3
+        },
+        {
+          "name": "Sleep",
+          "description": "Sleep",
+          "total_mentioned": 46,
+          "positive": 42,
+          "negative": 1,
+          "neutral": 3
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 41,
+          "positive": 34,
+          "negative": 5,
+          "neutral": 2
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Parking ($)",
+        "Air conditioning",
+        "Fitness center",
+        "Spa",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Smoke-free property"
+      ],
+      "eco_certified": true
+    },
+    {
+      "type": "hotel",
+      "name": "Zoku Amsterdam",
+      "description": "Airy rooms with clever furnishings in a trendy hotel with dining & a gym, plus a rooftop terrace.",
+      "link": "https://livezoku.com/amsterdam",
+      "property_token": "ChoIiIja19vs5KLtARoNL2cvMTFjbHNfMHJxNhAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-28&check_out_date=2025-10-30&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChoIiIja19vs5KLtARoNL2cvMTFjbHNfMHJxNhAB&q=Amsterdam&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 52.363792499999995,
+        "longitude": 4.906733099999999
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "11:00\u202fAM",
+      "rate_per_night": {
+        "lowest": "$303",
+        "extracted_lowest": 303,
+        "before_taxes_fees": "$272",
+        "extracted_before_taxes_fees": 272
+      },
+      "total_rate": {
+        "lowest": "$606",
+        "extracted_lowest": 606,
+        "before_taxes_fees": "$544",
+        "extracted_before_taxes_fees": 544
+      },
+      "nearby_places": [
+        {
+          "name": "ARTIS",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Amsterdam Centraal",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Amsterdam Airport Schiphol",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "22 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "36 min"
+            }
+          ]
+        },
+        {
+          "name": "Petit Lou",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/5EK3eaHET3wWdX2pfCHCN9Xq5ZsQv12be5RjS97ke2FdFdboV1mrtQcb85aK6Y0IunvRtNUZ0TcN3Cq9IaQ3qLQLwUDKBCGw9SQDbWTKY3Es6R9RVrPDMmuJ486rNchZn2QNOCM9cv0AwqxZQ_DDhl8QYk-hHGk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/1/0/177/495/357/07-Rooftop-Garden-Nighttime-2_S.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/LGsc09V5sSEZx1xetSZu4haFv3eTP_DMt9L_0os85w68HovG4uNqRRiimYsGaWdpdsywlyR6ikvbKX5Vix2VWsfHS8Tn1wxQ4gNILSpmNygll-OkSUelbB-xRzHVqY5iK3Hm6f97Fg8XGZjeaoNnFA7_Wkfby5A=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/7/0/149/359/449/008_Rooftop_terrace_S.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPxCJnsnxBa2oDW-O7sskH5b9t5Md_EBdoQhnKc=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPxCJnsnxBa2oDW-O7sskH5b9t5Md_EBdoQhnKc=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNzN0B3ONa0WtB0w_ZPCXuMNfwD0kCbx7bogWxa=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNzN0B3ONa0WtB0w_ZPCXuMNfwD0kCbx7bogWxa=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMPTsih-FUH14SSWc0B11dCGheo7aIjZn3N5avH=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMPTsih-FUH14SSWc0B11dCGheo7aIjZn3N5avH=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMFqYc1Dx1dNBTtAl9tYmhfDcyRkJxqM6lw1NXL=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMFqYc1Dx1dNBTtAl9tYmhfDcyRkJxqM6lw1NXL=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/wbQ1f5bIDMGRWK5TV3i-pq5KnrtzLOoXhvYOpCKGYYjXmXJFJqKaAvoNHMPrHldVyO54D7i6o8_9BUZ6tNY3ZaJnupaZ_Yp9Mw5g46rrB6fpbi-hzqIhBC2bSgSCG4HlgPYTA_SbhlGUGtS01__9r5Uqu0MwVg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/1/0/177/495/59/cha_zoku_s_R1-04306-0017_S.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/e9uXGI6_qolnR-VpyyaBejUNSJrb7-iROX9d2q1YohChrQYl5R-5oz7evHoPOefVu5oVykcnlOmbkknPb4txht5wPs42duVYdy507kIlcKFGY6tt1t4kGomagj6CrykHncneL7RJVlqQq6IoD8Tf8B1SX2HNgIk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/1/0/177/495/210/BC2A0277-scaled_S.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMXUJFHxq2iqnInaoe6Ps4MyvJSnFcU5N-ZA5Dm=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMXUJFHxq2iqnInaoe6Ps4MyvJSnFcU5N-ZA5Dm=s10000"
+        }
+      ],
+      "overall_rating": 4.7,
+      "reviews": 2877,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 2225
+        },
+        {
+          "stars": 4,
+          "count": 461
+        },
+        {
+          "stars": 3,
+          "count": 102
+        },
+        {
+          "stars": 2,
+          "count": 34
+        },
+        {
+          "stars": 1,
+          "count": 55
+        }
+      ],
+      "location_rating": 4.3,
+      "reviews_breakdown": [
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 602,
+          "positive": 537,
+          "negative": 37,
+          "neutral": 28
+        },
+        {
+          "name": "Bar",
+          "description": "Bar or lounge",
+          "total_mentioned": 237,
+          "positive": 211,
+          "negative": 14,
+          "neutral": 12
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 232,
+          "positive": 197,
+          "negative": 19,
+          "neutral": 16
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 447,
+          "positive": 393,
+          "negative": 42,
+          "neutral": 12
+        },
+        {
+          "name": "Business",
+          "description": "Business",
+          "total_mentioned": 90,
+          "positive": 74,
+          "negative": 5,
+          "neutral": 11
+        },
+        {
+          "name": "Atmosphere",
+          "description": "Atmosphere",
+          "total_mentioned": 269,
+          "positive": 261,
+          "negative": 2,
+          "neutral": 6
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Parking ($)",
+        "Air conditioning",
+        "Pet-friendly",
+        "Bar",
+        "Restaurant",
+        "Kitchen",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Smoke-free property"
+      ],
+      "eco_certified": true
+    },
+    {
+      "type": "hotel",
+      "name": "Sofitel Legend The Grand Amsterdam",
+      "description": "Luxe hotel in a historic building offering fine dining & a brown cafe, plus a spa & a cigar lounge.",
+      "link": "http://sofitel.accor.com/hotels/2783?merchantid=seo-maps-NL-2783&sourceid=aw-cen&utm_source=google+Maps&utm_medium=seo+maps&utm_campaign=seo+maps&utm_term=Sofitel-Launch",
+      "property_token": "ChoIsajSyfSr8aGmARoNL2cvMTFiNzc2d2g1cBAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-28&check_out_date=2025-10-30&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChoIsajSyfSr8aGmARoNL2cvMTFiNzc2d2g1cBAB&q=Amsterdam&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 52.3709309,
+        "longitude": 4.8955845
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "12:00\u202fPM",
+      "rate_per_night": {
+        "lowest": "$454",
+        "extracted_lowest": 454,
+        "before_taxes_fees": "$373",
+        "extracted_before_taxes_fees": 373
+      },
+      "total_rate": {
+        "lowest": "$907",
+        "extracted_lowest": 907,
+        "before_taxes_fees": "$747",
+        "extracted_before_taxes_fees": 747
+      },
+      "nearby_places": [
+        {
+          "name": "Dam Square",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        },
+        {
+          "name": "Amsterdam Airport Schiphol",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "31 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "33 min"
+            }
+          ]
+        },
+        {
+          "name": "Caf\u00e9 restaurant van Kerkwijk",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPt1-IGE8xhQejW2_nMzyrnADjSu_y9q5-Y15vu=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPt1-IGE8xhQejW2_nMzyrnADjSu_y9q5-Y15vu=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPZCRPXKGVEsD5Vz7GVDHkPoGKMgqC0-p2-E60w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPZCRPXKGVEsD5Vz7GVDHkPoGKMgqC0-p2-E60w=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNnnF3Z428HN9FlR67bZtjq8kzUX0KYfU1sO9xB=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNnnF3Z428HN9FlR67bZtjq8kzUX0KYfU1sO9xB=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPp0BBeUmEXo33bdVj0dRmc3flK84RmdX-iNFY3=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPp0BBeUmEXo33bdVj0dRmc3flK84RmdX-iNFY3=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNbN5gzijsSLQfZKoPzxHCZrSs7qY31LyA63hoU=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNbN5gzijsSLQfZKoPzxHCZrSs7qY31LyA63hoU=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOYeS6hvQdtXJ1Ndw8Ztb9A0JsH6Tm5rLxSNeaW=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOYeS6hvQdtXJ1Ndw8Ztb9A0JsH6Tm5rLxSNeaW=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM9rEFOdgs-r3hSPTTsDULgCldTTblJtIfxaTA7=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipM9rEFOdgs-r3hSPTTsDULgCldTTblJtIfxaTA7=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN53tnQMhzlDUAQkbroWW2jq25HB6FMz30GdR6n=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipN53tnQMhzlDUAQkbroWW2jq25HB6FMz30GdR6n=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOZZy_7AQBTGvlk_fWLsq50u6_TXvoRCoM6fiV0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOZZy_7AQBTGvlk_fWLsq50u6_TXvoRCoM6fiV0=s10000"
+        }
+      ],
+      "overall_rating": 4.7,
+      "reviews": 2637,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 2158
+        },
+        {
+          "stars": 4,
+          "count": 319
+        },
+        {
+          "stars": 3,
+          "count": 76
+        },
+        {
+          "stars": 2,
+          "count": 36
+        },
+        {
+          "stars": 1,
+          "count": 48
+        }
+      ],
+      "location_rating": 4.9,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 606,
+          "positive": 547,
+          "negative": 31,
+          "neutral": 28
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 544,
+          "positive": 489,
+          "negative": 33,
+          "neutral": 22
+        },
+        {
+          "name": "Wellness",
+          "description": "Wellness",
+          "total_mentioned": 51,
+          "positive": 40,
+          "negative": 4,
+          "neutral": 7
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 179,
+          "positive": 160,
+          "negative": 12,
+          "neutral": 7
+        },
+        {
+          "name": "Spa",
+          "description": "Spa",
+          "total_mentioned": 45,
+          "positive": 39,
+          "negative": 3,
+          "neutral": 3
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 184,
+          "positive": 156,
+          "negative": 22,
+          "neutral": 6
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Parking ($)",
+        "Indoor pool",
+        "Air conditioning",
+        "Pet-friendly",
+        "Fitness center",
+        "Spa",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly",
+        "Smoke-free property"
+      ],
+      "eco_certified": true
+    },
+    {
+      "type": "hotel",
+      "name": "Hotel Estherea",
+      "description": "Elegant rooms & suites in an upmarket hotel offering a gym, a library & a bar, plus free Wi-Fi.",
+      "link": "http://www.estherea.nl/",
+      "property_token": "ChcIpNnUo5zgyNGSARoKL20vMDRzeHpoORAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-28&check_out_date=2025-10-30&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChcIpNnUo5zgyNGSARoKL20vMDRzeHpoORAB&q=Amsterdam&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 52.370544699999996,
+        "longitude": 4.8886439
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "11:00\u202fAM",
+      "rate_per_night": {
+        "lowest": "$349",
+        "extracted_lowest": 349,
+        "before_taxes_fees": "$295",
+        "extracted_before_taxes_fees": 295
+      },
+      "total_rate": {
+        "lowest": "$697",
+        "extracted_lowest": 697,
+        "before_taxes_fees": "$590",
+        "extracted_before_taxes_fees": 590
+      },
+      "nearby_places": [
+        {
+          "name": "Royal Palace Amsterdam",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "7 min"
+            }
+          ]
+        },
+        {
+          "name": "Amsterdam Centraal",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Amsterdam Airport Schiphol",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "26 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "33 min"
+            }
+          ]
+        },
+        {
+          "name": "Restaurant 't Zwaantje",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "4-star hotel",
+      "extracted_hotel_class": 4,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPKBjQv1JZ1jFmYYBB9Y5oWq1RFFvOLgMYBghc4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPKBjQv1JZ1jFmYYBB9Y5oWq1RFFvOLgMYBghc4=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzAcXS-qAYjPAephO2DJyH15Dk-K143oAiTPi7XuIpMW0QyjBukSQ4t55h4wshgxJY9zNDqgCyyhu6BflstmVGk7tKyBhOJtE8K_2cKrmcNmfNE6Bs3G0e7QNTwAn36vtuwsdW7Yg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgMDQqN_m7QE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwkfeJCXTtis_BFqpqdTxBb7YGcF0M4W20sOzrg9EX1CkSmDkAemlp73nUfuC7koFe1EVJomCo-6hiGCGBNd-SqJEm5jVsdrOTcu8_38qxoouXhtwAPILvsrM6UXHxvRzTdWsdQ6Q=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgMCQgZ2U0gE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwVG1vJqlJSqlCQRo7Xkff_ywgyjmNMQmyg5HWYitGLvKGdMO4c7AxAf2HJToktqL9TznMR942BchN4_9AhJqlE_QqytTt3S9tlnC-pfK2WFl_fuEqKH9EO-p1AqlK_MZ94UqE3=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgMCgmcH4Dg=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwMfZwck8bY1zJE9x6IuOOi60bBFDZ1SsZiZgJFpOMHkouZFnFUsItRfHYNMHkhtxI1WcMj89ztZVJTAIYPSq4aenMkLi4QIpZd7hVN8dHfBHPH-8vASFEAcoPU-78qGr0tpI8q-0c01psw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIABIhBRNntSRW73XwHDE2FJYNuN=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwlRe7eZOKgIGZrPCpOKVD7J5-Vga9RuhajGH92SQCEe2QcBtNW-WygSldp_p3-JDcyozw2UmzN475Tj4mmXvI_DlYKWPmukh7xbjn1kl7oH-kAPIdLGMBKWeoa1rYTuJQ0uS2vTFzStcv7=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIABIhDSksDIRGxFLzhZsYOuwDq3=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSy_mxPDP3DjcbRisWEWTY22skRb7BDxrfA7G5vqRH8u1oUip2uFeIOuX9IY76aSpIYSQBXiRdabroHmJk57N99Ht72pkhW4tEz3OFjQoxLt_j5gZtkkdM6zeO2MvzH8ZMv5bvmt=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDHnurBCQ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyIsuPlOUhjlNOLEi3a-xAi7fv65vop03VZq55sMLFj0ew1A-fNCSlNFF6mVVFqqYb1BBXD_GeXvPDUV-3nwCciYEMkAq-R51VrAg1DMwmZwE5vKsX96d3DXyoVjfY-1yuCyhex=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgMDQqN_mSw=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyiE8i6V8ptAbxwYGEboIDOZ5-68Tb37SipyaPtveMVEV0_q_ThRK6anrflU1xFzV5gMTDvmPWf7sTSFtR2He6RZF3dAsg4tjvsSTIiaPxS-Nne7o7yN-KW54DBzpw-bwt5iH8Q=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgID_r_iQMQ=s10000"
+        }
+      ],
+      "overall_rating": 4.7,
+      "reviews": 1661,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 1328
+        },
+        {
+          "stars": 4,
+          "count": 218
+        },
+        {
+          "stars": 3,
+          "count": 48
+        },
+        {
+          "stars": 2,
+          "count": 16
+        },
+        {
+          "stars": 1,
+          "count": 51
+        }
+      ],
+      "location_rating": 4.9,
+      "reviews_breakdown": [
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 601,
+          "positive": 543,
+          "negative": 33,
+          "neutral": 25
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 460,
+          "positive": 404,
+          "negative": 45,
+          "neutral": 11
+        },
+        {
+          "name": "Bar",
+          "description": "Bar or lounge",
+          "total_mentioned": 155,
+          "positive": 140,
+          "negative": 7,
+          "neutral": 8
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 337,
+          "positive": 314,
+          "negative": 6,
+          "neutral": 17
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 154,
+          "positive": 139,
+          "negative": 5,
+          "neutral": 10
+        },
+        {
+          "name": "Atmosphere",
+          "description": "Atmosphere",
+          "total_mentioned": 180,
+          "positive": 175,
+          "negative": 2,
+          "neutral": 3
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Parking",
+        "Air conditioning",
+        "Fitness center",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Business center",
+        "Kid-friendly",
+        "Smoke-free property"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "The Bee Hostel",
+      "link": "https://thebeehostel.com/",
+      "property_token": "ChoI0LOO14CA6ce-ARoNL2cvMTF0NjE2M2xjMBAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-28&check_out_date=2025-10-30&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChoI0LOO14CA6ce-ARoNL2cvMTF0NjE2M2xjMBAB&q=Amsterdam&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 52.366150399999995,
+        "longitude": 4.911230799999999
+      },
+      "check_in_time": "2:00\u202fPM",
+      "check_out_time": "12:00\u202fPM",
+      "rate_per_night": {
+        "lowest": "$36",
+        "extracted_lowest": 36,
+        "before_taxes_fees": "$29",
+        "extracted_before_taxes_fees": 29
+      },
+      "total_rate": {
+        "lowest": "$73",
+        "extracted_lowest": 73,
+        "before_taxes_fees": "$59",
+        "extracted_before_taxes_fees": 59
+      },
+      "nearby_places": [
+        {
+          "name": "ARTIS",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        },
+        {
+          "name": "Amsterdam Centraal",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "8 min"
+            }
+          ]
+        },
+        {
+          "name": "Amsterdam Airport Schiphol",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "22 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "38 min"
+            }
+          ]
+        },
+        {
+          "name": "Box Sociaal",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNa2mC3lNFnRCKlDIHMB8Hs_XibQ5dWnVP0RcBa=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNa2mC3lNFnRCKlDIHMB8Hs_XibQ5dWnVP0RcBa=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxB65pDarm8mvmWbkzdI6Do03oXuUyozPBHXm7qNyvBoMRz9nChaOypq6JVUXfBPdO-upn1sSr7kqWr99f9go7Crr-MMw6CG3uC1zQ5Op6Vy5JLMlm3q3lrSMQHZjHykHSF6N0oEA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICx3a28lQE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN4TYq4WhBfVcMWw9UZAGWkURo7f6KmEpeLg_Sl=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipN4TYq4WhBfVcMWw9UZAGWkURo7f6KmEpeLg_Sl=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNBkxok75sOwxan51pozLFTs1GHhEQ_894EhVH_=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNBkxok75sOwxan51pozLFTs1GHhEQ_894EhVH_=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSw3QdsiN-FWBWWFZt4lAvz9j__D1I4cAEujyWBAlKnck81ts7ERi2Nu0ToBCSPtuQqEjdgNqpMUKXF0COuv_1gXM8BHf09ie3LdJr6ufMO7MKzq7YZvHLj2DezYLOEUVoyJJ-uEeyR3F89O=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIABIhDOtdJRW_FdupbwwEXqjzF9=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMXbZSm2ZvrJCfskqMucyN4-GdhZjd_eyigesdu=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMXbZSm2ZvrJCfskqMucyN4-GdhZjd_eyigesdu=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMCp03Bx8wRZCxTpXDT1on-wsWbDJt1J2Wrwj8a=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMCp03Bx8wRZCxTpXDT1on-wsWbDJt1J2Wrwj8a=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOVVgQGj8RmBNcny_BqWqfMGdPX7wZpnJ1tM8k-=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOVVgQGj8RmBNcny_BqWqfMGdPX7wZpnJ1tM8k-=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMV5zTeQ5cODYkO0bifJjIQEjVIeZjnU0EvZfFm=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMV5zTeQ5cODYkO0bifJjIQEjVIeZjnU0EvZfFm=s10000"
+        }
+      ],
+      "overall_rating": 4.7,
+      "reviews": 1507,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 1254
+        },
+        {
+          "stars": 4,
+          "count": 173
+        },
+        {
+          "stars": 3,
+          "count": 29
+        },
+        {
+          "stars": 2,
+          "count": 23
+        },
+        {
+          "stars": 1,
+          "count": 28
+        }
+      ],
+      "location_rating": 4.5,
+      "reviews_breakdown": [
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 599,
+          "positive": 560,
+          "negative": 29,
+          "neutral": 10
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 636,
+          "positive": 604,
+          "negative": 22,
+          "neutral": 10
+        },
+        {
+          "name": "Sleep",
+          "description": "Sleep",
+          "total_mentioned": 360,
+          "positive": 273,
+          "negative": 51,
+          "neutral": 36
+        },
+        {
+          "name": "Bathroom",
+          "description": "Bathroom and toiletries",
+          "total_mentioned": 243,
+          "positive": 190,
+          "negative": 35,
+          "neutral": 18
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 509,
+          "positive": 481,
+          "negative": 18,
+          "neutral": 10
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 413,
+          "positive": 381,
+          "negative": 9,
+          "neutral": 23
+        }
+      ],
+      "amenities": [
+        "Breakfast",
+        "Free Wi-Fi",
+        "Parking",
+        "Air conditioning",
+        "Bar",
+        "Restaurant",
+        "Smoke-free property"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Andaz Amsterdam Prinsengracht, by Hyatt",
+      "description": "Upmarket hotel offering stylish rooms & suites, plus a trendy restaurant, a bar & a tranquil spa.",
+      "link": "https://www.hyatt.com/andaz/en-US/amsaz-andaz-amsterdam-prinsengracht?src=corp_lclb_google_seo_amsaz&utm_source=google&utm_medium=organic&utm_campaign=lmr",
+      "property_token": "ChgIjNO78PLPr_sLGgwvZy8xMXhwaGYzeXAQAQ",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-28&check_out_date=2025-10-30&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChgIjNO78PLPr_sLGgwvZy8xMXhwaGYzeXAQAQ&q=Amsterdam&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 52.367796899999995,
+        "longitude": 4.8830608
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "12:00\u202fPM",
+      "rate_per_night": {
+        "lowest": "$614",
+        "extracted_lowest": 614,
+        "before_taxes_fees": "$564",
+        "extracted_before_taxes_fees": 564
+      },
+      "total_rate": {
+        "lowest": "$1,229",
+        "extracted_lowest": 1229,
+        "before_taxes_fees": "$1,127",
+        "extracted_before_taxes_fees": 1127
+      },
+      "nearby_places": [
+        {
+          "name": "Van Gogh Museum",
+          "transportations": [
+            {
+              "type": "Public transport",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Amsterdam Airport Schiphol",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "25 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "46 min"
+            }
+          ]
+        },
+        {
+          "name": "Restaurant 't Zwaantje",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM3eUXixL2xn1sFhRwxGArpag7Y_ZmH1a_ToOJ6=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipM3eUXixL2xn1sFhRwxGArpag7Y_ZmH1a_ToOJ6=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNlu4Tbm3JR5Wxtm3r7Tz5n8XQh-C3FT3yPBrui=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNlu4Tbm3JR5Wxtm3r7Tz5n8XQh-C3FT3yPBrui=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPUfLrLo7U_iw3wUhst7pdmfusUu57k89WXI5uC=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPUfLrLo7U_iw3wUhst7pdmfusUu57k89WXI5uC=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPXIw1ByksmZfSDvFNYVmhuQkIKUgkQ_TDkHd-D=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPXIw1ByksmZfSDvFNYVmhuQkIKUgkQ_TDkHd-D=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipObhzCSSEHdgPhxHWuNqWZY4dnGiVK7zOosGc3C=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipObhzCSSEHdgPhxHWuNqWZY4dnGiVK7zOosGc3C=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPhqeMb-GmrZKYsbEBXJF3iGhyiwJJCkP6tYIp6=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPhqeMb-GmrZKYsbEBXJF3iGhyiwJJCkP6tYIp6=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNzwT9Xkp_GjchHvqA4cJ6Ra5vjB5glBizJrrYf=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNzwT9Xkp_GjchHvqA4cJ6Ra5vjB5glBizJrrYf=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNc5EaydXoHwSlnJI02rCUx7BZhfQxgl776pugR=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNc5EaydXoHwSlnJI02rCUx7BZhfQxgl776pugR=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPQ3nP_3mG70vanN5mBRLCD9U1Qarda3bucvYKy=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPQ3nP_3mG70vanN5mBRLCD9U1Qarda3bucvYKy=s10000"
+        }
+      ],
+      "overall_rating": 4.7,
+      "reviews": 1461,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 1141
+        },
+        {
+          "stars": 4,
+          "count": 215
+        },
+        {
+          "stars": 3,
+          "count": 56
+        },
+        {
+          "stars": 2,
+          "count": 16
+        },
+        {
+          "stars": 1,
+          "count": 33
+        }
+      ],
+      "location_rating": 4.8,
+      "reviews_breakdown": [
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 405,
+          "positive": 365,
+          "negative": 24,
+          "neutral": 16
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 339,
+          "positive": 299,
+          "negative": 34,
+          "neutral": 6
+        },
+        {
+          "name": "Bar",
+          "description": "Bar or lounge",
+          "total_mentioned": 133,
+          "positive": 116,
+          "negative": 7,
+          "neutral": 10
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 123,
+          "positive": 104,
+          "negative": 9,
+          "neutral": 10
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 242,
+          "positive": 227,
+          "negative": 8,
+          "neutral": 7
+        },
+        {
+          "name": "Wellness",
+          "description": "Wellness",
+          "total_mentioned": 29,
+          "positive": 26,
+          "negative": 2,
+          "neutral": 1
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Parking ($)",
+        "Air conditioning",
+        "Pet-friendly",
+        "Fitness center",
+        "Spa",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Kitchen in some rooms",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly",
+        "Smoke-free property"
+      ],
+      "eco_certified": true
+    },
+    {
+      "type": "hotel",
+      "name": "The July - Boat & Co",
+      "description": "Vintage-chic units with kitchenettes in a hip riverside apartment hotel offering a restaurant.",
+      "link": "https://www.thejuly.com/properties/amsterdam-west",
+      "property_token": "ChoIhu3R4JL90a6iARoNL2cvMTFoNzdxdmgzYhAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-28&check_out_date=2025-10-30&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChoIhu3R4JL90a6iARoNL2cvMTFoNzdxdmgzYhAB&q=Amsterdam&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 52.3941655,
+        "longitude": 4.8823508
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "11:00\u202fAM",
+      "rate_per_night": {
+        "lowest": "$279",
+        "extracted_lowest": 279,
+        "before_taxes_fees": "$230",
+        "extracted_before_taxes_fees": 230
+      },
+      "total_rate": {
+        "lowest": "$558",
+        "extracted_lowest": 558,
+        "before_taxes_fees": "$459",
+        "extracted_before_taxes_fees": 459
+      },
+      "nearby_places": [
+        {
+          "name": "Amsterdam Centraal",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "7 min"
+            }
+          ]
+        },
+        {
+          "name": "Pontsteiger",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Amsterdam Airport Schiphol",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "21 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "35 min"
+            }
+          ]
+        },
+        {
+          "name": "VESSEL",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPJjvEjGaxiq1umfMynopPjCF7qof_UDl9ymg2k=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPJjvEjGaxiq1umfMynopPjCF7qof_UDl9ymg2k=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNuGlsWylYEo6rTVQCTQVZhX5ZkhgDf53X12PAr=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNuGlsWylYEo6rTVQCTQVZhX5ZkhgDf53X12PAr=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipO5x8mMGd7xj_rEmP45CPYqOPq7MHs4w2M2SrQC=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipO5x8mMGd7xj_rEmP45CPYqOPq7MHs4w2M2SrQC=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM7KJqAAe5QcHYCpTwkimnAh9kxP3GybrpCYI0v=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipM7KJqAAe5QcHYCpTwkimnAh9kxP3GybrpCYI0v=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPReO2Crny9j9-_Ey1fIENXZjoVuVUXVTN3R6bH=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPReO2Crny9j9-_Ey1fIENXZjoVuVUXVTN3R6bH=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPiqNbHX2VwHDWD0O7t2hVn5VNzuB2CVY-OSn93=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPiqNbHX2VwHDWD0O7t2hVn5VNzuB2CVY-OSn93=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM4Hcan-ECTwIAc5z4iUtncvAPHw_VdJ0GKgjj0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipM4Hcan-ECTwIAc5z4iUtncvAPHw_VdJ0GKgjj0=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipO9kzAMACNRLBPDMBMmh7-Z3BAsj6HreFCEC61i=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipO9kzAMACNRLBPDMBMmh7-Z3BAsj6HreFCEC61i=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/NP5VqjDzE8YW9jgpD9MiLk1BOyCr-k4bYQjY8baabCFrCUQ1_ljlFAYPZAvif5UdA9KZUWsFXb6m8EWULskzpGl08QawFJV0rgEqNl2jJqh3F6L_jcJufc4B9kbnAAhXCIy7UlRH_twfSmtfm5rgU0I3iQKiNw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/66/669502/669502a_hb_r_003_20250626_144141.jpg"
+        }
+      ],
+      "overall_rating": 4.7,
+      "reviews": 858,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 703
+        },
+        {
+          "stars": 4,
+          "count": 106
+        },
+        {
+          "stars": 3,
+          "count": 25
+        },
+        {
+          "stars": 2,
+          "count": 6
+        },
+        {
+          "stars": 1,
+          "count": 18
+        }
+      ],
+      "location_rating": 3.3,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 200,
+          "positive": 181,
+          "negative": 11,
+          "neutral": 8
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 225,
+          "positive": 205,
+          "negative": 12,
+          "neutral": 8
+        },
+        {
+          "name": "Wellness",
+          "description": "Wellness",
+          "total_mentioned": 28,
+          "positive": 26,
+          "negative": 1,
+          "neutral": 1
+        },
+        {
+          "name": "Spa",
+          "description": "Spa",
+          "total_mentioned": 25,
+          "positive": 23,
+          "negative": 1,
+          "neutral": 1
+        },
+        {
+          "name": "Kitchen",
+          "description": "Kitchen",
+          "total_mentioned": 53,
+          "positive": 49,
+          "negative": 3,
+          "neutral": 1
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 129,
+          "positive": 106,
+          "negative": 6,
+          "neutral": 17
+        }
+      ],
+      "amenities": [
+        "Breakfast",
+        "Free Wi-Fi",
+        "Parking",
+        "Hot tub",
+        "Air conditioning",
+        "Bar",
+        "Restaurant",
+        "Airport shuttle"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Ambassade Hotel",
+      "description": "High-end hotel in a row of canal houses, plus a refined French restaurant & a library bar.",
+      "link": "https://ambassade-hotel.nl/?utm_source=google&utm_medium=organic&utm_campaign=gmb-listing&utm_content=websiteklik",
+      "property_token": "ChcIi6P5zuW4sLliGgsvZy8xdHg0NjcxXxAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-28&check_out_date=2025-10-30&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChcIi6P5zuW4sLliGgsvZy8xdHg0NjcxXxAB&q=Amsterdam&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 52.3693867,
+        "longitude": 4.8871701
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "12:00\u202fPM",
+      "rate_per_night": {
+        "lowest": "$430",
+        "extracted_lowest": 430,
+        "before_taxes_fees": "$352",
+        "extracted_before_taxes_fees": 352
+      },
+      "total_rate": {
+        "lowest": "$860",
+        "extracted_lowest": 860,
+        "before_taxes_fees": "$704",
+        "extracted_before_taxes_fees": 704
+      },
+      "nearby_places": [
+        {
+          "name": "Royal Palace Amsterdam",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "10 min"
+            }
+          ]
+        },
+        {
+          "name": "Amsterdam Centraal",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "10 min"
+            }
+          ]
+        },
+        {
+          "name": "Amsterdam Airport Schiphol",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "25 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "34 min"
+            }
+          ]
+        },
+        {
+          "name": "Restaurant de Struisvogel",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "4-star hotel",
+      "extracted_hotel_class": 4,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPa_hG4ci9L7m9MNgF7uZPM4v-gK6XuSyqFFdjJ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPa_hG4ci9L7m9MNgF7uZPM4v-gK6XuSyqFFdjJ=s10000"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/-jiJ0h6ggLUaX-UGpa4QNPgeZ_oPOolFBBj29McopXqrkXdfkvlrTtW28f8Mb-0mrc3fpn1X4RljFDx-5dbA-XeX1cJxLVs8woGA4gMetnr7Evbw1Z66jsYT9aUkgij5DdSGlG4E6qSJu9a4qcNYuX3pQIKM7g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/6/0/99/53/424/47656s_O.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPbQrH5qvQY6EQV1A6KlDBADsWoybMl4F2u2tlS=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPbQrH5qvQY6EQV1A6KlDBADsWoybMl4F2u2tlS=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPwMVarX6AgVINsvuqTU_OQd_h0XIk8P68-ha_5=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPwMVarX6AgVINsvuqTU_OQd_h0XIk8P68-ha_5=s10000"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/JT2GKsqELKEA9wcV1uRhZB4FPV34NqGUZ6Oths3kC5L2yJVyRGvaEKXDnG8HdLB5Z32GK2J1lkjAlhBLx8MOc0uuvZSICnHvRhz--trWh3TiSeLOLIwtPU8-7WitbPDLNSBYx3RAkqyS47yXZyCnTosQ0oKASZk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/6/0/99/53/508/47656r2136278_O.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPT-DE-vQKNVccMTkDIf_sG-qopINzZjogA_yaV=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPT-DE-vQKNVccMTkDIf_sG-qopINzZjogA_yaV=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/UiDHSfUP8tFqUER21xTRNm8WQZxroa3JgbvIJFbzws5H3zJ6RMcBuj1pmgURrPtWF9N5eaxV0zm85fipMMRLh4RoUYv7YUAhZzUjxCzNO8ugI-ThDnZjmyXZps5TVNB61xcxOWekaJSWGhKLB7YMr-MUFIfGJg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/6/0/99/53/572/47656r4136279_O.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNLEyMJb8ErX97Xgp6f0ubfRabJHd_taiEUEJyW=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNLEyMJb8ErX97Xgp6f0ubfRabJHd_taiEUEJyW=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/aktbqxf5SleRts4h5PdApVCW4ozsM8XuwMsJr5ntIGBh0c2fhzNvjHwfFGTn4v5_lL8FXGejBELawhE-uqbU57A0sT-npcKUDh0Bd5uiSZaIPFq8Qj0nFmbTIrG2Bvk-rpO0-hwYzsqJuFKggzqLvcyXxkDKBQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/6/0/99/53/457/47656ro136280_O.jpg"
+        }
+      ],
+      "overall_rating": 4.7,
+      "reviews": 833,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 697
+        },
+        {
+          "stars": 4,
+          "count": 98
+        },
+        {
+          "stars": 3,
+          "count": 15
+        },
+        {
+          "stars": 2,
+          "count": 10
+        },
+        {
+          "stars": 1,
+          "count": 13
+        }
+      ],
+      "location_rating": 4.9,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 226,
+          "positive": 206,
+          "negative": 11,
+          "neutral": 9
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 219,
+          "positive": 200,
+          "negative": 11,
+          "neutral": 8
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 79,
+          "positive": 71,
+          "negative": 5,
+          "neutral": 3
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 157,
+          "positive": 150,
+          "negative": 2,
+          "neutral": 5
+        },
+        {
+          "name": "Bar",
+          "description": "Bar or lounge",
+          "total_mentioned": 58,
+          "positive": 54,
+          "negative": 2,
+          "neutral": 2
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 75,
+          "positive": 68,
+          "negative": 3,
+          "neutral": 4
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Parking ($)",
+        "Air conditioning",
+        "Spa",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Kitchen in some rooms",
+        "Full-service laundry",
+        "Business center",
+        "Kid-friendly",
+        "Smoke-free property"
+      ],
+      "eco_certified": true
+    },
+    {
+      "type": "hotel",
+      "name": "Lunchcaf\u00e9 Waterloo",
+      "link": "http://waterloo.eatbu.com/",
+      "property_token": "ChcIpr2lkPnj6c1MGgsvZy8xdGZfZ201dxAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-28&check_out_date=2025-10-30&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChcIpr2lkPnj6c1MGgsvZy8xdGZfZ201dxAB&q=Amsterdam&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 52.36842600000001,
+        "longitude": 4.902717000000001
+      },
+      "nearby_places": [
+        {
+          "name": "Rembrandt House Museum",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        },
+        {
+          "name": "Amsterdam Centraal",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "8 min"
+            }
+          ]
+        },
+        {
+          "name": "Amsterdam Airport Schiphol",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "23 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "33 min"
+            }
+          ]
+        },
+        {
+          "name": "Restaurant Asmara",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyO-zajOL3uqJV-DTG8-8R1ORmR5I1RV6-XVL2deQdkUIRTiTW2nx4TttNKKScxHzj8Nzp6jR6rClwoHiGlO-5dylDXIO8jCRwKSXBtwMejdgBpSWW6z7HA2E40b7GD7xCHddjN=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICs9rKONQ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSw6R117H5TpibMTAci_mvTV49jwYiT5Jggo0Y6jPrPXwiDchCkzYgtBYkbmdHFuzEdMa65umCRIPbb0kKzZON-c5Vior4rB0kWj1Z192CRYVQumsJ0WDlLvbOiMWWA7YOBUeW0Qsw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDxwsr4yQE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwb_1tjn5o67C0N9T-6FSoK6SOukdJXqBotA_8JQ4UgMUsoJNg7CzRVdX123ikU7rr_6V8blcQbWMiFpyxtOOF_aZGfDPuvZEtnCxoYqeCdcjM8o6bXT4kr3rIQsCT8NgvVov2zHpk-wRLn=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIABIhBRL3NghvG7vIE__8L_Yt5m=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzlRMd1H5Y9Zphb04rqbybPxBEXoL_87ueV1piZlNMPxQYYYxwP4zorkg1fHGi_T7cW2eZlW9B_iIsK7YXAx2963dnTWK4A5fQtCdjZCC9WqD8HHBUEDrUmd67TAdHDYjGcrTljjA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgID_ooq0ygE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzHMvDwVgtlRVjwE-00cuy5vqL9d2fvXT2kExod43ww17LwqR7Tbu38_Z8mjoyen-bErk74J8h1j7zX5BuK1_IYOftlvDVQBSb_7O80F1yCOlKujrJQWmKRLno4ivgZSTP8JCeR=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgMCQzuGqLg=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz1tL_tr2m36s3nxYvfCXU8uh9-uIMvB_Q6mutNhVtZCYDFtU0bSGtj-GX2zv_9Q4l8hf7OQpoQx3dgHUkYMZH3jC3bRIa6pRMeR-wZjqmIGbuicThN5e7BrM7SMKBkwI5hvaILdQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICX4MfulgE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxGDGXJCLsZAoYiG20wgYn0uVwfVftN8CBkTRQNCW3ssemHOoDLjZGrGv5kBA5tmhDcUpzwSzFd3hAw958gVKKFhjBTcrSXxrMJR-kKOZkNP17zxalw__ATOuy4fEceEsN-sKN4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICfjOrobA=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx6_0j7fQX1WzBkJ-pIXy-J9Kc8bopOIIbqA1ncZQG6nAMHt9tEN_Rj9FLVxZIp_0gyM5yD5HRp0DzHwEDrrVMMobADR57aN-FeIBix8c__zuBA3bjr_VxqeH34bTouwTqn2ME=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgMCYhZbzMw=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwsCQqxHDYA-4KM_r8-EHI3joJk7-cE1k036uvkzcyG9_7-rUBLhZKmidI8ZL7TSmZZpp89n4P_GzjIFtz803RzjSlnKSukt5iYcmlw4OUOGpqLWciWTBzlr0YlWd-2iV1goX1z=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgID_rtK6MQ=s10000"
+        }
+      ],
+      "overall_rating": 4.7,
+      "reviews": 777,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 615
+        },
+        {
+          "stars": 4,
+          "count": 104
+        },
+        {
+          "stars": 3,
+          "count": 28
+        },
+        {
+          "stars": 2,
+          "count": 13
+        },
+        {
+          "stars": 1,
+          "count": 17
+        }
+      ],
+      "location_rating": 4.6,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 160,
+          "positive": 154,
+          "negative": 4,
+          "neutral": 2
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 134,
+          "positive": 129,
+          "negative": 5,
+          "neutral": 0
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 134,
+          "positive": 130,
+          "negative": 2,
+          "neutral": 2
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Parking",
+        "Restaurant"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Mr Jordaan Hotel",
+      "description": "Trendy 19th-century canal house hotel offering rustic-chic rooms with complimentary Wi-Fi.",
+      "link": "https://mrjordaan.nl/",
+      "property_token": "ChkIzsHhjqvDmrp7Gg0vZy8xMWNueHpqNjJyEAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-28&check_out_date=2025-10-30&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChkIzsHhjqvDmrp7Gg0vZy8xMWNueHpqNjJyEAE&q=Amsterdam&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 52.3747111,
+        "longitude": 4.8801333
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "11:00\u202fAM",
+      "rate_per_night": {
+        "lowest": "$211",
+        "extracted_lowest": 211,
+        "before_taxes_fees": "$173",
+        "extracted_before_taxes_fees": 173
+      },
+      "total_rate": {
+        "lowest": "$421",
+        "extracted_lowest": 421,
+        "before_taxes_fees": "$347",
+        "extracted_before_taxes_fees": 347
+      },
+      "nearby_places": [
+        {
+          "name": "Anne Frank House",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "6 min"
+            }
+          ]
+        },
+        {
+          "name": "Amsterdam Centraal",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Amsterdam Airport Schiphol",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "21 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "38 min"
+            }
+          ]
+        },
+        {
+          "name": "Caf\u00e9 Restaurant De Reiger",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPixmfbfRSys8R7q01xvUcFJx9_qq9XTDUDnX-r=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPixmfbfRSys8R7q01xvUcFJx9_qq9XTDUDnX-r=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNvJCwDOM7UGv0ges4ATu_9VvYkBwNt19P74pe0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNvJCwDOM7UGv0ges4ATu_9VvYkBwNt19P74pe0=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSypR6S-iJ3BvKhzhud0UgpBtEawcCLSiEwKEZZAl5yNxAwvYm6amrJNUUxTP7kP-u0s1VcKe-mkGXZMqG2ZDx4O1e18xDwWwlffkxDbKf_Dbil1AyoK455-JxFOhUCIZNP84_5BvOnzYrrK=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIABIhBd9gYOyvjOAzDNO8i9iMbt=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOSQAhx82ONnp_EgwCO2TWpEbos0rurcfcdQ7YG=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOSQAhx82ONnp_EgwCO2TWpEbos0rurcfcdQ7YG=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPiSQCTMVJpw76h4rKkc1pl9whmGya7NYXEUX1q=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPiSQCTMVJpw76h4rKkc1pl9whmGya7NYXEUX1q=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPYyHvNt288gf1oHZT7cVSsYYv94shVPeGPS10Y=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPYyHvNt288gf1oHZT7cVSsYYv94shVPeGPS10Y=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP2C6Kov-dkGl1UnqwUmRf-zRD6UcleLyJNix2H=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP2C6Kov-dkGl1UnqwUmRf-zRD6UcleLyJNix2H=s10000"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/opCJJbYbm-QR-2h_4SmD-qKbEwTnuaQ7MmImsXE8-sAeoNxHCLhEB9Hxk3kdWTvF57Plze60wFOMukErs-uGIAY4PJtru0XbrYoMyQbvvXGHI7Fby9CwtTAknNdCyoOhang3LYlLfTeJZ8vXEA9s7B6NIN3TRc0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/71/710545/710545a_hb_w_015.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/srn-5ORVg0Km1F6yxNTbXTnTDofmEdtAkITuu-4t-Rf0j0er2Wfv7CnEbMes1SpzuGvelOQeCrcyFsz7xs01xgCQaetdX9yjMPTqFSqN2kkZCzlA-vCRgmI-eLCXkUdchexugVXpRcC09R_1as9GtJ8zs8OlXoE=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/71/710545/710545a_hb_r_004.jpg"
+        }
+      ],
+      "overall_rating": 4.7,
+      "reviews": 719,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 585
+        },
+        {
+          "stars": 4,
+          "count": 92
+        },
+        {
+          "stars": 3,
+          "count": 22
+        },
+        {
+          "stars": 2,
+          "count": 6
+        },
+        {
+          "stars": 1,
+          "count": 14
+        }
+      ],
+      "location_rating": 4.7,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 293,
+          "positive": 280,
+          "negative": 7,
+          "neutral": 6
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 283,
+          "positive": 259,
+          "negative": 13,
+          "neutral": 11
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 230,
+          "positive": 224,
+          "negative": 2,
+          "neutral": 4
+        },
+        {
+          "name": "Bar",
+          "description": "Bar or lounge",
+          "total_mentioned": 70,
+          "positive": 68,
+          "negative": 1,
+          "neutral": 1
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 104,
+          "positive": 99,
+          "negative": 3,
+          "neutral": 2
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 68,
+          "positive": 64,
+          "negative": 3,
+          "neutral": 1
+        }
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Parking",
+        "Air conditioning",
+        "Restaurant",
+        "Kid-friendly",
+        "Smoke-free property"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Met Hotel Amsterdam",
+      "description": "Warmly decorated rooms in a polished hotel featuring a contemporary restaurant with a bar.",
+      "link": "http://www.methotelamsterdam.com/",
+      "property_token": "ChkInPTegbn_rrRoGg0vZy8xMWprd3NwcXQzEAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-28&check_out_date=2025-10-30&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChkInPTegbn_rrRoGg0vZy8xMWprd3NwcXQzEAE&q=Amsterdam&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 52.3626522,
+        "longitude": 4.835049
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "11:00\u202fAM",
+      "rate_per_night": {
+        "lowest": "$183",
+        "extracted_lowest": 183,
+        "before_taxes_fees": "$150",
+        "extracted_before_taxes_fees": 150
+      },
+      "total_rate": {
+        "lowest": "$365",
+        "extracted_lowest": 365,
+        "before_taxes_fees": "$300",
+        "extracted_before_taxes_fees": 300
+      },
+      "nearby_places": [
+        {
+          "name": "Amsterdam Sloterdijk",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "10 min"
+            }
+          ]
+        },
+        {
+          "name": "Amsterdam Airport Schiphol",
+          "transportations": [
+            {
+              "type": "Public transport",
+              "duration": "15 min"
+            },
+            {
+              "type": "Taxi",
+              "duration": "16 min"
+            }
+          ]
+        },
+        {
+          "name": "Avenida",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "4-star hotel",
+      "extracted_hotel_class": 4,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMzcjse0xlBE5vn2i-rhc6pU550YVbUTvBPPtWg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMzcjse0xlBE5vn2i-rhc6pU550YVbUTvBPPtWg=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNINrLcQCypXAXl8Q5dUw8Zz1HvpMd970Bwu2nr=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNINrLcQCypXAXl8Q5dUw8Zz1HvpMd970Bwu2nr=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP8VWPqXoymxbe0ARu1QqaXpYUWC9YDBOC9aAZy=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP8VWPqXoymxbe0ARu1QqaXpYUWC9YDBOC9aAZy=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM5xVTwVkK4bF_pyq_NiRs9fnJ5veDfC65lWTWl=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipM5xVTwVkK4bF_pyq_NiRs9fnJ5veDfC65lWTWl=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nozaF7BKX2DBZjvunRizHYRw1wwkNmYakcNChCuhbXifwJFWURHrUinlg2KWgTOYe5sBLPprAtGNiyoIYc9fwBRsIpIe6bQ-m2HJAwhgBVH4x5Q0Nqw8wh3tC50JJEYejI5nGyB-aU6y0e3=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIABIhADyc5UghZaK2fX6QoAC23R=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNLPiEJ4cqS9PK0U76O6PVodc3GFyD4Ifo3EOg5=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNLPiEJ4cqS9PK0U76O6PVodc3GFyD4Ifo3EOg5=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN_egZDGckjaZe6dZsh8rK9lR06kjTgcQoocVQl=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipN_egZDGckjaZe6dZsh8rK9lR06kjTgcQoocVQl=s10000"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/FpvcFYojsR1vrt8jKmydzZztKXtYpVQND2vGp8HvxRRx2DjCxEkdDUmJex0ikKjrnRVcPZ4mZ6p8YqDW4joIPDW3iNPWj03S3FY6gsv8VgWV6hfkiswaqbu-fyB8lFrn-fn7Vd5nT7nzGz4hOMfoQNnEyhaSLF0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/92/925462/925462a_hb_w_027.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMJYKU6ZyHt_dYCGu-qpvefwZEOfnjWu0v0m0T-=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMJYKU6ZyHt_dYCGu-qpvefwZEOfnjWu0v0m0T-=s10000"
+        }
+      ],
+      "overall_rating": 4.7,
+      "reviews": 692,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 561
+        },
+        {
+          "stars": 4,
+          "count": 91
+        },
+        {
+          "stars": 3,
+          "count": 15
+        },
+        {
+          "stars": 2,
+          "count": 6
+        },
+        {
+          "stars": 1,
+          "count": 19
+        }
+      ],
+      "location_rating": 3.2,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 206,
+          "positive": 196,
+          "negative": 6,
+          "neutral": 4
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 202,
+          "positive": 191,
+          "negative": 5,
+          "neutral": 6
+        },
+        {
+          "name": "Transit",
+          "description": "Public transit",
+          "total_mentioned": 91,
+          "positive": 71,
+          "negative": 8,
+          "neutral": 12
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 139,
+          "positive": 112,
+          "negative": 13,
+          "neutral": 14
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 110,
+          "positive": 105,
+          "negative": 4,
+          "neutral": 1
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 76,
+          "positive": 61,
+          "negative": 9,
+          "neutral": 6
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Parking ($)",
+        "Air conditioning",
+        "Fitness center",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Full-service laundry",
+        "Accessible",
+        "Business center"
+      ],
+      "eco_certified": true
+    },
+    {
+      "type": "hotel",
+      "name": "De Durgerdam Boutique Hotel",
+      "link": "http://www.dedurgerdam.com/",
+      "property_token": "ChoI7tWqkOCsvairARoNL2cvMTF0bjhxNGZuZBAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-28&check_out_date=2025-10-30&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChoI7tWqkOCsvairARoNL2cvMTF0bjhxNGZuZBAB&q=Amsterdam&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 52.3775018,
+        "longitude": 4.9885890999999996
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "11:00\u202fAM",
+      "rate_per_night": {
+        "lowest": "$506",
+        "extracted_lowest": 506,
+        "before_taxes_fees": "$417",
+        "extracted_before_taxes_fees": 417
+      },
+      "total_rate": {
+        "lowest": "$1,012",
+        "extracted_lowest": 1012,
+        "before_taxes_fees": "$833",
+        "extracted_before_taxes_fees": 833
+      },
+      "nearby_places": [
+        {
+          "name": "Amsterdam Airport Schiphol",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "22 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 3 min"
+            }
+          ]
+        },
+        {
+          "name": "Restaurant De Mark"
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP7gvFSLhEmaPbbGgg-pdsxUUJU04FZhj3-uLNB=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP7gvFSLhEmaPbbGgg-pdsxUUJU04FZhj3-uLNB=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipO-fN46_dZx_LQj0pUGH5l-t-l1fGtBCgQszocl=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipO-fN46_dZx_LQj0pUGH5l-t-l1fGtBCgQszocl=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMSAzWaMrObrSIf05VXuDPsPrN1yFjtn3zsrDf1=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMSAzWaMrObrSIf05VXuDPsPrN1yFjtn3zsrDf1=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMwHSd3d-I2faBMMJpa8sXhWeIxrUCCM1e55Ukp=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMwHSd3d-I2faBMMJpa8sXhWeIxrUCCM1e55Ukp=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyFtzP11NYsRXIOECZGkTLZzy6fP-AtUskDovqakq3ffAHZBM92HcE5w37V1Fjo7u9mvx8cxjZVajd7WhcUdP-FGEdT2OBuFEa6sg4ZsmRXO7QZ5vvxvbPGtrGS9zinRAznzDA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICxgLmeEw=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPbegwqNFF2MDuMriQnhtVy2TsFOs5t6ePO91fd=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPbegwqNFF2MDuMriQnhtVy2TsFOs5t6ePO91fd=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/AxaQe9pe-DjiJMeWMe9ETGgPX_-AbwTDY8DdW5mkU2CWv99-V3aJki8g5O1dUqFJlTrW0W_q51Xufz-mep8fadqXRrMOpgZwZRC_VTUpYrnxmgNShVL-IrpJsv18I6X-whvRJ93q7eDBEgGVN3cVwVxS6SgY5A=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/f9/99/b9/welcome-to-de-durgerdam.jpg?w=1600&h=1100&s=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPFaqoE67ACBW3Dzs8G5D0ihELxBo-mxJb4PDYy=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPFaqoE67ACBW3Dzs8G5D0ihELxBo-mxJb4PDYy=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipO0oge8Xtb01AXLaXtJwuMCTR0ZMuZ_f7mAE8A7=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipO0oge8Xtb01AXLaXtJwuMCTR0ZMuZ_f7mAE8A7=s10000"
+        }
+      ],
+      "overall_rating": 4.8,
+      "reviews": 255,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 240
+        },
+        {
+          "stars": 4,
+          "count": 4
+        },
+        {
+          "stars": 3,
+          "count": 2
+        },
+        {
+          "stars": 2,
+          "count": 1
+        },
+        {
+          "stars": 1,
+          "count": 8
+        }
+      ],
+      "location_rating": 3.0,
+      "reviews_breakdown": [
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 45,
+          "positive": 45,
+          "negative": 0,
+          "neutral": 0
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 20,
+          "positive": 20,
+          "negative": 0,
+          "neutral": 0
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 43,
+          "positive": 40,
+          "negative": 3,
+          "neutral": 0
+        },
+        {
+          "name": "Nature",
+          "description": "Nature and outdoor activities",
+          "total_mentioned": 8,
+          "positive": 8,
+          "negative": 0,
+          "neutral": 0
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 13,
+          "positive": 11,
+          "negative": 1,
+          "neutral": 1
+        },
+        {
+          "name": "Atmosphere",
+          "description": "Atmosphere",
+          "total_mentioned": 19,
+          "positive": 19,
+          "negative": 0,
+          "neutral": 0
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Free parking",
+        "Air conditioning",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Smoke-free property"
+      ]
+    },
+    {
+      "type": "hotel",
+      "name": "Hotelboat Angeline",
+      "description": "Modest rooms with private bathrooms & free Wi-Fi in a relaxed riverboat hotel with a terrace.",
+      "link": "https://www.hotelboatangeline.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=389595499087725985",
+      "property_token": "ChcI29bc0pTqobUQGgsvZy8xdGR5XzRoMhAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-28&check_out_date=2025-10-30&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChcI29bc0pTqobUQGgsvZy8xdGR5XzRoMhAB&q=Amsterdam&sort_by=8",
+      "gps_coordinates": {
+        "latitude": 52.372610599999994,
+        "longitude": 4.9111438000000005
+      },
+      "check_in_time": "2:00\u202fPM",
+      "check_out_time": "11:00\u202fAM",
+      "rate_per_night": {
+        "lowest": "$155",
+        "extracted_lowest": 155,
+        "before_taxes_fees": "$128",
+        "extracted_before_taxes_fees": 128
+      },
+      "total_rate": {
+        "lowest": "$310",
+        "extracted_lowest": 310,
+        "before_taxes_fees": "$255",
+        "extracted_before_taxes_fees": 255
+      },
+      "nearby_places": [
+        {
+          "name": "NEMO Science Museum",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        },
+        {
+          "name": "Amsterdam Centraal",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "6 min"
+            }
+          ]
+        },
+        {
+          "name": "Amsterdam Airport Schiphol",
+          "transportations": [
+            {
+              "type": "Public transport",
+              "duration": "27 min"
+            },
+            {
+              "type": "Taxi",
+              "duration": "28 min"
+            }
+          ]
+        },
+        {
+          "name": "A Beautiful Mess - Amsterdam",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "7 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipO27CXYP1A1Ne1RNLpu6yqQVsdhXv2ob9jug7O6=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipO27CXYP1A1Ne1RNLpu6yqQVsdhXv2ob9jug7O6=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzFsioIMBMcZwpcZmFyTvM8aVCID0RRqO_NpgDxMeYHh3B4Bhl7XLaPlYwtjfniGNN9Wq9ngxLs1a8klU-pgTH7tc1GnmKzoOuz759GRi3-09V9c1mtrKQe3VmHcyy_P3_sAA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDE19hk=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN2xMhTsEYiB2C21n_b5q66MGT-DxTG1aiQKN60=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipN2xMhTsEYiB2C21n_b5q66MGT-DxTG1aiQKN60=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM3b3OsrGhndqO92Td-Sq2P2jpoZ4ftiEOHJty6=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipM3b3OsrGhndqO92Td-Sq2P2jpoZ4ftiEOHJty6=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz0L_tFYVADzr7qzC2_dJCvwaHorpPTJ_REgnL14Q_NrhDq92HFLgrePe0H6nZQG2uHL-8m4f2qFZltaH26MqBqz1CHvmYYUvzmOTpfEdFadgSBpWoLfVjeMJk_bvAy-UWfoYRrBw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICrntWbxwE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSw6p8lIwKiwJe1FJqH1eHbJrddoI2rYqm7zIgHkSivC371RTXBiq7-fgYiOeLf2K7StojE1-5FkhDBMhAOsEQAOgr_9mKHtxsxsY21gy3XU5QzTPaGQpq3bKDrkTjK1DAUKZGs7=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICDpvfC6gE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyAa-z-XfRQ3ZfZ21oeBu1zr3xBVZvD42rQSCaAMbDefiLw-196Na4TMUNezWq2engRNpz85UKdZHSXXwe3IwdlGmrPnV12SwaboL74piS06Psr-xPTeA9As_p9CXZJ_gssjuyc=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICDpvfCKg=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzBBTJwa6B93f_OeF3StMtF1ANWfSBTjOkQoE7WRgpMTYfl63wtD3U6wPkq5eny9YfJXKos-jgcDeH_HvO6CkaFEXsLSruD9595Pv4zUYrGeiwYXHOGPaX3le_3B5vaHEvjoFAo=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICNkOTkcA=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzejqxV-5ZWiu-x17b9qxLeH_c977q6OX6EzjJAHnwGSqJ3An88aNpvP7LNFODEgPzzXlTBko4sbv6OyIo0SGzB_UjUpMzxz9X1Gbooec3O_UBSI-0sw6KdoGeoBLtE8hW6Ndw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICc5KiqMw=s10000"
+        }
+      ],
+      "overall_rating": 4.8,
+      "reviews": 247,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 213
+        },
+        {
+          "stars": 4,
+          "count": 27
+        },
+        {
+          "stars": 3,
+          "count": 5
+        },
+        {
+          "stars": 2,
+          "count": 1
+        },
+        {
+          "stars": 1,
+          "count": 1
+        }
+      ],
+      "location_rating": 4.1,
+      "reviews_breakdown": [
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 40,
+          "positive": 38,
+          "negative": 1,
+          "neutral": 1
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 49,
+          "positive": 49,
+          "negative": 0,
+          "neutral": 0
+        },
+        {
+          "name": "Restaurant",
+          "description": "Restaurant",
+          "total_mentioned": 18,
+          "positive": 18,
+          "negative": 0,
+          "neutral": 0
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 41,
+          "positive": 40,
+          "negative": 0,
+          "neutral": 1
+        },
+        {
+          "name": "Sleep",
+          "description": "Sleep",
+          "total_mentioned": 13,
+          "positive": 8,
+          "negative": 3,
+          "neutral": 2
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 19,
+          "positive": 18,
+          "negative": 1,
+          "neutral": 0
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Kid-friendly"
+      ]
+    }
+  ],
+  "brands": [
+    {
+      "id": 33,
+      "name": "Accor Live Limitless",
+      "children": [
+        {
+          "id": 15,
+          "name": "Adagio"
+        },
+        {
+          "id": 21,
+          "name": "Ibis"
+        },
+        {
+          "id": 13,
+          "name": "Ibis Budget"
+        },
+        {
+          "id": 103,
+          "name": "Ibis Styles"
+        },
+        {
+          "id": 91,
+          "name": "Mercure"
+        },
+        {
+          "id": 142,
+          "name": "MGallery"
+        },
+        {
+          "id": 276,
+          "name": "M\u00f6venpick"
+        },
+        {
+          "id": 47,
+          "name": "Novotel"
+        },
+        {
+          "id": 274,
+          "name": "Sofitel Legend"
+        },
+        {
+          "id": 32,
+          "name": "Swiss\u00f4tel"
+        },
+        {
+          "id": 374,
+          "name": "Tribe"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Best Western International",
+      "children": [
+        {
+          "id": 155,
+          "name": "Best Western"
+        }
+      ]
+    },
+    {
+      "id": 466,
+      "name": "Fattal Hotel Group",
+      "children": [
+        {
+          "id": 354,
+          "name": "Leonardo Hotels"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Hilton Honors",
+      "children": [
+        {
+          "id": 81,
+          "name": "DoubleTree by Hilton"
+        },
+        {
+          "id": 115,
+          "name": "Hampton by Hilton"
+        },
+        {
+          "id": 54,
+          "name": "Hilton Hotels & Resorts"
+        },
+        {
+          "id": 41,
+          "name": "Waldorf Astoria"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Hyatt",
+      "children": [
+        {
+          "id": 116,
+          "name": "Andaz"
+        },
+        {
+          "id": 122,
+          "name": "Hyatt Regency"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "IHG Hotels & Resorts",
+      "children": [
+        {
+          "id": 42,
+          "name": "Crowne Plaza"
+        },
+        {
+          "id": 64,
+          "name": "Holiday Inn"
+        },
+        {
+          "id": 56,
+          "name": "Holiday Inn Express"
+        },
+        {
+          "id": 2,
+          "name": "InterContinental Hotels & Resorts"
+        },
+        {
+          "id": 127,
+          "name": "Kimpton Hotels & Restaurants"
+        }
+      ]
+    },
+    {
+      "id": 243,
+      "name": "Louvre Hotels",
+      "children": [
+        {
+          "id": 247,
+          "name": "Campanile"
+        },
+        {
+          "id": 245,
+          "name": "Golden Tulip"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Marriott Bonvoy",
+      "children": [
+        {
+          "id": 59,
+          "name": "Autograph Collection"
+        },
+        {
+          "id": 86,
+          "name": "Courtyard by Marriott"
+        },
+        {
+          "id": 134,
+          "name": "Element"
+        },
+        {
+          "id": 61,
+          "name": "Marriott Hotels & Resorts"
+        },
+        {
+          "id": 129,
+          "name": "Moxy"
+        },
+        {
+          "id": 131,
+          "name": "Renaissance Hotels"
+        },
+        {
+          "id": 75,
+          "name": "Residence Inn by Marriott"
+        },
+        {
+          "id": 154,
+          "name": "Tribute Portfolio"
+        },
+        {
+          "id": 137,
+          "name": "W Hotels"
+        }
+      ]
+    },
+    {
+      "id": 174,
+      "name": "Melia Hotels International",
+      "children": [
+        {
+          "id": 179,
+          "name": "Innside by Melia"
+        }
+      ]
+    },
+    {
+      "id": 167,
+      "name": "Motel One"
+    },
+    {
+      "id": 169,
+      "name": "NH Hotel Group",
+      "children": [
+        {
+          "id": 338,
+          "name": "Anantara Hotels"
+        },
+        {
+          "id": 171,
+          "name": "NH Collection Hotels"
+        },
+        {
+          "id": 170,
+          "name": "NH Hotels"
+        },
+        {
+          "id": 172,
+          "name": "NHow Hotels"
+        },
+        {
+          "id": 337,
+          "name": "Tivoli Hotels"
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "name": "Radisson Hotel Group",
+      "children": [
+        {
+          "id": 132,
+          "name": "Park Inn by Radisson"
+        },
+        {
+          "id": 45,
+          "name": "Park Plaza"
+        },
+        {
+          "id": 76,
+          "name": "Radisson"
+        },
+        {
+          "id": 79,
+          "name": "Radisson Blu"
+        }
+      ]
+    },
+    {
+      "id": 303,
+      "name": "Van der Valk"
+    }
+  ],
+  "serpapi_pagination": {
+    "current_from": 1,
+    "current_to": 18,
+    "next_page_token": "CBI=",
+    "next": "https://serpapi.com/search.json?adults=1&check_in_date=2025-10-28&check_out_date=2025-10-30&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&next_page_token=CBI%3D&q=Amsterdam&sort_by=8"
+  }
+}

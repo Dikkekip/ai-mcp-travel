@@ -2,11 +2,15 @@ import { Server } from "@modelcontextprotocol/sdk/server/index.js";
 import { StreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/streamableHttp.js";
 import {
   CallToolRequestSchema,
+  GetPromptRequestSchema,
   JSONRPCError,
   JSONRPCNotification,
+  ListPromptsRequestSchema,
+  ListResourcesRequestSchema,
   ListToolsRequestSchema,
   LoggingMessageNotification,
   Notification,
+  ReadResourceRequestSchema,
   SetLevelRequestSchema,
 } from "@modelcontextprotocol/sdk/types.js";
 import {
@@ -55,6 +59,8 @@ export class StreamableHTTPServer {
       {
         capabilities: {
           tools: {},
+          resources: {},
+          prompts: {},
           logging: {
             level: "info",
           },
@@ -152,16 +158,24 @@ export class StreamableHTTPServer {
 
   private getToolRequiredPermissions(toolName: string): Permission[] {
     const legacyPermissions: Record<string, Permission[]> = {
-      add_todo: [Permission.CREATE_TODOS],
-      list_todos: [Permission.READ_TODOS],
-      complete_todo: [Permission.UPDATE_TODOS],
-      delete_todo: [Permission.DELETE_TODOS],
-      updateTodoText: [Permission.UPDATE_TODOS],
+      add_todo: [Permission.MANAGE_TRAVEL_DATA],
+      list_todos: [Permission.READ_TRAVEL_DATA],
+      complete_todo: [Permission.MANAGE_TRAVEL_DATA],
+      delete_todo: [Permission.MANAGE_TRAVEL_DATA],
+      updateTodoText: [Permission.MANAGE_TRAVEL_DATA],
     };
 
     return (
       legacyPermissions[toolName] || this.registry.getToolPermissions(toolName)
     );
+  }
+
+  private getResourceRequiredPermissions(uri: string): Permission[] {
+    return this.registry.getResourcePermissions(uri);
+  }
+
+  private getPromptRequiredPermissions(name: string): Permission[] {
+    return this.registry.getPromptPermissions(name);
   }
 
   async validateProtocolVersion(req: Request) {
@@ -325,11 +339,382 @@ export class StreamableHTTPServer {
     };
   }
 
+  private async listResources(
+    parentSpan: Span,
+    traceApi: TraceAPI,
+    contextApi: ContextAPI
+  ) {
+    const ctx = traceApi.setSpan(contextApi.active(), parentSpan);
+    const tracer = traceApi.getTracer("mcp-server");
+    const span = tracer.startSpan("listResources", undefined, ctx);
+
+    const user = this.currentUser;
+    span.setAttribute("user.id", user?.id || "anonymous");
+    span.setAttribute("user.role", user?.role || "none");
+
+    try {
+      if (!user || !hasPermission(user, Permission.LIST_RESOURCES)) {
+        log.warn(
+          `User ${user?.id || "unknown"} denied permission to list resources`
+        );
+        span.addEvent("authorization.denied", {
+          reason: "missing LIST_RESOURCES",
+        });
+        span.setStatus({
+          code: SpanStatusCode.ERROR,
+          message: "Permission denied",
+        });
+        return this.createRPCErrorResponse(
+          "Insufficient permissions to list resources"
+        );
+      }
+
+      const availableResources = await this.registry.listResources();
+      const filterSpan = tracer.startSpan("authorization.filterResources", {
+        attributes: {
+          "resources.available": availableResources.length,
+        },
+      });
+
+      const allowedResources = availableResources.filter((resource) => {
+        const requiredPermissions = this.getResourceRequiredPermissions(
+          resource.uri
+        );
+        const allowed = requiredPermissions.some((permission: Permission) =>
+          hasPermission(user, permission)
+        );
+        if (allowed) {
+          filterSpan.addEvent("resource.allowed", { resource: resource.uri });
+        } else {
+          filterSpan.addEvent("resource.denied", { resource: resource.uri });
+        }
+        return allowed;
+      });
+
+      filterSpan.setAttribute("resources.allowed.count", allowedResources.length);
+      filterSpan.end();
+
+      span.setAttribute("resources.returned", allowedResources.length);
+      span.setStatus({ code: SpanStatusCode.OK });
+      return {
+        jsonrpc: JSON_RPC,
+        resources: allowedResources,
+      };
+    } catch (error) {
+      span.addEvent("resource.list.error", {
+        "error.message": error instanceof Error ? error.message : String(error),
+      });
+      span.setStatus({
+        code: SpanStatusCode.ERROR,
+        message: error instanceof Error ? error.message : String(error),
+      });
+      log.error("Error listing resources:", error);
+      return this.createRPCErrorResponse("Failed to list resources");
+    } finally {
+      span.end();
+    }
+  }
+
+  private async readResource(
+    parentSpan: Span,
+    traceApi: TraceAPI,
+    contextApi: ContextAPI,
+    uri: string
+  ) {
+    const ctx = traceApi.setSpan(contextApi.active(), parentSpan);
+    const tracer = traceApi.getTracer("mcp-server");
+    const span = tracer.startSpan("readResource", undefined, ctx);
+
+    const user = this.currentUser;
+    span.setAttributes({
+      "user.id": user?.id || "anonymous",
+      "user.role": user?.role || "none",
+      "resource.uri": uri,
+    });
+
+    try {
+      if (!uri) {
+        span.addEvent("resource.read.invalid_uri");
+        span.setStatus({
+          code: SpanStatusCode.ERROR,
+          message: "Resource URI required",
+        });
+        return this.createRPCErrorResponse("Resource URI is required");
+      }
+
+      if (!user) {
+        span.addEvent("authentication.failed", { reason: "no_user_context" });
+        span.setStatus({
+          code: SpanStatusCode.ERROR,
+          message: "Authentication required",
+        });
+        return this.createRPCErrorResponse("Authentication required");
+      }
+
+      const requiredPermissions = this.getResourceRequiredPermissions(uri);
+      const hasRequiredPermission = requiredPermissions.some(
+        (permission: Permission) => hasPermission(user, permission)
+      );
+
+      span.setAttributes({
+        "authorization.required_permissions": requiredPermissions.join(","),
+        "authorization.has_permission": hasRequiredPermission,
+      });
+
+      if (!hasRequiredPermission) {
+        span.addEvent("authorization.denied", {
+          "user.id": user.id,
+          "resource.uri": uri,
+          required_permissions: requiredPermissions.join(","),
+        });
+        span.setStatus({
+          code: SpanStatusCode.ERROR,
+          message: "Insufficient permissions",
+        });
+        log.warn(
+          `Resource access denied: User ${user.id} lacks permissions for ${uri}`
+        );
+        return this.createRPCErrorResponse(
+          "Insufficient permissions for this resource"
+        );
+      }
+
+      const result = await this.registry.readResource(uri);
+
+      span.setStatus({
+        code: SpanStatusCode.OK,
+        message: "Resource read successfully",
+      });
+
+      return {
+        jsonrpc: JSON_RPC,
+        ...result,
+      };
+    } catch (error) {
+      span.addEvent("resource.read.error", {
+        "error.message": error instanceof Error ? error.message : String(error),
+      });
+      span.setStatus({
+        code: SpanStatusCode.ERROR,
+        message: error instanceof Error ? error.message : String(error),
+      });
+      log.error(`Error reading resource ${uri}:`, error);
+      return this.createRPCErrorResponse("Failed to read resource contents");
+    } finally {
+      span.end();
+    }
+  }
+
+  private async listPrompts(
+    parentSpan: Span,
+    traceApi: TraceAPI,
+    contextApi: ContextAPI
+  ) {
+    const ctx = traceApi.setSpan(contextApi.active(), parentSpan);
+    const tracer = traceApi.getTracer("mcp-server");
+    const span = tracer.startSpan("listPrompts", undefined, ctx);
+
+    const user = this.currentUser;
+    span.setAttribute("user.id", user?.id || "anonymous");
+    span.setAttribute("user.role", user?.role || "none");
+
+    try {
+      if (!user || !hasPermission(user, Permission.LIST_PROMPTS)) {
+        log.warn(
+          `User ${user?.id || "unknown"} denied permission to list prompts`
+        );
+        span.addEvent("authorization.denied", {
+          reason: "missing LIST_PROMPTS",
+        });
+        span.setStatus({
+          code: SpanStatusCode.ERROR,
+          message: "Permission denied",
+        });
+        return this.createRPCErrorResponse(
+          "Insufficient permissions to list prompts"
+        );
+      }
+
+      const availablePrompts = await this.registry.listPrompts();
+      const filterSpan = tracer.startSpan("authorization.filterPrompts", {
+        attributes: {
+          "prompts.available": availablePrompts.length,
+        },
+      });
+
+      const allowedPrompts = availablePrompts.filter((prompt) => {
+        const requiredPermissions = this.getPromptRequiredPermissions(
+          prompt.name
+        );
+        const allowed = requiredPermissions.some((permission: Permission) =>
+          hasPermission(user, permission)
+        );
+        if (allowed) {
+          filterSpan.addEvent("prompt.allowed", { prompt: prompt.name });
+        } else {
+          filterSpan.addEvent("prompt.denied", { prompt: prompt.name });
+        }
+        return allowed;
+      });
+
+      filterSpan.setAttribute("prompts.allowed.count", allowedPrompts.length);
+      filterSpan.end();
+
+      span.setAttribute("prompts.returned", allowedPrompts.length);
+      span.setStatus({ code: SpanStatusCode.OK });
+      return {
+        jsonrpc: JSON_RPC,
+        prompts: allowedPrompts,
+      };
+    } catch (error) {
+      span.addEvent("prompt.list.error", {
+        "error.message": error instanceof Error ? error.message : String(error),
+      });
+      span.setStatus({
+        code: SpanStatusCode.ERROR,
+        message: error instanceof Error ? error.message : String(error),
+      });
+      log.error("Error listing prompts:", error);
+      return this.createRPCErrorResponse("Failed to list prompts");
+    } finally {
+      span.end();
+    }
+  }
+
+  private async getPrompt(
+    parentSpan: Span,
+    traceApi: TraceAPI,
+    contextApi: ContextAPI,
+    name: string,
+    args?: Record<string, unknown>
+  ) {
+    const ctx = traceApi.setSpan(contextApi.active(), parentSpan);
+    const tracer = traceApi.getTracer("mcp-server");
+    const span = tracer.startSpan("getPrompt", undefined, ctx);
+
+    const user = this.currentUser;
+    span.setAttributes({
+      "user.id": user?.id || "anonymous",
+      "user.role": user?.role || "none",
+      "prompt.name": name,
+    });
+
+    try {
+      if (!name) {
+        span.addEvent("prompt.get.invalid_name");
+        span.setStatus({
+          code: SpanStatusCode.ERROR,
+          message: "Prompt name required",
+        });
+        return this.createRPCErrorResponse("Prompt name is required");
+      }
+
+      if (!user) {
+        span.addEvent("authentication.failed", { reason: "no_user_context" });
+        span.setStatus({
+          code: SpanStatusCode.ERROR,
+          message: "Authentication required",
+        });
+        return this.createRPCErrorResponse("Authentication required");
+      }
+
+      const requiredPermissions = this.getPromptRequiredPermissions(name);
+      const hasRequiredPermission = requiredPermissions.some(
+        (permission: Permission) => hasPermission(user, permission)
+      );
+
+      span.setAttributes({
+        "authorization.required_permissions": requiredPermissions.join(","),
+        "authorization.has_permission": hasRequiredPermission,
+      });
+
+      if (!hasRequiredPermission) {
+        span.addEvent("authorization.denied", {
+          "user.id": user.id,
+          "prompt.name": name,
+          required_permissions: requiredPermissions.join(","),
+        });
+        span.setStatus({
+          code: SpanStatusCode.ERROR,
+          message: "Insufficient permissions",
+        });
+        log.warn(
+          `Prompt access denied: User ${user.id} lacks permissions for prompt ${name}`
+        );
+        return this.createRPCErrorResponse(
+          "Insufficient permissions for this prompt"
+        );
+      }
+
+      const promptArgs =
+        args && Object.keys(args).length > 0 ? args : undefined;
+      const result = await this.registry.getPrompt(name, promptArgs);
+
+      span.setStatus({
+        code: SpanStatusCode.OK,
+        message: "Prompt fetched successfully",
+      });
+
+      return {
+        jsonrpc: JSON_RPC,
+        ...result,
+      };
+    } catch (error) {
+      span.addEvent("prompt.get.error", {
+        "error.message": error instanceof Error ? error.message : String(error),
+      });
+      span.setStatus({
+        code: SpanStatusCode.ERROR,
+        message: error instanceof Error ? error.message : String(error),
+      });
+      log.error(`Error fetching prompt ${name}:`, error);
+      return this.createRPCErrorResponse("Failed to fetch prompt");
+    } finally {
+      span.end();
+    }
+  }
+
   private setupServerRequestHandlers() {
     this.server.setRequestHandler(ListToolsRequestSchema, async (request) => {
       const tracer = trace.getTracer("mcp-server");
       const parentSpan = tracer.startSpan("main");
       return this.listTools(parentSpan, trace, context);
+    });
+
+    this.server.setRequestHandler(ListResourcesRequestSchema, async (request) => {
+      const tracer = trace.getTracer("mcp-server");
+      const parentSpan = tracer.startSpan("main");
+      return this.listResources(parentSpan, trace, context);
+    });
+
+    this.server.setRequestHandler(
+      ReadResourceRequestSchema,
+      async (request) => {
+        const tracer = trace.getTracer("mcp-server");
+        const parentSpan = tracer.startSpan("main");
+        const uri = request.params?.uri ?? "";
+        return this.readResource(parentSpan, trace, context, uri);
+      }
+    );
+
+    this.server.setRequestHandler(ListPromptsRequestSchema, async (request) => {
+      const tracer = trace.getTracer("mcp-server");
+      const parentSpan = tracer.startSpan("main");
+      return this.listPrompts(parentSpan, trace, context);
+    });
+
+    this.server.setRequestHandler(GetPromptRequestSchema, async (request) => {
+      const tracer = trace.getTracer("mcp-server");
+      const parentSpan = tracer.startSpan("main");
+      const promptArgs = (request.params?.arguments ??
+        undefined) as Record<string, unknown> | undefined;
+      return this.getPrompt(
+        parentSpan,
+        trace,
+        context,
+        request.params?.name ?? "",
+        promptArgs
+      );
     });
 
     this.server.setRequestHandler(CallToolRequestSchema, async (request) => {

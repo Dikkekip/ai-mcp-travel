@@ -31,6 +31,30 @@ def make_nws_request(endpoint: str) -> Optional[Dict[str, Any]]:
         print(f"Error making request to {endpoint}: {str(e)}")
         return None
 
+def normalize_temperature(value: Optional[float], unit: Optional[str]) -> Tuple[Optional[float], str]:
+    """Convert any temperature value to Celsius and return the value with unit."""
+    if value is None:
+        return None, "C"
+    
+    unit_clean = (unit or "").replace("wmoUnit:", "").lower()
+    
+    if unit_clean in {"degf", "f", "fahrenheit"}:
+        converted = (value - 32) * 5.0 / 9.0
+    elif unit_clean in {"k", "kelvin"}:
+        converted = value - 273.15
+    else:
+        converted = value
+    
+    return round(converted, 1), "C"
+
+def normalize_temperature_field(field: Dict[str, Any]) -> Dict[str, Any]:
+    """Normalize a temperature field dict from the API response to Celsius."""
+    value, unit = normalize_temperature(field.get("value"), field.get("unitCode") or field.get("unit"))
+    return {
+        "value": value,
+        "unit": unit
+    }
+
 def save_weather_data(data: Dict[str, Any], filename: str) -> str:
     """Save weather data to file and return file path."""
     os.makedirs(WEATHER_DIR, exist_ok=True)
@@ -140,14 +164,8 @@ def get_current_conditions(latitude: float, longitude: float) -> Dict[str, Any]:
                 },
                 "observation_time": properties.get("timestamp"),
                 "conditions": {
-                    "temperature": {
-                        "value": properties.get("temperature", {}).get("value"),
-                        "unit": properties.get("temperature", {}).get("unitCode", "").replace("wmoUnit:", "")
-                    },
-                    "dewpoint": {
-                        "value": properties.get("dewpoint", {}).get("value"),
-                        "unit": properties.get("dewpoint", {}).get("unitCode", "").replace("wmoUnit:", "")
-                    },
+                    "temperature": normalize_temperature_field(properties.get("temperature", {})),
+                    "dewpoint": normalize_temperature_field(properties.get("dewpoint", {})),
                     "wind_direction": {
                         "value": properties.get("windDirection", {}).get("value"),
                         "unit": properties.get("windDirection", {}).get("unitCode", "").replace("wmoUnit:", "")
@@ -172,14 +190,8 @@ def get_current_conditions(latitude: float, longitude: float) -> Dict[str, Any]:
                         "value": properties.get("visibility", {}).get("value"),
                         "unit": properties.get("visibility", {}).get("unitCode", "").replace("wmoUnit:", "")
                     },
-                    "max_temperature_last_24_hours": {
-                        "value": properties.get("maxTemperatureLast24Hours", {}).get("value"),
-                        "unit": properties.get("maxTemperatureLast24Hours", {}).get("unitCode", "").replace("wmoUnit:", "")
-                    },
-                    "min_temperature_last_24_hours": {
-                        "value": properties.get("minTemperatureLast24Hours", {}).get("value"),
-                        "unit": properties.get("minTemperatureLast24Hours", {}).get("unitCode", "").replace("wmoUnit:", "")
-                    },
+                    "max_temperature_last_24_hours": normalize_temperature_field(properties.get("maxTemperatureLast24Hours", {})),
+                    "min_temperature_last_24_hours": normalize_temperature_field(properties.get("minTemperatureLast24Hours", {})),
                     "precipitation_last_hour": {
                         "value": properties.get("precipitationLastHour", {}).get("value"),
                         "unit": properties.get("precipitationLastHour", {}).get("unitCode", "").replace("wmoUnit:", "")
@@ -196,14 +208,8 @@ def get_current_conditions(latitude: float, longitude: float) -> Dict[str, Any]:
                         "value": properties.get("relativeHumidity", {}).get("value"),
                         "unit": properties.get("relativeHumidity", {}).get("unitCode", "").replace("wmoUnit:", "")
                     },
-                    "wind_chill": {
-                        "value": properties.get("windChill", {}).get("value"),
-                        "unit": properties.get("windChill", {}).get("unitCode", "").replace("wmoUnit:", "")
-                    },
-                    "heat_index": {
-                        "value": properties.get("heatIndex", {}).get("value"),
-                        "unit": properties.get("heatIndex", {}).get("unitCode", "").replace("wmoUnit:", "")
-                    },
+                    "wind_chill": normalize_temperature_field(properties.get("windChill", {})),
+                    "heat_index": normalize_temperature_field(properties.get("heatIndex", {})),
                     "cloud_layers": properties.get("cloudLayers", []),
                     "present_weather": properties.get("presentWeather", []),
                     "text_description": properties.get("textDescription")
@@ -269,17 +275,24 @@ def get_weather_forecast(latitude: float, longitude: float, hourly: bool = False
         }
         
         for period in periods:
+            temp_value, temp_unit = normalize_temperature(period.get("temperature"), period.get("temperatureUnit"))
+            dewpoint_info = period.get("dewpoint") or {}
+            dewpoint_value, dewpoint_unit = normalize_temperature(
+                dewpoint_info.get("value"),
+                dewpoint_info.get("unitCode")
+            )
             period_data = {
                 "number": period.get("number"),
                 "name": period.get("name"),
                 "start_time": period.get("startTime"),
                 "end_time": period.get("endTime"),
                 "is_daytime": period.get("isDaytime"),
-                "temperature": period.get("temperature"),
-                "temperature_unit": period.get("temperatureUnit"),
+                "temperature": temp_value,
+                "temperature_unit": temp_unit,
                 "temperature_trend": period.get("temperatureTrend"),
                 "probability_of_precipitation": period.get("probabilityOfPrecipitation", {}).get("value"),
-                "dewpoint": period.get("dewpoint", {}).get("value"),
+                "dewpoint": dewpoint_value,
+                "dewpoint_unit": dewpoint_unit,
                 "relative_humidity": period.get("relativeHumidity", {}).get("value"),
                 "wind_speed": period.get("windSpeed"),
                 "wind_direction": period.get("windDirection"),
@@ -617,7 +630,7 @@ def get_weather_search_details(search_id: str) -> str:
                 content += f"### Sample Periods\n\n"
                 for period in periods:
                     content += f"**{period.get('name', 'Unknown')}**\n"
-                    content += f"- Temperature: {period.get('temperature', 'N/A')}°{period.get('temperature_unit', 'F')}\n"
+                    content += f"- Temperature: {period.get('temperature', 'N/A')}°{period.get('temperature_unit', 'C')}\n"
                     content += f"- Wind: {period.get('wind_speed', 'N/A')} {period.get('wind_direction', '')}\n"
                     content += f"- Precipitation Chance: {period.get('probability_of_precipitation', 0)}%\n"
                     content += f"- Conditions: {period.get('short_forecast', 'N/A')}\n\n"

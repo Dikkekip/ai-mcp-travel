@@ -1,0 +1,40 @@
+{
+  "success": true,
+  "query": "Amsterdam, Netherlands",
+  "multiple_results": false,
+  "location_data": {
+    "latitude": 52.3730796,
+    "longitude": 4.8924534,
+    "display_name": "Amsterdam, North Holland, Netherlands",
+    "raw_data": {
+      "place_id": 144906491,
+      "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 271110,
+      "lat": "52.3730796",
+      "lon": "4.8924534",
+      "class": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.7777888520200694,
+      "addresstype": "city",
+      "name": "Amsterdam",
+      "display_name": "Amsterdam, North Holland, Netherlands",
+      "address": {
+        "city": "Amsterdam",
+        "municipality": "Amsterdam",
+        "state": "North Holland",
+        "ISO3166-2-lvl4": "NL-NH",
+        "country": "Netherlands",
+        "country_code": "nl"
+      },
+      "boundingbox": [
+        "52.2781742",
+        "52.4310638",
+        "4.7287776",
+        "5.0791622"
+      ]
+    }
+  },
+  "timestamp": "2025-10-25T23:51:27.458089"
+}
