@@ -1,0 +1,8 @@
+fastmcp>=2.5.1
+mcp>=1.9.1
+requests>=2.32.3
+python-dotenv>=1.1.0
+geopy>=2.4.1
+nominatim>=0.1
+ratelimiter>=1.2.0.post0
+typing-extensions>=4.13.2

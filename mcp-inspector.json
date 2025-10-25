@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "mcp-server": {
+      "type": "http",
+      "url": "http://localhost:3000/mcp"
+    },
+
+    "mcp-server-remote": {
+      "type": "http",
+      "url": "https://<env-name>.<container-id>.<region>.azurecontainerapps.io/mcp"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+	"servers": {
+		"mcp-server-remote": {
+			"type": "http",
+			"url": "https://<env-name>.<container-id>.<region>.azurecontainerapps.io/mcp",
+			"headers": {
+				"Authorization": "Bearer ${input:JWT_TOKEN}"
+			}
+		},
+		"mcp-server": {
+			"type": "http",
+			"url": "http://localhost:3000/mcp",
+			"headers": {
+				"Authorization": "Bearer ${input:JWT_TOKEN}"
+			}
+		}
+	},
+	"inputs": [
+		{
+			"password": true,
+			"id": "JWT_TOKEN",
+			"description": "Enter the token for the MCP server",
+			"type": "promptString"
+		}
+	]
+}
