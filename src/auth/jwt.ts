@@ -39,8 +39,8 @@ export class JWTService {
       } as any) as { payload: jwt.JwtPayload };
 
       return {
-        id: payload.id,
-        email: payload.email,
+        id: payload.id || (payload.sub as string) || 'unknown',
+        email: payload.email || `user@${payload.sub || 'unknown'}.example`,
         role: payload.role,
         permissions: payload.permissions,
         iat: payload.iat,

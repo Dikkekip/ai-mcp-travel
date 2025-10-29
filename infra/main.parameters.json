@@ -31,6 +31,12 @@
       },
       "jwtToken": {
         "value": "${JWT_TOKEN}"
+      },
+      "serpApiKey": {
+        "value": "${SERPAPI_KEY}"
+      },
+      "weatherstackApiKey": {
+        "value": "${WEATHERSTACK_API_KEY}"
       }
     }
 }

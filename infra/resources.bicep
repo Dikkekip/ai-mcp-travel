@@ -20,11 +20,40 @@ param jwtSecret string
 @secure()
 param jwtToken string
 
+@secure()
+@description('Optional SERPAPI key for travel servers')
+param serpApiKey string = ''
+
+@secure()
+@description('Optional WeatherStack key for weather server')
+param weatherstackApiKey string = ''
+
 param mcpServerIngressPort int = 3000
 param mcpContainerTsExists bool
 
 var abbrs = loadJsonContent('./abbreviations.json')
 var resourceToken = uniqueString(subscription().id, resourceGroup().id, location)
+
+// Conditionally create API key secrets and environment variables
+var optionalSerpApiSecret = serpApiKey != '' ? [{
+  name: 'serpapi-key'
+  value: serpApiKey
+}] : []
+
+var optionalWeatherstackSecret = weatherstackApiKey != '' ? [{
+  name: 'weatherstack-api-key'
+  value: weatherstackApiKey
+}] : []
+
+var optionalSerpApiEnv = serpApiKey != '' ? [{
+  name: 'SERPAPI_KEY'
+  secretRef: 'serpapi-key'
+}] : []
+
+var optionalWeatherstackEnv = weatherstackApiKey != '' ? [{
+  name: 'WEATHERSTACK_API_KEY'
+  secretRef: 'weatherstack-api-key'
+}] : []
 
 // Monitor application with Azure Monitor
 module monitoring 'br/public:avm/ptn/azd/monitoring:0.1.0' = {
@@ -92,7 +121,7 @@ module mcpContainerTs 'br/public:avm/res/app/container-app:0.16.0' = {
       minReplicas: 1
       maxReplicas: 10
     }
-    secrets: [
+    secrets: concat([
       {
         name: 'jwt-audience'
         value: jwtAudience
@@ -113,7 +142,7 @@ module mcpContainerTs 'br/public:avm/res/app/container-app:0.16.0' = {
         name: 'jwt-token'
         value: jwtToken
       }
-    ]
+    ], optionalSerpApiSecret, optionalWeatherstackSecret)
     containers: [
       {
         image: mcpContainerTsFetchLatestImage.outputs.?containers[?0].?image ?? 'mcr.microsoft.com/azuredocs/containerapps-helloworld:latest'
@@ -122,7 +151,7 @@ module mcpContainerTs 'br/public:avm/res/app/container-app:0.16.0' = {
           cpu: json('0.5')
           memory: '1.0Gi'
         }
-        env: [
+        env: concat([
           {
             name: 'APPLICATIONINSIGHTS_CONNECTION_STRING'
             value: monitoring.outputs.applicationInsightsConnectionString
@@ -159,7 +188,7 @@ module mcpContainerTs 'br/public:avm/res/app/container-app:0.16.0' = {
             name: 'DEBUG'
             value: '*'
           }
-        ]
+        ], optionalSerpApiEnv, optionalWeatherstackEnv)
       }
     ]
     managedIdentities:{

@@ -25,6 +25,14 @@ param jwtSecret string
 @secure()
 param jwtToken string
 
+@description('Optional SERPAPI key for travel servers')
+@secure()
+param serpApiKey string = ''
+
+@description('Optional WeatherStack API key for weather server')
+@secure()
+param weatherstackApiKey string = ''
+
 param mcpServerIngressPort int = 3000
 
 param mcpContainerTsExists bool
@@ -58,6 +66,8 @@ module resources 'resources.bicep' = {
     jwtSecret: jwtSecret
     jwtToken: jwtToken
     mcpServerIngressPort: mcpServerIngressPort
+    serpApiKey: serpApiKey
+    weatherstackApiKey: weatherstackApiKey
   }
 }
 
